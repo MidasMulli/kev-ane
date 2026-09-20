@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.mlpackage/
+*.mlmodelc/
+*.trace/
+ane.xml
+ne.trace
+kev-0.6b/
+*.tar.gz
+.venv/
+predicts.txt
+*.egg-info/

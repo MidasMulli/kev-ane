@@ -1,0 +1,38 @@
+kev-ane
+Copyright 2026 Nick Lo
+
+This product includes, depends on, or derives from the following work.
+Nothing from these projects is redistributed here: weights and adapters are
+downloaded from their original sources at install time.
+
+------------------------------------------------------------------------------
+Kev — jaredpalmer/kev, Apache License 2.0
+  https://github.com/jaredpalmer/kev
+  Kev-0.6B is a LoRA adapter plus a pointer head over Qwen3-0.6B-Base. This
+  project merges that adapter into a conv-form trunk and runs it on the Apple
+  Neural Engine. The record encoding and block-causal branch mask in
+  src/kev_ane/encode.py are reimplemented against Kev's published contract and
+  are checked against Kev's own implementation by gates/g0_encode_parity.py.
+
+Qwen3-0.6B-Base — Alibaba Cloud / Qwen, Apache License 2.0
+  https://huggingface.co/Qwen/Qwen3-0.6B-Base
+  Base weights. Downloaded, never vendored.
+
+------------------------------------------------------------------------------
+ACKNOWLEDGEMENTS (not code dependencies)
+
+Jev is a decision model from TypeSafe (Diogo Almeida). It is closed: no weights
+and no published method. No proprietary Jev code or weights are used here. This
+project derives from Kev, and makes no claim about Jev's internals.
+
+Kev is an independent, Jev-inspired implementation by Jared Palmer. It is not
+official open-source Jev. The architecture it follows was reconstructed from
+external probing by Archer Hume in "Jev's Architecture Unmasked" (17 September
+2026), https://archerhume.com/posts/jevs-architecture-unmasked — an inference
+about Jev's internals, not confirmed knowledge of them.
+
+Related work by the same author: ANE mutable-weight adapters,
+https://github.com/MidasMulli/ane-mutable-adapters — that project hot-swaps a
+LoRA adapter over a frozen resident base. THIS project is different: the adapter
+is MERGED, so there are no mutable slots. See the README for why the two do not
+compose today.

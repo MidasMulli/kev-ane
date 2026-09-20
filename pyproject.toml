@@ -1,0 +1,29 @@
+[project]
+name = "kev-ane"
+version = "0.1.0"
+description = "Kev-0.6B, a Jev-class decision model, ported to the Apple Neural Engine — with the gates and instruments used to verify it."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "torch>=2.4",
+  "coremltools>=8.0",
+  "safetensors>=0.4",
+  "transformers>=4.44",
+  "huggingface-hub>=0.24",
+  "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+# Gate 0 and Gate 1 compare against Kev's own implementation; that is a dev-time dependency.
+parity = ["peft>=0.11"]
+
+[project.scripts]
+kev-ane-convert = "kev_ane.convert:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kev_ane"]
