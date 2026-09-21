@@ -16,6 +16,7 @@ with the gates in this repo. Nothing here is a claim about Jev's internals.
 | agreement with Kev's reference, **155 real records** | **155/155 argmax**, both the CPU fp32 and the ANE fp16 arm |
 | probability difference over those 155 | CPU fp32 max **1.23e-05** (p50 2.1e-06) · ANE fp16 max **3.80e-02** (p50 4.4e-03) |
 | probability difference, single reference record | CPU fp32 **9.08e-09** · ANE fp16 **9.25e-05** |
+| branch isolation, packed vs separate | CPU fp32 **2.72e-07** (two of three questions bit-identical) |
 
 Every figure above was reproduced from a clean clone in a temp directory, not from the tree it
 was developed in.
@@ -27,6 +28,27 @@ never changes. Padding is excluded as the cause: the same record at T=64 and T=2
 exactly 0.000e+00, so this is accumulation order through 28 layers, growing with sequence length
 and option count. `gates/g4_suite_parity.py` gates on argmax agreement and reports the
 probability spread rather than judging it against a bar set on one record.
+
+## Many questions in one pass, and why question 0 is not enough
+
+Kev encodes a document once and answers many typed questions together, each in its own branch under
+a block-causal mask. ⛔ **Gates 1, 2 and 4 read question 0 only — and question 0 cannot see a broken
+mask.** Being the first branch, it has no preceding sibling to leak from. Measured, by replacing the
+block-causal mask with a plain causal one:
+
+| | q0 | q1 | q2 |
+|---|---|---|---|
+| probability difference vs reference | **3.10e-06, argmax MATCH** | 2.47e-01, DIFFER | 4.28e-01, DIFFER |
+
+A port with a completely broken branch mask passes every single-question gate. `gates/g5` exists for
+that reason, and it checks two things, the second not implied by the first:
+
+1. **Multi-question parity** — every question against Kev's reference from one packed pass.
+2. **Isolation** — each question asked ALONE must equal its packed answer. Parity against the
+   reference cannot establish this: if our port and Kev's leaked identically, they would agree with
+   each other and both be wrong. Measured **2.72e-07** on CPU, two of three questions bit-identical.
+   ⚠️ Kev reports 3.7e-06 for their own implementation as a max over their full suite; this gate
+   runs one record, so it is the same property at far narrower coverage, not a better result.
 
 ## Placement is measured, not asserted
 
@@ -71,8 +93,10 @@ python gates/g0_encode_parity.py --kev-src /tmp/kev   # encoder must match token
 python gates/g1_numeric_cpu.py   --kev-src /tmp/kev   # merged conv-form vs reference
 python gates/g2_numeric_ane.py   --kev-src /tmp/kev   # on the engine
 python gates/g4_suite_parity.py  --kev-src /tmp/kev --n 400 --package kev06b_trunk.mlpackage
+python gates/g5_multiquestion_isolation.py --kev-src /tmp/kev   # many questions, and isolation
 ```
-Gate 4 is the one to run if you only run one: 155 real records rather than a single fixture.
+Gates 4 and 5 are the two to run if you only run two: 155 real records rather than a single
+fixture, and the multi-question behaviour the single-question gates cannot see.
 
 ## What the port actually does
 
