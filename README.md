@@ -21,7 +21,7 @@ with the gates in this repo. Nothing here is a claim about Jev's internals.
 Every figure above was reproduced from a clean clone in a temp directory, not from the tree it
 was developed in.
 
-⛔ **Read the two agreement rows together.** The single-record figures are the best case — one
+**Read the two agreement rows together.** The single-record figures are the best case — one
 short 3-way record. Across 155 real 4-way and 6-way records from Kev's own `transfer-v4`
 development suite the difference is three orders of magnitude larger, while the decision itself
 never changes. Padding is excluded as the cause: the same record at T=64 and T=256 differs by
@@ -32,7 +32,7 @@ probability spread rather than judging it against a bar set on one record.
 ## Many questions in one pass, and why question 0 is not enough
 
 Kev encodes a document once and answers many typed questions together, each in its own branch under
-a block-causal mask. ⛔ **Gates 1, 2 and 4 read question 0 only — and question 0 cannot see a broken
+a block-causal mask. **Gates 1, 2 and 4 read question 0 only — and question 0 cannot see a broken
 mask.** Being the first branch, it has no preceding sibling to leak from. Measured, by replacing the
 block-causal mask with a plain causal one:
 
@@ -47,7 +47,7 @@ that reason, and it checks two things, the second not implied by the first:
 2. **Isolation** — each question asked ALONE must equal its packed answer. Parity against the
    reference cannot establish this: if our port and Kev's leaked identically, they would agree with
    each other and both be wrong. Measured **2.72e-07** on CPU, two of three questions bit-identical.
-   ⚠️ Kev reports 3.7e-06 for their own implementation as a max over their full suite; this gate
+   Kev reports 3.7e-06 for their own implementation as a max over their full suite; this gate
    runs one record, so it is the same property at far narrower coverage, not a better result.
 
 ## Placement is measured, not asserted
@@ -59,7 +59,7 @@ explains all three except the work running on the Neural Engine:
 
 1. **Output divergence.** `CPU_ONLY` returns **all zeros** for this graph — that CoreML backend
    does not compute it. A correct result is obtainable only when the Neural Engine is allowed.
-   ⛔ This is *not* a speed comparison, and not evidence about CPUs in general: there is simply no
+   This is *not* a speed comparison, and not evidence about CPUs in general: there is simply no
    working CPU output to compare against.
 2. **Dispatch intervals.** Apple's xctrace *Neural Engine* instrument counts **303 intervals =
    2 load + 301 predict** against 301 in-process predicts, and at n=1000, **1003 = 2 + 1001**
@@ -75,7 +75,7 @@ explains all three except the work running on the Neural Engine:
      was measured to yield **277 against 301**, an 8% undercount with an unchanged p50 and a
      wholly plausible 139.7/s. Without the check that reads as a measurement.
 3. **Power.** `powermetrics` reads **0 mW idle → ~7100 mW under load** on the ANE rail.
-   ⛔ `-s ane_power` **alone emits no ANE section at all**; the `ANE Power` line only appears when
+   `-s ane_power` **alone emits no ANE section at all**; the `ANE Power` line only appears when
    `cpu_power` is requested alongside it. Ask for `-s cpu_power,ane_power` or you get silence and
    will read it as zero.
 
@@ -129,6 +129,20 @@ CoreML CPU arm returns zeros, so it cannot serve as a baseline, and we did not b
 The motivating property is not speed but placement: these decisions run on silicon that is
 otherwise idle while a GPU-resident LLM generates.
 
+## Mutable adapters on this base
+
+[`mutable/`](mutable/) makes the same Jev-class base **mutable on the ANE**: compiled once, resident, with the
+schema tensors as inputs and 224 LoRA factor tensors bound by URL. Two purpose-trained 9.2 MB policy adapters
+(write-scope, disclosure), each answering two typed questions per pass, swap in 65-80 ms with the base bit-identical
+afterwards; fidelity, participation, retention, dispatch, energy and trace-based placement are in
+[`mutable/README.md`](mutable/README.md), with the pre-registration and the first (failed) criterion filed alongside.
+Live demo: [`mutable/kev_swap_demo.mp4`](mutable/kev_swap_demo.mp4).
+
+Binding an adapter at runtime requires a **fully unlocked research machine**: two disabled boundaries,
+library validation off (`amfi_get_out_of_my_way=1`) to ad-hoc sign the four private `aned` entitlements
+the bind needs, and SIP off to stage artifacts under the AppleIntelligence trusted path. Nothing in
+`mutable/` runs on a stock Mac; the gates in this top-level repo have no such requirement.
+
 ## Relationship to ane-mutable-adapters
 
 [`MidasMulli/ane-mutable-adapters`](https://github.com/MidasMulli/ane-mutable-adapters) hot-swaps
@@ -137,10 +151,10 @@ not compose today:**
 
 | | mutable adapter slots | live schema |
 |---|---|---|
-| `ane-mutable-adapters` | ✅ 56 parallel-delta slots, mutable bind | ⛔ positions and mask baked as buffers |
-| `kev-ane` | ⛔ LoRA merged, no slots | ✅ positions and mask are inputs |
+| `ane-mutable-adapters` | yes, 56 parallel-delta slots, mutable bind | no, positions and mask baked as buffers |
+| `kev-ane` | no, LoRA merged, no slots | yes, positions and mask are inputs |
 
-⛔ **These are two different capabilities, and it is easy to run them together.** Changing the
+**These are two different capabilities, and it is easy to run them together.** Changing the
 *schema* needs no weight change at all — in this repo schemas are request inputs, so a different
 question set, option count or branch layout is already just a different `cos`/`sin`/`neg`. What
 does not exist in either repo is the **combination**: swapping the adapter live, on a resident

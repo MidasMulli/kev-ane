@@ -1,0 +1,56 @@
+{
+ "version": 3,
+ "base_revisions": {
+  "Qwen/Qwen3-0.6B-Base": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd"
+ },
+ "dataset_revisions": {},
+ "parent_files": {},
+ "holdout_sources": [],
+ "trainable_sources": [
+  "write_scope2"
+ ],
+ "eval_only_sources": [],
+ "context": {
+  "max_state": 384,
+  "max_branch": 1024,
+  "max_packed": 2048,
+  "truncate": false
+ },
+ "protocol": {
+  "prereg": "f23be94a",
+  "pairs": {
+   "scope": {
+    "flip": "authorized_write_scope",
+    "hold": "kind"
+   },
+   "destructive": {
+    "flip": "kind",
+    "hold": "authorized_write_scope"
+   }
+  },
+  "note": "split by family; test.jsonl == development.jsonl and is NEVER read with --allow-test"
+ },
+ "files": {
+  "train.jsonl": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "records": 0,
+   "questions": 0
+  },
+  "calibration.jsonl": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "records": 0,
+   "questions": 0
+  },
+  "development.jsonl": {
+   "sha256": "b7127915707ea1795bd0968d5b657ee66ea7919eeaabde3dd7417894dcc1f831",
+   "records": 2040,
+   "questions": 4080
+  },
+  "test.jsonl": {
+   "sha256": "9f7e6b24ae68534512a4aae799cdc4446811577c1a04c17edf89089743b9a0b5",
+   "records": 2040,
+   "questions": 4080
+  }
+ },
+ "code_hashes": {}
+}

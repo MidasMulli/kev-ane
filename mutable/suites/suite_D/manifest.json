@@ -1,0 +1,65 @@
+{
+ "version": 3,
+ "base_revisions": {
+  "Qwen/Qwen3-0.6B-Base": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd"
+ },
+ "dataset_revisions": {},
+ "parent_files": {},
+ "holdout_sources": [],
+ "trainable_sources": [
+  "disclosure"
+ ],
+ "eval_only_sources": [],
+ "context": {
+  "max_state": 384,
+  "max_branch": 1024,
+  "max_packed": 2048,
+  "truncate": false
+ },
+ "protocol": {
+  "prereg": "f23be94a",
+  "PATTERNS": {
+   "openai_key": "\\bsk-[A-Za-z0-9]{24,}\\b",
+   "aws_access_key": "\\bAKIA[0-9A-Z]{16}\\b",
+   "github_token": "\\bghp_[A-Za-z0-9]{36}\\b",
+   "slack_token": "\\bxox[abp]-[0-9A-Za-z-]{10,}\\b",
+   "pem_private_key": "-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----",
+   "bearer_token": "\\bBearer [A-Za-z0-9._-]{20,}\\b",
+   "card_luhn": "\\b\\d{4}[ -]?\\d{4}[ -]?\\d{4}[ -]?\\d{4}\\b"
+  },
+  "pairs": {
+   "recipient": {
+    "flip": "authorized_recipients",
+    "hold": "body"
+   },
+   "secret": {
+    "flip": "body",
+    "hold": "authorized_recipients"
+   }
+  },
+  "note": "split by family; test.jsonl == development.jsonl and is NEVER read with --allow-test"
+ },
+ "files": {
+  "train.jsonl": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "records": 0,
+   "questions": 0
+  },
+  "calibration.jsonl": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "records": 0,
+   "questions": 0
+  },
+  "development.jsonl": {
+   "sha256": "f66d95bf9f14e056c675e79f0e2ab5f4d3b9db4d3493e2182383a944dccdd9a1",
+   "records": 640,
+   "questions": 1280
+  },
+  "test.jsonl": {
+   "sha256": "93fffd2839bbf133a6cb9b17b7748bfa2899e9b16fb90950213063a2385372a8",
+   "records": 640,
+   "questions": 1280
+  }
+ },
+ "code_hashes": {}
+}
