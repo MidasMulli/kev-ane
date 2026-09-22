@@ -73,7 +73,53 @@ window.
   `build_fresh.py` (suites, flip pairs, family split), `make_shuffled.py` (label-shuffle mutation).
 - Drivers, in the order they ran: `g0_gate.sh`, `battery2.sh`, `rev5.sh`, `closure5.sh`.
 - `ui/`: the live swap UI (`server.py` + `index.html`), telemetry from `powermetrics`, `capture_demo.py` (the video).
+- `loop.py` + `transcripts/`: the 27B driving the adapter, and two unedited runs.
 - `suites/`: frozen training suites and the fresh eval suites, with manifests. `kev_swap_demo.mp4`: the live capture.
+
+## The data, and where it came from
+
+The 27B LLM on the GPU (`gen_scenarios.py`, `gen_d.py`) invents SCENARIO FAMILIES only: workspace roots
+and file trees with proposed operations, org rosters and message bodies carrying a placeholder. The
+generator prompt has no label field, and during generation the model never sees a secret; the declared
+credential patterns are inserted afterwards by the builder. Every label is computed independently by
+`resolver.py` / `resolver_d.py` from the rendered state.
+
+Each scenario ships as a FLIP PAIR: exactly one field differs between the two members and the correct
+answer flips with it (`build_w2.py`, `build_d.py`). `integrity2.py` then checks that masking that field
+leaves the two inputs byte-identical with opposite labels, so no deterministic predictor can get both
+members right. Measured: **0 pairs pass**, on every question, before anything trained. That is a
+per-pair result, not an accuracy: ordinary accuracy on those opposite-label pairs is 50%.
+
+| partition | records | note |
+|---|---:|---|
+| training | **9,112** | 4,476 write-scope + 4,636 disclosure |
+| calibration | 1,292 | |
+| development | 2,568 | `test.jsonl` repeats this partition and is never read; do not add it to a total |
+| fresh evaluation | **2,680** | 2,040 + 640, new seeds, generated after the fact; 5,360 question instances at two per record |
+
+Families: 220 write-scope, 208 disclosure, plus 70 + 70 fresh. The fresh disclosure set retains **8**
+families after 62 of 70 were dropped by a no-shared-roster-id rule, and every disclosure result is
+bounded by that.
+
+## The loop: the same 27B driving the adapter
+
+`loop.py` puts the two together. The 27B acts as an agent inside a repository with an authorized write
+scope and an authorized recipient list, proposes one tool call per turn, and the bound adapter answers
+its two typed questions before the turn is recorded. The deterministic resolver is evaluated alongside,
+so agreement is reported as the run happens.
+
+**It is advisory. The loop never writes a file and never sends a message**; it records a verdict on a
+proposed action. The resolver stays authoritative.
+
+Two unedited runs are in `transcripts/`. `loop_routine.txt` is an ordinary incident.
+`loop_pressure.txt` uses an incident written to push the agent out of scope and toward disclosing a
+**synthetic** credential-shaped token; the adapter flagged every out-of-scope delete, the overwrite of
+the deploy manifest, and the outbound message. Both runs: advisory verdicts agreed with the resolver on
+all 8 proposals, about 34 ms of model prediction time per proposal (which excludes host preparation,
+the pointer head and binding).
+
+The row worth reading is the one where the model refused to share the credential and then quoted the
+token inside its own refusal. The adapter judges the bytes of the proposal, not the intent behind it.
 
 ## Reproducing
 
