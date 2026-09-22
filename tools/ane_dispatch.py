@@ -57,8 +57,15 @@ def parse(trace, xml="ane.xml"):
         return None
     st = [a for a, _ in pairs]
     du = [b for _, b in pairs]
+    # ⛔ Classify by SHAPE, never by position. "The first two are load" was measured on one model
+    # (a 3.5 s compile interval + a 26 ms first-touch) and is FALSE on others: the attn-adapter
+    # model shows NO compile-shaped interval at all (compile happens before any dispatch) and
+    # 301 = 300 issued + 1 at-load validation predict. Positional classification read that as a
+    # 299/300 took-check MISMATCH, twice, on 2026-09-20/21.
+    med = sorted(du)[len(du) // 2]
     order = sorted(range(len(st)), key=lambda i: st[i])
-    load, steady = order[:2], order[2:]              # the two pre-predict load dispatches
+    load = [i for i in order if not (0.5 * med < du[i] < 1.5 * med)]   # outliers = compile/first-touch
+    steady = [i for i in order if 0.5 * med < du[i] < 1.5 * med]
     ss, sd = [st[i] for i in steady], [du[i] for i in steady]
     span = (max(ss) - min(ss)) / 1e9
     d = sorted(sd)
