@@ -9,7 +9,7 @@ numbers on — through BOTH implementations and reports the DISTRIBUTION of the 
 argmax agreement rate. Records are rendered with Kev's own `render`/`option_text`, so the comparison
 cannot drift on our reinterpretation of the record format.
 
-⛔ This gate does NOT measure decision quality. It measures whether our port returns what Kev's
+This gate does NOT measure decision quality. It measures whether our port returns what Kev's
    implementation returns on the same inputs. A record we both get wrong counts as agreement.
 """
 import argparse, json, sys, numpy as np, torch
@@ -19,7 +19,7 @@ from kev_ane.readout import load_head, decide
 from kev_ane.runtime import make_inputs, run_torch, run_coreml
 from kev_ane.encode import pick_bucket, encode
 
-# ⛔ THE GATE BAR IS ARGMAX AGREEMENT, NOT A PROBABILITY TOLERANCE.
+# THE GATE BAR IS ARGMAX AGREEMENT, NOT A PROBABILITY TOLERANCE.
 # Gates 1 and 2 declare 1e-6 / 1e-3 against ONE short 3-way record. Measured here, those bars do
 # not transfer: across real 4-way and 6-way records the CPU difference reaches 1.1e-05 and the ANE
 # difference 3.8e-02, three orders of magnitude above the single-record figures, while argmax

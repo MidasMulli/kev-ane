@@ -49,7 +49,7 @@ def branch_mask(seg, length, dtype=torch.float32, clamp=-1e4):
 
     The state is shared; question branches never see each other. Right-padded keys are masked
     for every query, and the diagonal is kept so no row is fully masked.
-    ⛔ clamp: torch.finfo(float32).min overflows fp16 on the CoreML path. -1e4 is already
+    clamp: torch.finfo(float32).min overflows fp16 on the CoreML path. -1e4 is already
     saturating under softmax and is fp16-safe.
     """
     L = max(len(seg), length)

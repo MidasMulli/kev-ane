@@ -1,6 +1,6 @@
 """GATE 5 — many questions in ONE pass, and branch isolation.
 
-⛔ WHY THIS EXISTS. Gates 1, 2 and 4 all read QUESTION 0 ONLY. Kev's entire premise is that one
+WHY THIS EXISTS. Gates 1, 2 and 4 all read QUESTION 0 ONLY. Kev's entire premise is that one
 document is encoded once and many typed questions are answered together, each in its own branch
 under a block-causal mask. Question 0 is precisely the case that still passes when every sibling
 branch is broken, so those gates were narrower than the claim they were being used to support.
@@ -10,20 +10,20 @@ TWO CHECKS, and the second is not implied by the first:
  1. MULTI-QUESTION PARITY — every question's probabilities against Kev's own reference, from a
     single packed pass.
  2. ISOLATION, packed vs separate — each question asked ALONE must give the same answer it gives
-    packed. ⛔ Check 1 CANNOT establish this. If our port and Kev's both let a question see a
+    packed. Check 1 CANNOT establish this. If our port and Kev's both let a question see a
     sibling in the same way, they agree with each other and are both wrong. Kev states the property
     as "a question cannot see a sibling question; packed and separate requests agree to 3.7e-6"
     (their max over their full suite; this gate runs one record, so it is far narrower coverage —
     the same property, not a better result).
 
-⭐ MUTATION-TESTED, and the result is the reason this gate exists. Replacing the block-causal mask
+MUTATION-TESTED, and the result is the reason this gate exists. Replacing the block-causal mask
 with a plain causal one (siblings visible) gives:
 
     q0  CPU 3.099e-06  argmax MATCH   isolation 0.000e+00     <- UNCHANGED
     q1  CPU 2.472e-01  argmax DIFFER  isolation 2.472e-01
     q2  CPU 4.278e-01  argmax DIFFER  isolation 4.278e-01
 
-⛔ QUESTION 0 IS BLIND TO THE BUG. It is the first branch, so under a plain causal mask it has no
+QUESTION 0 IS BLIND TO THE BUG. It is the first branch, so under a plain causal mask it has no
 preceding sibling to leak from and its numbers do not move at all. A port with a COMPLETELY BROKEN
 branch mask passes gates 1, 2 and 4. That is not a hypothetical — it is measured above.
 
