@@ -177,15 +177,17 @@ def analyze(text, emit):
     h = dict(np.load(head_path)); ws, ntok = gen_windows(text)
     emit(dict(ev="doc", isda=isda, kind=kind, adapter=tag, tokens=ntok, windows=len(ws), questions=[n for n, _ in qs]))
     with ALOCK:
-        r = ane.cmd(f"BIND {TRUST}/{tag}.bin"); CURRENT[0] = tag; emit(dict(ev="bind", adapter=tag, reply=r))
+        if CURRENT[0] != tag:   # swap only when the document needs a different adapter than the one already bound
+            r = ane.cmd(f"BIND {TRUST}/{tag}.bin"); assert r.startswith("BOUND"), r; CURRENT[0] = tag; emit(dict(ev="bind", adapter=tag, reply=r, swapped=True))
+        else:
+            emit(dict(ev="bind", adapter=tag, reply="ALREADY", swapped=False))
         saved = ane.h; ane.h = h; sc = []
         try:
             for i, w in enumerate(ws):
                 p, ms = ane.window(w["ids"]); sc.append(p)
                 if True: emit(dict(ev="progress", i=i + 1, n=len(ws), ms=ms, score=round(float(max(p)), 3)))
         finally: ane.h = saved
-        rr = ensure_cua()
-    if rr: emit(dict(ev="rebind", adapter="CUA", reply=rr))
+    # no restore to CUA here: the next document binds only if it needs a different adapter (contract-list paths call ensure_cua themselves)
     sc = np.stack(sc); k_of = {n: (k if (isda or arxiv) else TO.index(n)) for k, (n, _) in enumerate(qs)}
     top = {n: [int(j) for j in np.argsort(-sc[:, k_of[n]])[:3]] for n, _ in qs}; chosen = sorted({j for v in top.values() for j in v} | (set(isda_sidecar(text, ws)) if tag == "IS3" else (set(ax_sidecar(text, ws)) if tag == "AX2" else set())))
     ev = [text[ws[j]["a"]:ws[j]["b"]] for j in chosen]; ane_s = time.monotonic() - t0
