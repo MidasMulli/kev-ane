@@ -12,3 +12,4 @@ predicts.txt
 *.egg-info/
 mutable/ui/kevd
 documents/**/_out/
+mutable/ui/kevd_multi

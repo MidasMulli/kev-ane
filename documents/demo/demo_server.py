@@ -29,7 +29,23 @@ def asked(cid): return [(t, None) for t in VALUE_TYPES] if cid.startswith("F") a
 tok = AutoTokenizer.from_pretrained("Qwen/Qwen3-0.6B-Base")
 head = dict(np.load("run_CUA/head.npz")); TAU = json.load(open("a1_selection.json"))["tau"]
 BASE_MD5 = sh(f"sudo -n md5 -q {MD}/weights/weight.bin")
-ane = Ane("CUA", head); ALOCK = threading.Lock(); CURRENT = ["CUA"]
+import ane_run as _AR
+class AneMulti(Ane):
+    """One PRE-BOUND instance per adapter (kevd_multi): each adapter is LOADed once at startup on the one resident base; a swap is
+    USE, a pointer switch. Nothing is discarded or rebuilt after startup (CHARACTERIZATION_2026-09-26_swap_battery.md)."""
+    KEVD_MULTI = KEVD_MULTI   # from _kevdoc
+    def __init__(s, tag, head, tags):
+        s.emb = _AR.load_base(_AR.Trunk().eval()); s.h = head; s.IN = f"/tmp/cuad_kevd_in_{os.getpid()}"; os.makedirs(s.IN, exist_ok=True); os.chmod(s.IN, 0o777)
+        s.p = subprocess.Popen(["sudo", "-n", s.KEVD_MULTI, MD], stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True, bufsize=1)
+        assert s.p.stdout.readline().strip() == "READY"
+        s.loads = {}
+        for t in tags:
+            r = s.cmd(f"LOAD {t} {TRUST}/{t}.bin"); assert r.startswith("LOADED"), r; s.loads[t] = float(r.split()[1])
+        s.bind = s.switch(tag)
+    def switch(s, tag):
+        r = s.cmd(f"USE {tag}"); assert r.startswith("USED"), r; return f"SWITCHED {r.split()[1]}"
+ane = AneMulti("CUA", head, ["CUA", "IS3", "AX2", "W", "D"]); ALOCK = threading.Lock(); CURRENT = ["CUA"]
+print("demo: pre-bound instances loaded once", ane.loads, flush=True)
 print("demo: kevd bound", ane.bind, "base md5", BASE_MD5[:12], flush=True)
 CITED = {
     "A3 (96 contracts, median 6.9k tokens)": {"PIPE_s": 3.51, "FULL_s": 12.45, "PIPE_acc": 0.936, "FULL_acc": 0.975, "file": "RESULT_2026-09-24_A3_cuad_final.md", "verdict": "NOT PASS (accuracy); latency PASS"},
@@ -43,7 +59,7 @@ SHORT = {"Governing Law": "Governing law", "Agreement Date": "Agreement date", "
 
 def ensure_cua():
     if CURRENT[0] != "CUA":
-        r = ane.cmd(f"BIND {TRUST}/CUA.bin"); assert r.startswith("BOUND"), r; CURRENT[0] = "CUA"; return r
+        r = ane.switch("CUA"); CURRENT[0] = "CUA"; return r
     return None
 
 def ane_map(cid, emit, tag):
@@ -110,7 +126,7 @@ def swap_check(emit):
     with ALOCK:
         res = []
         for a in ("CUA", "W", "D", "CUA"):
-            r = ane.cmd(f"BIND {TRUST}/{a}.bin"); assert r.startswith("BOUND"), r; CURRENT[0] = a; ms = float(r.split()[1])
+            r = ane.switch(a); CURRENT[0] = a; ms = float(r.split()[1])
             ane.window(w["ids"]); h = hashlib.sha256(open(f"{ane.IN}/hs.f16", "rb").read()).hexdigest()[:12]
             res.append(dict(adapter=a, bind_ms=ms, hs_sha=h)); emit(dict(ev="swap", **res[-1]))
         ensure_cua()
@@ -178,7 +194,7 @@ def analyze(text, emit):
     emit(dict(ev="doc", isda=isda, kind=kind, adapter=tag, tokens=ntok, windows=len(ws), questions=[n for n, _ in qs]))
     with ALOCK:
         if CURRENT[0] != tag:   # swap only when the document needs a different adapter than the one already bound
-            r = ane.cmd(f"BIND {TRUST}/{tag}.bin"); assert r.startswith("BOUND"), r; CURRENT[0] = tag; emit(dict(ev="bind", adapter=tag, reply=r, swapped=True))
+            r = ane.switch(tag); CURRENT[0] = tag; emit(dict(ev="bind", adapter=tag, reply=r, swapped=True))
         else:
             emit(dict(ev="bind", adapter=tag, reply="ALREADY", swapped=False))
         saved = ane.h; ane.h = h; sc = []

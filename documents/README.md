@@ -9,8 +9,9 @@ pointers, scores or hidden states: it receives excerpt text and the questions.
 
 [`media/isda_arxiv_two_adapters.mp4`](media/isda_arxiv_two_adapters.mp4): live and uncut, 40 s. An ISDA Schedule read with adapter IS3
 (bound in 73 ms, 17 of 44 windows sent, 4,862 of 9,696 tokens, 12.5 s end to end), then an arXiv paper with AX2 (81 ms, 19 of 66
-windows, 5,339 of 14,617 tokens, 14.6 s), restoring the default adapter CUA between documents. The demo has since changed: it swaps
-only when the next document needs a different adapter and no longer restores CUA in between (a same-type document binds nothing). [Sequence diagram](media/ane_gpu_two_adapters.png).
+windows, 5,339 of 14,617 tokens, 14.6 s), restoring the default adapter CUA between documents. The demo has since changed: it loads
+CUA, IS3, AX2, W and D once at startup as pre-bound instances (`mutable/ui/kevd_multi`), and a swap is a pointer switch (measured
+0.0005-0.006 ms); a same-type document switches nothing, and nothing is discarded or rebuilt after startup. [Sequence diagram](media/ane_gpu_two_adapters.png).
 
 The test results below come from pre-registered evaluations; swap characterization and demo timings are separately identified. All ran
 on an M5 Pro (macOS 27.0, 26A5421a) with the 27B `incoai/Qwen3.8-27B-Splash` (temperature 0, reasoning off). The pre-registration, the result, the raw run log and the adjudication records ship with each test.

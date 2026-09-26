@@ -5,6 +5,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))                      # documen
 SRC = os.path.join(ROOT, "..", "src")                                   # kev_ane package (trunk, encode, merge)
 MUTABLE = os.path.join(ROOT, "..", "mutable")                           # deploy_inputs.py (base build + adapter pack), ui/kevd
 KEVD = os.environ.get("KEV_KEVD", os.path.join(MUTABLE, "ui", "kevd"))  # resident ANE daemon, built from mutable/ui/kevd.mm
+KEVD_MULTI = os.environ.get("KEV_KEVD_MULTI", os.path.join(MUTABLE, "ui", "kevd_multi"))  # one pre-bound instance per adapter (demo)
 BASE_MLMODELC = os.environ.get("KEV_BASE_MLMODELC", "/Library/Caches/com.apple.aned/kev_inputs.mlmodelc")   # compiled mutable base
 TRUST_DIR = os.environ.get("KEV_TRUST_DIR", "/var/db/AppleIntelligencePlatform/AppModelAssets/w2d")        # where adapter .bin files are bound from
 LLM_URL = os.environ.get("KEV_LLM_URL", "http://127.0.0.1:8000/v1/chat/completions")   # any OpenAI-compatible chat endpoint
