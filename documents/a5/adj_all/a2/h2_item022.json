@@ -1,0 +1,7 @@
+{
+ "item": "h2_item022",
+ "quote": "We reported extensive experiments to validate the method and showed advantages of the method over baselines",
+ "correct_answer": "No limitations are discussed.",
+ "verdict": "both_acceptable",
+ "reason": "There is no limitations discussion, so 'no' and NONE are equivalent."
+}

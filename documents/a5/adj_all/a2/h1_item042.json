@@ -1,0 +1,7 @@
+{
+ "item": "h1_item042",
+ "quote": "our goal is to directly regress the pose and shape of all the people as well as their relative depth",
+ "correct_answer": "Monocular regression of 3D pose, shape and relative depth of multiple people",
+ "verdict": "both_acceptable",
+ "reason": "Both match the paper's stated task."
+}

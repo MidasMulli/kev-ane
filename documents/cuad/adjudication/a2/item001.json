@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "THIS AGREEMENT (this “Agreement”) is made and entered into as of the Effective Date by and between AMERICAN REALTY CAPITAL V, LLC ... Date:  5/20/2013",
+ "correct_answer": "5/20/2013",
+ "verdict": "Y",
+ "reason": "The opening gives no calendar date (only 'as of the Effective Date'), so per the rubric the signature-block date of 5/20/2013 (both Buyer and Seller) governs, matching Y."
+}

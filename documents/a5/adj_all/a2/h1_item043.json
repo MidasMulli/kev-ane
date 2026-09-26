@@ -1,0 +1,7 @@
+{
+ "item": "h1_item043",
+ "quote": "we employ the Percentage of Correct Depth Relations (PCDR$^{0.2}$)",
+ "correct_answer": "PCDR^0.2",
+ "verdict": "both_acceptable",
+ "reason": "Same metric, one with its threshold."
+}

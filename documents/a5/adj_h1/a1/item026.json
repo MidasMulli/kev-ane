@@ -1,0 +1,7 @@
+{
+ "item": "item026",
+ "quote": "\\title{Permuted AdaIN: Reducing the Bias Towards Global Statistics in Image Classification}",
+ "correct_answer": "Reducing the bias towards global statistics in image classification",
+ "verdict": "both_acceptable",
+ "reason": "Both restate the title's problem, differing only by the article 'the'."
+}

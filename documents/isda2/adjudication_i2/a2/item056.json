@@ -1,0 +1,7 @@
+{
+ "item": "item056",
+ "quote": "(f) \"Credit Support Document(s)\" means, with respect to Party A, the Loan Documents (as hereinafter defined) and each other document which by its terms secures, guarantees or otherwise supports Party A's obligations hereunder ...; and, with respect to Party B, none.",
+ "correct_answer": "No; the Credit Support Documents are the Loan Documents (Party A) and none (Party B), with no Credit Support Annex",
+ "verdict": "X",
+ "reason": "The Schedule sets out the Credit Support Document election and names the Loan Documents, not a Credit Support Annex, so \"no\" is supported and NONE ignores a stated election."
+}

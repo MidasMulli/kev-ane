@@ -1,0 +1,7 @@
+{
+ "item": "item057",
+ "quote": "Ours & 9.3M & 0.500s & 1.14 & 4.24",
+ "correct_answer": "9.3M",
+ "verdict": "Y",
+ "reason": "The paper states GMFlowNet has 9.3M parameters, so NONE is wrong."
+}

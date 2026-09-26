@@ -1,0 +1,7 @@
+{
+ "item": "item003",
+ "quote": "IN WITNESS WHEREOF, SunTrust and Executive have entered into this Agreement this 3rd day of September, 2002, and such date shall be the date of this Agreement.",
+ "correct_answer": "9/3/2002",
+ "verdict": "X",
+ "reason": "The document states it was entered into on September 3, 2002 and designates that as the date of the agreement (rubric step a), matching X."
+}

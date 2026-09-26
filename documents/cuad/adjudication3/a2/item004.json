@@ -1,0 +1,7 @@
+{
+ "item": "item004",
+ "quote": "Provided that Executive does not revoke this Agreement, this Agreement shall become effective on the eighth calendar day after the date on which Executive signs this Agreement; ... IN WITNESSS WHEREOF, intending to be legally bound, the Parties have executed this Agreement on the dates indicated below. [signature dates: October 17, 2019 and October 18, 2019]",
+ "correct_answer": "10/18/2019",
+ "verdict": "both_wrong",
+ "reason": "There is no made/dated-as-of date and the effective date is only a formula (the 8th day after Executive signs), so the latest signature date, October 18, 2019, controls (tier c); if the formula is resolved (Oct 25, 2019) the result is the same: neither NONE nor 10/17/2019 is correct."
+}

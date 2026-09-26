@@ -1,0 +1,7 @@
+{
+ "item": "h2_item005",
+ "quote": "Table sota: YOLOR (ours) ... ScaledYOLOv4 \\cite{wang2020scaled} ... EfficientDet \\cite{tan2019efficientdet} ... SwinTransformer \\cite{liu2021swin} ... CenterNet2 ... CopyPaste; also 'achieved comparable accuracy as Scaled-YOLOv4-P7'",
+ "correct_answer": "Scaled-YOLOv4, EfficientDet, SwinTransformer (also CenterNet2, CopyPaste)",
+ "verdict": "both_acceptable",
+ "reason": "Both list baselines stated in the paper; Y's single item is an acceptable partial list."
+}

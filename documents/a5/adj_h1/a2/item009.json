@@ -1,0 +1,7 @@
+{
+ "item": "item009",
+ "quote": "CME significantly improves upon two baseline detectors (up to $3\\sim5\\%$ in average), achieving state-of-the-art performance.",
+ "correct_answer": "Up to 3-5% average improvement over two baseline detectors",
+ "verdict": "both_acceptable",
+ "reason": "Both restate the abstract's 3-5% average improvement."
+}

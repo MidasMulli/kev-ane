@@ -1,0 +1,7 @@
+{
+ "item": "h2_item002",
+ "quote": "We train and evaluate our method on the dataset provided by the NTIRE2021 Multi-Frame HDR Challenge~\\cite{perez2021ntire}.",
+ "correct_answer": "NTIRE 2021 Multi-Frame HDR Challenge dataset",
+ "verdict": "both_acceptable",
+ "reason": "Both answers name the same dataset, worded slightly differently."
+}

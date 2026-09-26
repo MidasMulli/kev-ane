@@ -1,0 +1,7 @@
+{
+ "item": "item021",
+ "quote": "We evaluate TAM on two challenging real-world datasets, Kinetics and Something-Something-V2, and show that our model leads to significant improvement of few-shot video classification over a wide range of competitive baselines.",
+ "correct_answer": "The abstract states no number; its headline claim is significant improvement in few-shot video classification over competitive baselines",
+ "verdict": "Y",
+ "reason": "The ~8% top-1 figure appears only in the Introduction, not the abstract, while Y faithfully reports the abstract's (non-numeric) headline claim."
+}

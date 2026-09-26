@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "12. Governing Law. The parties hereto agree that the validity, construction and interpretation of this Agreement shall be governed by the laws of the state of Nevada.",
+ "correct_answer": "Nevada",
+ "verdict": "X",
+ "reason": "Section 12 names Nevada as governing law, matching X; Y's NONE is wrong."
+}

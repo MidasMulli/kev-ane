@@ -1,0 +1,7 @@
+{
+ "item": "item017",
+ "quote": "[\"TERMINATION CURRENCY\" means ... (i) in relation to a Transaction which is a Currency Swap, US$ provided that if an amount ... will be payable by Party B to Party A the Termination Currency ... is Australian Dollars; and (ii) in relation to all other Transactions, Australian Dollars.]",
+ "correct_answer": "Split election: US$ for Currency Swaps (except amounts payable by Party B to Party A, which are in AUD); Australian Dollars for all other Transactions",
+ "verdict": "both_acceptable",
+ "reason": "The document states both currencies for different transaction types, so each answer names a stated Termination Currency (each is partial)."
+}

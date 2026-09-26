@@ -1,0 +1,7 @@
+{
+ "item": "h1_item029",
+ "quote": "We show that Transformer encoder architectures can be sped up, with limited accuracy costs, by replacing the self-attention sublayers with simple linear transformations that ``mix'' input tokens.",
+ "correct_answer": "Speeding up Transformer encoders via efficient token mixing",
+ "verdict": "both_acceptable",
+ "reason": "Both capture the paper's aim."
+}

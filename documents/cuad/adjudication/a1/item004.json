@@ -1,0 +1,7 @@
+{
+ "item": "item004",
+ "quote": "however, that commencing with the third anniversary of the Effective Date and on each anniversary thereafter (each an “Extension Date”), the Employment Term shall be automatically extended for an additional one-year period, unless KRATON or Executive provides the other party hereto 30 days prior written notice before the next Extension Date that the Employment Term shall not be so extended.",
+ "correct_answer": "30 days",
+ "verdict": "Y",
+ "reason": "Section 1 requires 30 days' prior written notice before the next Extension Date to prevent renewal, so Y is correct."
+}

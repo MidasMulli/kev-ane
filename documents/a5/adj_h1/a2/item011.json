@@ -1,0 +1,7 @@
+{
+ "item": "item011",
+ "quote": "we compare CME with ... LSTD, Meta YOLO, and MetaDet ... MetaDet, Meta RCNN, TFA, Viewpoint Estimation, and MPSR",
+ "correct_answer": "Meta YOLO, MetaDet, Meta R-CNN, MPSR, ...",
+ "verdict": "both_acceptable",
+ "reason": "Meta YOLO, MPSR, Meta R-CNN and MetaDet are all compared."
+}

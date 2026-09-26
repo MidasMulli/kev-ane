@@ -1,0 +1,7 @@
+{
+ "item": "item040",
+ "quote": "“Threshold Amount” means, in relation to each Party, an amount equal to 5% of shareholders’ equity (determined in accordance with generally accepted accounting principles ...)",
+ "correct_answer": "5% of shareholders' equity",
+ "verdict": "X",
+ "reason": "The Schedule defines Threshold Amount as 5% of shareholders' equity, matching X; NONE is wrong."
+}

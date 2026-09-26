@@ -1,0 +1,7 @@
+{
+ "item": "item040",
+ "quote": "Our system provides state-of-the-art results on WebNLG+ 2020 by significantly improving upon published results from the WebNLG 2020+ Challenge for both text-to-graph and graph-to-text generation tasks.",
+ "correct_answer": "The abstract states no numeric result; its headline claim is SOTA on WebNLG+ 2020 for both directions",
+ "verdict": "both_acceptable",
+ "reason": "The abstract gives no number (so NONE is correct) and X accurately restates its non-numeric headline claim without inventing a number."
+}

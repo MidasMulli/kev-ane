@@ -1,0 +1,7 @@
+{
+ "item": "item018",
+ "quote": "The following provisions of Section 5 will not apply to Party A: ... Section 5(a)(vi) ... The following provisions of Section 5 will not apply to Party B: ... Section 5(a)(vi)",
+ "correct_answer": "neither",
+ "verdict": "Y",
+ "reason": "Cross Default (Section 5(a)(vi)) is disapplied for both Party A and Party B."
+}

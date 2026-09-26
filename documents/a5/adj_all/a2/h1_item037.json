@@ -1,0 +1,7 @@
+{
+ "item": "h1_item037",
+ "quote": "\\title{Open-world Text-specified Object Counting}",
+ "correct_answer": "Open-world text-specified object counting",
+ "verdict": "both_acceptable",
+ "reason": "Both are correct, X being more specific."
+}

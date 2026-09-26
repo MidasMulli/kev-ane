@@ -1,0 +1,7 @@
+{
+ "item": "item049",
+ "quote": "Our Matlab implementation runs at 5 frames per second on a standard desktop computer.",
+ "correct_answer": "Standard desktop computer",
+ "verdict": "Y",
+ "reason": "The paper states the hardware as a standard desktop computer, so NONE is wrong."
+}

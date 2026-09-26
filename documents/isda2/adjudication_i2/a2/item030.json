@@ -1,0 +1,7 @@
+{
+ "item": "item030",
+ "quote": "Copyright © 1992 by International Swap Dealers Association, Inc. (I157.txt line 82, printed Master Agreement form)",
+ "correct_answer": "1992",
+ "verdict": "X",
+ "reason": "The attached Master Agreement form carries the 1992 ISDA copyright, so 1992 is correct and 2002 is wrong."
+}

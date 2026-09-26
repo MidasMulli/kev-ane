@@ -1,0 +1,7 @@
+{
+ "item": "h1_item006",
+ "quote": "Proposed method: AWD-LSTM-DOC & 23M (PTB table); 37M on WikiText-2",
+ "correct_answer": "23M (PTB), 37M (WikiText-2)",
+ "verdict": "X",
+ "reason": "The paper states 23M parameters for AWD-LSTM-DOC on PTB, so NONE is wrong."
+}

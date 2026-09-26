@@ -1,0 +1,7 @@
+{
+ "item": "h1_item027",
+ "quote": "\\caption{Top-1 accuracy for CIFAR100 on different architectures.}",
+ "correct_answer": "Top-1 accuracy",
+ "verdict": "both_acceptable",
+ "reason": "Both are correct, Y being more specific."
+}

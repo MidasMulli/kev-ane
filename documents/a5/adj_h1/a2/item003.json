@@ -1,0 +1,7 @@
+{
+ "item": "item003",
+ "quote": "In this study, we propose \\textit{Direct Output Connection} (DOC) as a generalization of MoS.",
+ "correct_answer": "Direct Output Connection (DOC)",
+ "verdict": "both_acceptable",
+ "reason": "Both give the method name, one with its abbreviation."
+}

@@ -1,0 +1,1 @@
+{"item": "item020", "quote": "The performance measure is mean class accuracies for seen classes and unseen classes and the harmonic mean of these two values", "correct_answer": "Mean class accuracy on seen/unseen classes and their harmonic mean (HM)", "verdict": "both_acceptable", "reason": "The paper reports both mean class accuracy and HM as the main metrics."}

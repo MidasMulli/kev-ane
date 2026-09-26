@@ -1,0 +1,7 @@
+{
+ "item": "item041",
+ "quote": "All our experiments were run using NVIDIA V100 GPUs for training and validation, some trainings were done on A100. We distributed our training to 2-4 GPUs depending on availability.",
+ "correct_answer": "NVIDIA V100 GPUs (some A100), 2-4 GPUs",
+ "verdict": "both_acceptable",
+ "reason": "Both are supported by the text; Y adds the A100s while X is a correct partial answer."
+}

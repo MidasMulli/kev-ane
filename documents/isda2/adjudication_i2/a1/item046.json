@@ -1,0 +1,7 @@
+{
+ "item": "item046",
+ "quote": "2002 MASTER AGREEMENT dated as of March 18, 2011 CITIBANK, N.A. and ARCH STREET FUNDING LLC [Schedule heading reads 'dated as of March 16, 2011'; CSA reads 'dated as of March 18, 2011']",
+ "correct_answer": "3/18/2011",
+ "verdict": "X",
+ "reason": "The Master Agreement's own opening, and the CSA, give March 18, 2011; the Schedule heading's March 16 is an outlier and does not override the Agreement's stated 'dated as of' date."
+}

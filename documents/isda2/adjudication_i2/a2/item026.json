@@ -1,0 +1,7 @@
+{
+  "item": "item026",
+  "quote": "I3 Master Agreement cover: \"ISDA MASTER AGREEMENT 6 JUNE 2007 ... International Swap Dealers Association, Inc.\"; body cl. 6.5: \"Payments on Early Termination ... Market Quotation or Loss, and a payment method, either the First Method or the Second Method\"; Schedule Part 1(6)(a): \"Market Quotation will apply.\"",
+  "correct_answer": "1992",
+  "verdict": "both_wrong",
+  "reason": "The document includes the full 1992-form text (International Swap Dealers Association, Market Quotation/Loss, First/Second Method), so it is not 2002, and NONE is also wrong because the form is identifiable from the document itself."
+}

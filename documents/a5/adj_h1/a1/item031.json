@@ -1,0 +1,7 @@
+{
+ "item": "item031",
+ "quote": "FNet (FFT) & $n d_{h} \\log(n) + n d_{h}\\log(d_{h})$ & $83$M & $238$M",
+ "correct_answer": "83M (Base), 238M (Large)",
+ "verdict": "X",
+ "reason": "The paper states FNet's parameter counts (83M Base, 238M Large), so NONE is wrong."
+}

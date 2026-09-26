@@ -1,0 +1,7 @@
+{
+ "item": "h1_item022",
+ "quote": "We report 5-way video classification accuracy on meta-testing set. ... outperforms the mean pooling baseline ... by approximately 8\\% in top-1 accuracy",
+ "correct_answer": "(Top-1) 5-way classification accuracy",
+ "verdict": "both_acceptable",
+ "reason": "The paper reports classification accuracy, described as top-1 accuracy, so both wordings are correct."
+}

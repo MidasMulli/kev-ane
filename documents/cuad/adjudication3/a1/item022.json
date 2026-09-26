@@ -1,0 +1,7 @@
+{
+ "item": "item022",
+ "quote": "The eighth day following Clemmens's execution hereof shall be deemed the “Effective Date” of this Agreement. [Signature block: Robert T. Clemmens, Date: July 1, 2013; NewStar, Date: July 23, 2013]",
+ "correct_answer": "7/9/2013",
+ "verdict": "both_wrong",
+ "reason": "With no made/dated-as-of date, rung (b) applies and the defined Effective Date resolves to the eighth day after Clemmens signed on July 1, 2013 (July 9, 2013); 12/11/2009 is the attached Employment Agreement's date and 7/1/2013 is only Clemmens's signature date."
+}

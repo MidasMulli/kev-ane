@@ -1,0 +1,7 @@
+{
+ "item": "item034",
+ "quote": "SCHEDULE to the Master Agreement (Multicurrency-Cross Border) dated as of April 5, 2007 (no 1992 or 2002 year stated anywhere; the Schedule elects Market Quotation and Second Method)",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The document never states the form year, and its Market Quotation/Second Method election is a 1992-form feature, so 2002 is unsupported and NONE is correct under the rubric."
+}

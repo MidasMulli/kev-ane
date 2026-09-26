@@ -1,0 +1,7 @@
+{
+ "item": "h2_item006",
+ "quote": "In this paper, we show how to construct a unified network that integrates implicit knowledge and explicit knowledge ... In the future, we shall extend the training to multi-modal and multi-task",
+ "correct_answer": "No limitations discussion is present.",
+ "verdict": "both_acceptable",
+ "reason": "The paper has no limitations discussion, so 'no' and NONE both describe that correctly."
+}

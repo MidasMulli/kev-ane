@@ -1,0 +1,7 @@
+{
+ "item": "h1_item048",
+ "quote": "On OTB-2013 and OTB-2015, we obtain an absolute gain of $8.0 \\%$ and $8.2 \\%$ respectively, in mean overlap precision, compared to the best existing trackers.",
+ "correct_answer": "8.0% and 8.2% absolute gain in mean overlap precision on OTB-2013 and OTB-2015 over the best existing trackers",
+ "verdict": "both_acceptable",
+ "reason": "Both give the stated numbers and metric; Y adds the datasets but X is not wrong."
+}

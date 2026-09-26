@@ -1,0 +1,7 @@
+{
+  "item": "item000",
+  "quote": "This Confirmation supplements, forms part of, and is subject to, the 1992 ISDA Master Agreement dated on or about 19 September 2006",
+  "correct_answer": "1992",
+  "verdict": "Y",
+  "reason": "The Schedule's own attached Confirmation identifies the agreement as the 1992 ISDA Master Agreement, so Y's '1992' is right and X's 'NONE' is wrong."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item045",
+ "quote": "MASTER AGREEMENT dated as of January 30, 2007 (International Swap Dealers Association, Inc.); confirmation: 'the 1992 ISDA Master Agreement dated as of 30 January 2007'",
+ "correct_answer": "1992",
+ "verdict": "X",
+ "reason": "The form is the International Swap Dealers Association Master Agreement, confirmed in the document as the 1992 ISDA Master Agreement."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item019",
+ "quote": "(m) Additional Termination Provisions. The following provisions are added as clause (f) to Section 6 ... (no Additional Termination Event specified)",
+ "correct_answer": "no",
+ "verdict": "X",
+ "reason": "No Additional Termination Event is specified; the 'Additional Termination Provisions' only amend Section 6 procedure."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "h2_item003",
+ "quote": "Our proposed deeply-supervised nets (DSN) method simultaneously minimizes classification error while making the learning process of hidden layers direct and transparent.",
+ "correct_answer": "Deeply-Supervised Nets (DSN)",
+ "verdict": "both_acceptable",
+ "reason": "Both give the method name; Y just adds the acronym."
+}

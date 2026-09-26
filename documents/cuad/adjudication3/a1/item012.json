@@ -1,0 +1,7 @@
+{
+ "item": "item012",
+ "quote": "Date     December 31, 2011 Timothy Reedy ... Date     December 31, 2011 Brian Cooper",
+ "correct_answer": "12/31/2011",
+ "verdict": "Y",
+ "reason": "The release states no made/entered/dated-as-of date and its effectiveness (upon expiry of the seven-day revocation period) does not resolve to a calendar date, so rule (c) applies and both signatures are dated December 31, 2011."
+}

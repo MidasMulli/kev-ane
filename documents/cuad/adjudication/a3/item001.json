@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "THIS AGREEMENT (this “Agreement”) is made and entered into as of the Effective Date by and between AMERICAN REALTY CAPITAL V, LLC ... and OUACHITA MEDICAL PROPERTIES, L.C. ... Date:  5/20/2013",
+ "correct_answer": "5/20/2013",
+ "verdict": "Y",
+ "reason": "The opening paragraph dates the agreement only 'as of the Effective Date', a defined term (one business day after execution) with no calendar date, so under the rubric the signature-block date applies, and both Buyer and Seller signed on 5/20/2013."
+}

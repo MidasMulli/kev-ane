@@ -1,0 +1,7 @@
+{
+  "item": "item014",
+  "quote": "Part 3(C): \"The following are Credit Support Document(s) with respect to Party B: (i) The Real Estate Loan Agreement ... (ii) The Real Estate Promissory Note ... (iii) The Mortgage and Security Agreement ...\"",
+  "correct_answer": "no",
+  "verdict": "Y",
+  "reason": "The only credit support incorporated is the loan agreement, promissory note and mortgage; no Credit Support Annex is referenced anywhere in the document."
+}

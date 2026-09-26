@@ -1,0 +1,7 @@
+{
+ "item": "item014",
+ "quote": "This Agreement shall become effective at 12:01 a.m., Standard Time, October 1, 2010 and shall be subject to the provisions of the Term Article and the Special Termination Article and all other terms and conditions of the Contract.",
+ "correct_answer": "10/1/2010",
+ "verdict": "X",
+ "reason": "No made/entered/dated-as-of date is stated, so rule (b) gives the stated effective date October 1, 2010; December 23, 2010 is only a page-footer DOC date, and the execution date is December 28, 2010."
+}

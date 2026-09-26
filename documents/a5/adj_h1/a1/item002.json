@@ -1,0 +1,7 @@
+{
+ "item": "item002",
+ "quote": "A ``baseline'' system that predicts a tag belonging to all the synset tags seen during training ... First sense baseline & 65.6 ... HCAN \\citep{luo2018b} & 72.8 ... LSTMLP \\citep{yuan_2016} & 73.8",
+ "correct_answer": "First sense baseline, HCAN, LSTMLP, and the synonym-compression 'baseline' system",
+ "verdict": "both_acceptable",
+ "reason": "HCAN and LSTMLP are compared, and both the 'baseline' system and the 'First sense baseline' appear in the results table."
+}

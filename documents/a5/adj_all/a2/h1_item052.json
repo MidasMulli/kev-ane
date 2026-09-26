@@ -1,0 +1,7 @@
+{
+ "item": "h1_item052",
+ "quote": "use rank-1 matching rate and mean Average Precision (mAP)",
+ "correct_answer": "rank-1 matching rate (plus mAP; IS/SSIM for generation)",
+ "verdict": "both_acceptable",
+ "reason": "Same metric, differently worded."
+}

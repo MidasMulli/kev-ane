@@ -1,0 +1,7 @@
+{
+ "item": "item004",
+ "quote": "Provided that Executive does not revoke this Agreement, this Agreement shall become effective on the eighth calendar day after the date on which Executive signs this Agreement; ... Executive Signature ... October 17, 2019 ... Company Signature ... October 18, 2019",
+ "correct_answer": "10/25/2019",
+ "verdict": "both_wrong",
+ "reason": "There is no made/dated-as-of date, and the agreement becomes effective on the eighth day after the Executive signs on October 17, 2019, which is October 25, 2019 (under step c the latest signature date, October 18, 2019, would also rule out both answers), so neither 10/17/2019 nor NONE is correct."
+}

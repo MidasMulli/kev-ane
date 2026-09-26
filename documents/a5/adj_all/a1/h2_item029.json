@@ -1,0 +1,7 @@
+{
+ "item": "h2_item029",
+ "quote": "The classification accuracy is averaged on query sets $Q$ of many ... episodes",
+ "correct_answer": "Classification accuracy (averaged over episodes)",
+ "verdict": "both_acceptable",
+ "reason": "'Accuracy' and 'classification accuracy' are the same metric."
+}

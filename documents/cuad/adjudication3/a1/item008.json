@@ -1,0 +1,7 @@
+{
+ "item": "item008",
+ "quote": "Date: May 4, 2018 ... IN WITNESS WHEREOF, the parties have duly executed, or have caused their duly authorized officer or representative to execute, this Note as of the date first above written.",
+ "correct_answer": "May 4, 2018",
+ "verdict": "X",
+ "reason": "The Note is executed as of the date first above written, 'Date: May 4, 2018' (also defined in Annex A as the Subordinated Promissory Note dated as of May 4, 2018), matching X."
+}

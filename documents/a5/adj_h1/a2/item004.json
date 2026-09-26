@@ -1,0 +1,7 @@
+{
+ "item": "item004",
+ "quote": "We conduct experiments on standard benchmark datasets ...: the Penn Treebank and WikiText-2 ... we used ... the IWSLT 2016 dataset",
+ "correct_answer": "Penn Treebank, WikiText-2, IWSLT 2016 (also Gigaword headline data)",
+ "verdict": "both_acceptable",
+ "reason": "PTB and WikiText-2 are the main benchmarks, and IWSLT 2016 is also used for evaluation, so both lists are correct."
+}

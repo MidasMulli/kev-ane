@@ -1,0 +1,7 @@
+{
+ "item": "item016",
+ "quote": "commencing on December 31, 2011 and on each anniversary date thereafter (each such date, an \"Anniversary Date\"), the expiration date under this clause (i) shall automatically be extended for one additional year unless, immediately prior to such Anniversary Date, either party shall have given written notice that it does not wish to extend this Agreement",
+ "correct_answer": "1 year",
+ "verdict": "X",
+ "reason": "The term clause automatically extends the expiration date by one additional year on each Anniversary Date, so each renewal term is 1 year."
+}

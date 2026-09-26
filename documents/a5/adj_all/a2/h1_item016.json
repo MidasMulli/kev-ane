@@ -1,0 +1,7 @@
+{
+ "item": "h1_item016",
+ "quote": "The network is optimized for 400K iterations.",
+ "correct_answer": "400K iterations",
+ "verdict": "Y",
+ "reason": "The paper states the training length as 400K iterations, so NONE is wrong."
+}

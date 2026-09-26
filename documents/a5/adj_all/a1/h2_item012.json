@@ -1,0 +1,7 @@
+{
+ "item": "h2_item012",
+ "quote": "Main results table columns: P & R & F1 (LAPTOP, REST)",
+ "correct_answer": "F1 (with precision and recall)",
+ "verdict": "both_acceptable",
+ "reason": "'F1 score' and 'F1' are the same metric."
+}

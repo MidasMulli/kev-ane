@@ -1,0 +1,7 @@
+{
+ "item": "h1_item024",
+ "quote": "with data parallelism on TPU pod slices~\\cite{tpu} using 32 to 512 cores",
+ "correct_answer": "TPU pod slices using 32 to 512 cores",
+ "verdict": "both_acceptable",
+ "reason": "Both state TPU pod slices with 32-512 cores, differing only in wording."
+}

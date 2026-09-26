@@ -1,0 +1,7 @@
+{
+ "item": "item012",
+ "quote": "SCHEDULE to the MASTER AGREEMENT dated as of September 28, 2006 BARCLAYS BANK PLC and U.S. Bank National Association ... (\"Party A\") (\"Party B\"); From: BARCLAYS BANK PLC (LONDON HEAD OFFICE) (\"Party A\")",
+ "correct_answer": "BARCLAYS BANK PLC",
+ "verdict": "Y",
+ "reason": "Barclays Bank PLC is designated Party A."
+}

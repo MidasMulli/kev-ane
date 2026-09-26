@@ -1,0 +1,7 @@
+{
+ "item": "item050",
+ "quote": "\\title{Disentangled Person Image Generation} ... we aim at generating such images based on a novel, two-stage reconstruction pipeline that learns a disentangled representation",
+ "correct_answer": "No explicit method name; the paper proposes an unnamed two-stage disentangling pipeline, titled 'Disentangled Person Image Generation'",
+ "verdict": "both_acceptable",
+ "reason": "The paper never names its model beyond the title, so NONE is defensible and the title is a reasonable stand-in name."
+}

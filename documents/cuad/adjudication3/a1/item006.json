@@ -1,0 +1,7 @@
+{
+ "item": "item006",
+ "quote": "The Agreement shall be construed and enforced according to the laws of the State of Delaware (without giving effect to the conflict of laws principles thereof) to the extent not preempted by federal law, which shall otherwise control.",
+ "correct_answer": "Delaware",
+ "verdict": "X",
+ "reason": "Section 7.10 is a governing-law clause naming the State of Delaware, so X is correct and Y (NONE) is wrong."
+}

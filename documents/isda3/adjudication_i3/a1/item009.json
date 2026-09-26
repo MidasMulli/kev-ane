@@ -1,0 +1,7 @@
+{
+ "item": "item009",
+ "quote": "between and [Volkswagen Auto Loan Enhanced Trust 200[ ] — [ ] [Volkswagen Auto Lease Trust 200[ ] — [ ] (\"Party A\") (\"Party B\")",
+ "correct_answer": "Party B is one of two bracketed alternatives: Volkswagen Auto Loan Enhanced Trust or Volkswagen Auto Lease Trust",
+ "verdict": "both_acceptable",
+ "reason": "Party B is a bracketed choice between the two Volkswagen trusts; each answer names one of the stated alternatives."
+}

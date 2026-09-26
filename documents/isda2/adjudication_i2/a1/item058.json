@@ -1,0 +1,7 @@
+{
+  "item": "item058",
+  "quote": "Credit Support Document ... In relation to Party B, the Credit Agreement, and the Security Documents, or the Collateral Documents, as the case may be, as defined in the Credit Agreement. [No Credit Support Annex is referenced anywhere in the document.]",
+  "correct_answer": "no",
+  "verdict": "X",
+  "reason": "Credit support is provided through the Credit Agreement and Security/Collateral Documents and no Credit Support Annex is referenced, so 'no' is correct and 'yes' is wrong."
+}

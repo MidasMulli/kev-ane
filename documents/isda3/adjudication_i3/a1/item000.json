@@ -1,0 +1,7 @@
+{
+ "item": "item000",
+ "quote": "SCHEDULE to the Master Agreement dated as of November 15, 2004 between Citibank, N.A. ... and Wilmington Trust Company (no form year stated)",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "No year (1992/2002) is stated for the Master Agreement form anywhere in the document; '2002' is unsupported."
+}

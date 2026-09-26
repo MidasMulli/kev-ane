@@ -1,0 +1,7 @@
+{
+ "item": "h1_item031",
+ "quote": "FNet (FFT) ... Model params Base $83$M Large $238$M",
+ "correct_answer": "83M (Base), 238M (Large)",
+ "verdict": "X",
+ "reason": "The paper states 83M/238M parameters for FNet, so NONE is wrong."
+}

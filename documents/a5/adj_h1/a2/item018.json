@@ -1,0 +1,7 @@
+{
+ "item": "item018",
+ "quote": "This issue is primarily due to the poor ability of the model in predicting the ``bone anomaly'' and ``soft tissue'' classes. The dataset suffers from the class imbalance",
+ "correct_answer": "yes: poor prediction of bone anomaly and soft tissue classes due to class imbalance",
+ "verdict": "Y",
+ "reason": "The Discussion section explicitly discusses this limitation."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item045",
+ "quote": "SAN \\cite{dong2018style} \\# & 5.22 ... HRNet18 \\cite{sun2019deep} & 4.60 ... STYLE \\cite{qian2019aggregation} \\# & 4.39 ... AWING \\cite{wang2019adaptive} * & 4.36",
+ "correct_answer": "HRNet18, AWING, STYLE, SAN (and others such as WING, LAB)",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists appear as compared methods in the results tables."
+}

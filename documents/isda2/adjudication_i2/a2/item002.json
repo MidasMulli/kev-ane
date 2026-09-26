@@ -1,0 +1,7 @@
+{
+  "item": "item002",
+  "quote": "(Multicurrency \u2013 Cross Border) ISDA International Swap Dealers Association, Inc. MASTER AGREEMENT dated as of October 9, 2008 ... This Confirmation supplements, forms a part of, and is subject to, the 1992 ISDA Master Agreement dated as of October 9, 2008",
+  "correct_answer": "1992",
+  "verdict": "X",
+  "reason": "The form is the 1992 Multicurrency-Cross Border form and the Confirmations expressly cite the 1992 ISDA Master Agreement."
+}

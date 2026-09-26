@@ -1,0 +1,7 @@
+{
+ "item": "item035",
+ "quote": "We evaluate the model on the validation sets of the three real-world datasets. CityScapes~\\cite{cityscapes} contains 500 validation images ... BDD-100K~\\cite{bdd} and Mapillary~\\cite{mapillary}",
+ "correct_answer": "CityScapes, BDD-100K, Mapillary",
+ "verdict": "both_acceptable",
+ "reason": "Both list the same three stated datasets, differing only in hyphenation."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "h2_item029",
+ "quote": "The classification accuracy is averaged on query sets $Q$ of many",
+ "correct_answer": "Classification accuracy",
+ "verdict": "both_acceptable",
+ "reason": "Both name the same accuracy metric."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item009",
+ "quote": "THIS PURCHASE AND SALE CONTRACT (this \"Contract\") is entered into as of the 26th day of October 2009 (the \"Effective Date\"), by and between ANGELES INCOME PROPERTIES, LTD. 6 ...",
+ "correct_answer": "October 26, 2009",
+ "verdict": "Y",
+ "reason": "The contract states it is entered into as of October 26, 2009, matching Y."
+}

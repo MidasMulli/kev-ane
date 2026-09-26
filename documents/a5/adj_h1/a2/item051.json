@@ -1,0 +1,7 @@
+{
+ "item": "item051",
+ "quote": "Generating novel, yet realistic, images of persons is a challenging task",
+ "correct_answer": "Disentangled generation of novel realistic person images",
+ "verdict": "both_acceptable",
+ "reason": "Both match the paper's task."
+}

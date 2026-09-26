@@ -1,0 +1,7 @@
+{
+ "item": "h1_item020",
+ "quote": "(no limitations discussion found in the paper)",
+ "correct_answer": "No limitations discussion",
+ "verdict": "both_acceptable",
+ "reason": "The paper does not discuss limitations, so 'no' and 'NONE' (not stated) are equivalent correct answers."
+}

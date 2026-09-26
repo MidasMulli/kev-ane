@@ -1,0 +1,7 @@
+{
+ "item": "item013",
+ "quote": "As respects each reinsured company, this Contract shall be governed as to performance, administration and interpretation by the laws of the state of domicile of that reinsured company, exclusive of that state's conflict of law rules.",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The governing-law clause names no jurisdiction, only the reinsured company's state of domicile, and the document never says where Affirmative Insurance Company is domiciled (Burr Ridge, Illinois is only its address), so NONE is correct under the rubric."
+}

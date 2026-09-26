@@ -1,0 +1,7 @@
+{
+ "item": "h1_item033",
+ "quote": "recent and advanced visual trackers, including SiamRPN++, ATOM, DiMP, SiamFC++, SiamR-CNN and SiamBAN",
+ "correct_answer": "SiamRPN++, ATOM, DiMP, SiamR-CNN, ...",
+ "verdict": "both_acceptable",
+ "reason": "All listed trackers are compared."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item005",
+ "quote": "The Plan became effective on February 14, 2000, the effective date of the initial public offering of the Common Stock.",
+ "correct_answer": "2/14/2000",
+ "verdict": "X",
+ "reason": "The plan has no 'made/dated as of' line; the only date it states for itself is its effective date, February 14, 2000, which matches X (the other dates are later board and stockholder amendment/approval dates)."
+}

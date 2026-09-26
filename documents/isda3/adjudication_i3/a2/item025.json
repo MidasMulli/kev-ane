@@ -1,0 +1,7 @@
+{
+ "item": "item025",
+ "quote": "(MULTICURRENCY--CROSS BORDER) ISDA(R) International Swap Dealers Association, Inc. SCHEDULE TO THE MASTER AGREEMENT dated as of August 21, 2001",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "No form year is stated; the 1992-era header only implies the form, and under the stated-only rule NONE is correct."
+}

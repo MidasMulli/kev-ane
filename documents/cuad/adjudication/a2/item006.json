@@ -1,0 +1,7 @@
+{
+ "item": "item006",
+ "quote": "IN WITNESS WHEREOF the undersigned has executed this Subscription Agreement on the           day of                               , 2004.",
+ "correct_answer": "2004",
+ "verdict": "X",
+ "reason": "The opening states no agreement date, so the rubric falls back to the signature block, which states only the year 2004 (day and month blank), matching X."
+}

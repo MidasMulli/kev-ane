@@ -1,0 +1,1 @@
+{"item": "item031", "quote": "We use SGD with momentum as the optimizer to train the feature extractor from scratch.", "correct_answer": "SGD with momentum", "verdict": "both_acceptable", "reason": "Both identify SGD; Y adds momentum, which is only a difference in detail."}

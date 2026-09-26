@@ -1,0 +1,7 @@
+{
+ "item": "item000",
+ "quote": "PURCHASE AGREEMENT (the “Agreement”), dated as of November 8, 2010, by and between NUTRA PHARMA CORP., a California corporation, (the “Company”), and LINCOLN PARK CAPITAL FUND, LLC, an Illinois limited liability company (the “Investor”).",
+ "correct_answer": "11/8/2010",
+ "verdict": "X",
+ "reason": "The preamble states the agreement is dated as of November 8, 2010 (rubric step a), matching X; Y's NONE is wrong."
+}

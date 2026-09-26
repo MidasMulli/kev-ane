@@ -1,0 +1,8 @@
+{
+ "item": "h2_item044",
+ "contract_file": "documents/a5/adj_h2/texts/P240.txt",
+ "question": "What task or problem does the paper address?",
+ "X": "Network Intrusion Detection",
+ "Y": "Intrusion Detection",
+ "rubric": "Rubric (fixed in advance; apply it exactly). The document is the LaTeX source of a research paper.\n1. Find and QUOTE the paper's own text that answers the question (search the whole paper, including appendix; ignore the bibliography\n   and descriptions of OTHER papers' methods).\n2. The correct answer is what the paper states about ITS OWN work. For list questions (datasets, baselines) any stated item is acceptable\n   and a partial list is acceptable. For numbers, the stated number (units as stated). NONE is correct only if the paper does not state it.\n3. Verdict, exactly one of: \"X\", \"Y\", \"both_wrong\", \"both_acceptable\" (both correct, e.g. different wording or different correct items)."
+}

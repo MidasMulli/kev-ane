@@ -1,0 +1,7 @@
+{
+ "item": "item016",
+ "quote": "\"Threshold Amount\" means 3% of shareholder's equity of the Relevant Entity.",
+ "correct_answer": "3% of shareholder's equity of the Relevant Entity",
+ "verdict": "Y",
+ "reason": "The Schedule expressly states the Threshold Amount as 3% of shareholder's equity."
+}

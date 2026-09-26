@@ -1,0 +1,7 @@
+{
+ "item": "item041",
+ "quote": "(h) Governing Law. This Agreement will be governed by and construed in accordance with the law (and not the law of conflicts except with respect to §§ 5-1401 and 5-1402 of the New York General Obligations Law) of the State of New York.",
+ "correct_answer": "State of New York",
+ "verdict": "both_acceptable",
+ "reason": "'State of New York' and 'New York' mean the same governing law."
+}

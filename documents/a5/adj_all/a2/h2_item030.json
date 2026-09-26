@@ -1,0 +1,7 @@
+{
+ "item": "h2_item030",
+ "quote": "& MatchingNet$^{*}$ ... & ProtoNet$^{*}$ ... & MAML$^{*}$ ... &TPN~\\cite{liu2018learning} ... &TEAM$^{*}$ ... &LST~\\cite{sun2019learning}",
+ "correct_answer": "MatchingNet, ProtoNet, MAML, TPN, TEAM, LST, among others",
+ "verdict": "both_acceptable",
+ "reason": "All six methods across the two answers appear in the comparison table."
+}

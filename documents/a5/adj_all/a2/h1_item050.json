@@ -1,0 +1,7 @@
+{
+ "item": "h1_item050",
+ "quote": "\\title{Disentangled Person Image Generation} ... we aim at generating such images based on a novel, two-stage reconstruction pipeline",
+ "correct_answer": "No explicit method name; the title/project (DPIG) serves",
+ "verdict": "both_acceptable",
+ "reason": "The paper never formally names its method beyond the title and the 'two-stage pipeline', so the title and NONE are both defensible."
+}

@@ -1,0 +1,8 @@
+{
+ "item": "item007",
+ "contract_file": "documents/cuad/adjudication3/texts/H090_b9cb73d76c7225e2.txt",
+ "question": "What is the date of this agreement?",
+ "X": "NONE",
+ "Y": "2011",
+ "rubric": "Rubric (fixed in advance; apply it exactly):\n1. Find and QUOTE the sentence(s) in the document that answer the question.\n2. The correct answer is:\n   - Governing law = the jurisdiction named in the governing-law clause.\n   - Agreement date, in this order: (a) a date the document states it is made, entered into, or dated as of; (b) otherwise its stated\n     effective date, including a defined \"Effective Date\" that resolves to a calendar date anywhere in the document, and a plan's or\n     instrument's \"became/becomes effective\" date; (c) otherwise the latest party signature date in the signature block; (d) otherwise\n     NONE. A date given only as month and year (or year) is answered at that precision and matches only at that precision.\n   - Renewal term = the length of each renewal period.\n   - Non-renewal notice = the advance notice a party must give to prevent the agreement from renewing.\n   If the document states none of it, NONE is the correct answer.\n3. Verdict, exactly one of: \"X\" (only X correct), \"Y\" (only Y correct), \"both_wrong\", \"both_acceptable\" (same jurisdiction, the same\n   date at the precision stated, or the same duration with years = 12 months)."
+}

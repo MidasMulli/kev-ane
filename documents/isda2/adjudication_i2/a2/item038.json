@@ -1,0 +1,7 @@
+{
+ "item": "item038",
+ "quote": "\"Threshold Amount\" shall mean, with respect to Party A, (x) 3% of Party A's \"Total Equity Capital\" as described in its most recently published Call Report...",
+ "correct_answer": "3% of Party A's Total Equity Capital",
+ "verdict": "X",
+ "reason": "The Schedule explicitly states a Threshold Amount of 3% of Party A's Total Equity Capital, so NONE is wrong."
+}

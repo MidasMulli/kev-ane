@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "No limitations section; only future work: 'In our future work, we will explore data augmentation with GAN...'",
+ "correct_answer": "no (no limitations discussion)",
+ "verdict": "both_acceptable",
+ "reason": "The paper has no limitations discussion, so 'no' and NONE both reflect it."
+}

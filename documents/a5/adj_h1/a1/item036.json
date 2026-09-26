@@ -1,0 +1,7 @@
+{
+ "item": "item036",
+ "quote": "we compare \\ours with state-of-the-art methods under single source setting, including SW, IterNorm, IBN-Net~\\cite{ibn}, ISW~\\cite{robustnet}, DRPC~\\cite{DRPC} and FSDR~\\cite{FSDR}.",
+ "correct_answer": "SW, IterNorm, IBN-Net, ISW, DRPC, FSDR",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are stated compared methods."
+}

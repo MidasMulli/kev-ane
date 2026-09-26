@@ -1,0 +1,7 @@
+{
+ "item": "h2_item011",
+ "quote": "The experimental results show that even with a simple linear classification layer, our BERT-based architecture can outperform state-of-the-art works.",
+ "correct_answer": "A BERT-based architecture (BERT + E2E-ABSA layer; variants BERT-Linear, BERT-GRU, BERT-TFM, BERT-CRF)",
+ "verdict": "X",
+ "reason": "The paper refers to its model as 'our BERT-based architecture' (with named BERT-* variants), so NONE is incorrect."
+}

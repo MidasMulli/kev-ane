@@ -1,0 +1,7 @@
+{
+ "item": "h1_item037",
+ "quote": "\\title{Open-world Text-specified Object Counting} ... Our objective is open-world object counting in images, where the target object class is specified by a text description.",
+ "correct_answer": "Open-world object counting where the target class is specified by text",
+ "verdict": "both_acceptable",
+ "reason": "X matches the title exactly and Y is a correct, slightly less specific statement of the stated objective."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "h2_item027",
+ "quote": "Table contains the results of the models and current state-of-the-art approach. It can be seen that the RST model surpasses the current SOTA model and the OSNet-AIN performs worse ... \\cite{kucer_detect-then-retrieve_2019} and \\cite{kuang_fashion_2019}, which we consider as the current SOTA for StoS and DF respectively.",
+ "correct_answer": "Detect-then-Retrieve (Kucer et al.), Fashion Retrieval via Graph Reasoning Networks (Kuang et al.), OSNet-AIN",
+ "verdict": "Y",
+ "reason": "X lists ReID Strong Baseline, which is the paper's own model (RST), not a baseline, while all of Y's items are compared methods."
+}

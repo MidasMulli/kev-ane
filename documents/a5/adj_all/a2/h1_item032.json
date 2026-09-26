@@ -1,0 +1,7 @@
+{
+ "item": "h1_item032",
+ "quote": "Both TPU and GPU models are trained for $1$ million steps as in \\citet{devlin2018bert}.",
+ "correct_answer": "1 million steps",
+ "verdict": "X",
+ "reason": "The paper states 1 million training steps, so NONE is wrong."
+}

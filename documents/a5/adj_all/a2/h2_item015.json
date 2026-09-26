@@ -1,0 +1,7 @@
+{
+ "item": "h2_item015",
+ "quote": "These are regarded as model parameters that can be learnt from the data using gradient descent optimization algorithms \\cite{ruder2016overview}, or arbitrary specified if prior knowledge is available. ... Finally, we limit STC to real-valued wave functions by ignoring all the phase factors in \\eqref{eq:predict} $\\phi_{ij}=\\theta_j=0$.",
+ "correct_answer": "NONE - no optimizer is used; training is corpus counting and phase factors are set to zero in experiments.",
+ "verdict": "Y",
+ "reason": "Gradient descent is mentioned only as a possibility and is not used for training, so no optimizer is stated."
+}

@@ -1,0 +1,26 @@
+{"event": "precondition", "distinct": {"CUA-W": 80.4375, "CUA-D": 77.3125, "W-D": 17.748046875}, "cua_roundtrip_bitwise": true}
+{"event": "arm", "arm": "G", "rep": 0, "gpu_tps": 38.740780584726664}
+{"event": "arm", "arm": "S0", "rep": 0, "gpu_tps": 37.04386580026056, "pass_rate": 20.008037105424492, "n_binds": 0, "bind_ms_median": null, "retention": 0.9561982293889272}
+{"event": "arm", "arm": "S1", "rep": 0, "gpu_tps": 36.019586409869156, "pass_rate": 19.948224958890354, "n_binds": 35, "bind_ms_median": 81.9, "retention": 0.9297589224123604}
+{"event": "arm", "arm": "IDLE_S1", "rep": 0, "gpu_tps": null, "pass_rate": 19.991898282740106, "n_binds": 37, "bind_ms_median": 74.3}
+{"event": "arm", "arm": "G", "rep": 1, "gpu_tps": 35.39636708279209}
+{"event": "arm", "arm": "S1", "rep": 1, "gpu_tps": 35.92697869575303, "pass_rate": 19.967244519753148, "n_binds": 35, "bind_ms_median": 81.9, "retention": 1.0149905670183563}
+{"event": "arm", "arm": "S0", "rep": 1, "gpu_tps": 36.662146197100576, "pass_rate": 20.017101348319102, "n_binds": 0, "bind_ms_median": null, "retention": 1.0357601420323117}
+{"event": "arm", "arm": "IDLE_S1", "rep": 1, "gpu_tps": null, "pass_rate": 19.98665158174547, "n_binds": 37, "bind_ms_median": 74.8}
+{"event": "arm", "arm": "G", "rep": 2, "gpu_tps": 37.13631450187504}
+{"event": "arm", "arm": "S0", "rep": 2, "gpu_tps": 35.09401841649592, "pass_rate": 19.91637052990962, "n_binds": 0, "bind_ms_median": null, "retention": 0.9450054182065912}
+{"event": "arm", "arm": "S1", "rep": 2, "gpu_tps": 34.498759509053954, "pass_rate": 19.98362586043047, "n_binds": 37, "bind_ms_median": 85.1, "retention": 0.9289763933712939}
+{"event": "arm", "arm": "IDLE_S1", "rep": 2, "gpu_tps": null, "pass_rate": 19.99732885675092, "n_binds": 37, "bind_ms_median": 76.5}
+{"event": "arm", "arm": "G", "rep": 3, "gpu_tps": 36.48788515194288}
+{"event": "arm", "arm": "S1", "rep": 3, "gpu_tps": 34.56179247215158, "pass_rate": 19.884866901785838, "n_binds": 37, "bind_ms_median": 80.7, "retention": 0.9472128167535425}
+{"event": "arm", "arm": "S0", "rep": 3, "gpu_tps": 34.02393430670749, "pass_rate": 19.97491250883023, "n_binds": 0, "bind_ms_median": null, "retention": 0.93247208395403}
+{"event": "arm", "arm": "IDLE_S1", "rep": 3, "gpu_tps": null, "pass_rate": 19.927105448855176, "n_binds": 37, "bind_ms_median": 75.0}
+{"event": "arm", "arm": "G", "rep": 4, "gpu_tps": 36.18885661225991}
+{"event": "arm", "arm": "S0", "rep": 4, "gpu_tps": 35.097777660980086, "pass_rate": 19.987188452730344, "n_binds": 0, "bind_ms_median": null, "retention": 0.9698504165807164}
+{"event": "arm", "arm": "S1", "rep": 4, "gpu_tps": 35.00297395283466, "pass_rate": 20.001699401619806, "n_binds": 36, "bind_ms_median": 82.1, "retention": 0.9672307231993755}
+{"event": "arm", "arm": "IDLE_S1", "rep": 4, "gpu_tps": null, "pass_rate": 19.92279467267532, "n_binds": 37, "bind_ms_median": 73.2}
+{"event": "arm", "arm": "G", "rep": 5, "gpu_tps": 36.47212498270125}
+{"event": "arm", "arm": "S1", "rep": 5, "gpu_tps": 34.92750638368699, "pass_rate": 19.89022379188437, "n_binds": 36, "bind_ms_median": 81.65, "retention": 0.9576493390569681}
+{"event": "arm", "arm": "S0", "rep": 5, "gpu_tps": 37.691018342703146, "pass_rate": 19.915019476575047, "n_binds": 0, "bind_ms_median": null, "retention": 1.033419861348359}
+{"event": "arm", "arm": "IDLE_S1", "rep": 5, "gpu_tps": null, "pass_rate": 19.92003223029651, "n_binds": 37, "bind_ms_median": 74.5}
+{"event": "C_RESULT", "ret_S0": 0.978784358585156, "ret_S1": 0.9576364603019828, "C_GPU": [0.021147898283173112, [0.0009343961622209259, 0.04619002370767258]], "C_GPU_verdict": "swapping costs the 27B NOTHING at 0.05", "bind_ms_load_median": 81.9, "bind_ms_idle_median": 74.65, "C_LAT_ratio": [1.1005306603500231, [1.0885518735187114, 1.112097007213822]], "C_LAT_verdict": "binds NOT materially slowed under load", "overhead_3stage_idle": 0.1766236838992074, "overhead_3stage_load": 0.19050942079553387, "pass_rates": {"S0": 19.96977157029814, "S1": 19.94598090572733}, "base_md5_unchanged": true}

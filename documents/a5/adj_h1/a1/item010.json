@@ -1,0 +1,7 @@
+{
+ "item": "item010",
+ "quote": "Method & AP & AP50 & AP75 ... (MS COCO table); For the 10-shot setting, CME improves AP upon the baseline method MPSR by 5.3\\%",
+ "correct_answer": "AP (average precision)",
+ "verdict": "both_acceptable",
+ "reason": "Both answers name Average Precision (AP), differing only in wording."
+}

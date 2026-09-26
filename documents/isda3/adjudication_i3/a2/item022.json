@@ -1,0 +1,7 @@
+{
+ "item": "item022",
+ "quote": "in each case shall constitute an \"Automatic Early Termination\" ... an Early Termination Date in respect of all outstanding Transactions will occur immediately with respect to Party B.",
+ "correct_answer": "Party B",
+ "verdict": "Y",
+ "reason": "The only Automatic Early Termination provision operates with respect to Party B."
+}

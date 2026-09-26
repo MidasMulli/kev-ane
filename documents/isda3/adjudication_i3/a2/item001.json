@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "Credit Suisse International ... (\"Party A\") ... Party A is an English bank ... Answerback: CSI G",
+ "correct_answer": "Credit Suisse International",
+ "verdict": "Y",
+ "reason": "The garbled two-column header places Credit Suisse International in the Party A column (confirmed by CSI notice details and 'Party A is an English bank'); Deutsche Bank National Trust Company is the supplemental interest trustee, Party B."
+}

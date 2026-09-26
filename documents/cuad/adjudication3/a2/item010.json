@@ -1,0 +1,7 @@
+{
+ "item": "item010",
+ "quote": "provided that on December 31, 2008 the employment term shall automatically renew until December 31, 2009 unless the Company gives Executive written notice of nonrenewal on or before September 30, 2008.",
+ "correct_answer": "Written notice on or before September 30, 2008 (92 days before the December 31, 2008 renewal date)",
+ "verdict": "both_wrong",
+ "reason": "The non-renewal deadline is September 30, 2008, which is 92 days before the December 31, 2008 renewal; the 90 days in the document is the Executive's voluntary-termination notice, not a non-renewal notice, so neither 90 nor 93 days matches."
+}

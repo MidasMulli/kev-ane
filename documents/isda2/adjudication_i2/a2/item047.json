@@ -1,0 +1,7 @@
+{
+ "item": "item047",
+ "quote": "“Threshold Amount” means (i) with respect to Party A, 2% of the stockholders’ equity of Party A; and (ii) with respect to Party B, the lesser of USD10,000,000 and 2% of the Net Asset Value of the Party B Investor;",
+ "correct_answer": "2% of Party A's stockholders' equity (first stated); USD10,000,000 also stated for Party B",
+ "verdict": "Y",
+ "reason": "A Threshold Amount is stated and the rubric accepts any stated Threshold Amount, so USD10,000,000 is acceptable while NONE is wrong."
+}

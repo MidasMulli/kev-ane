@@ -1,0 +1,7 @@
+{
+ "item": "h1_item045",
+ "quote": "SAN ...; HRNet18 ...; STYLE ...; AWING ... (result tables)",
+ "correct_answer": "HRNet18, AWING, STYLE, SAN, ...",
+ "verdict": "both_acceptable",
+ "reason": "All listed methods are compared."
+}

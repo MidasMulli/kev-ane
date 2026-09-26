@@ -1,0 +1,7 @@
+{
+ "item": "item052",
+ "quote": "Model & SSIM & IS & SSIM & IS & mask-SSIM & mask-IS ... \\caption{Quantitative evaluation. Higher scores are better.} (Rank-1 appears only in the secondary re-ID experiment: 'use rank-1 matching rate and mean Average Precision (mAP)')",
+ "correct_answer": "SSIM and Inception Score (IS) (incl. mask-SSIM/mask-IS) for the main generation results",
+ "verdict": "both_wrong",
+ "reason": "Both answers give rank-1, which is used only in the auxiliary re-ID application, while the main image-generation results are reported in SSIM and IS."
+}

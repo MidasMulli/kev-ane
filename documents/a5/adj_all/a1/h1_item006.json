@@ -1,0 +1,7 @@
+{
+ "item": "h1_item006",
+ "quote": "Proposed method: AWD-LSTM-DOC & 23M & {\\bf 54.62} & {\\bf 52.87}",
+ "correct_answer": "23M on PTB (37M on WikiText-2)",
+ "verdict": "X",
+ "reason": "The paper states the parameter count (23M on PTB), so NONE is wrong."
+}

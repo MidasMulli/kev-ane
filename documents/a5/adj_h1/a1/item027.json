@@ -1,0 +1,7 @@
+{
+ "item": "item027",
+ "quote": "\\caption{Top-1 accuracy for CIFAR100 on different architectures.} ... \\caption{Top-1/Top-5 ImageNet accuracy on different architectures.}",
+ "correct_answer": "Top-1 (and Top-5) classification accuracy",
+ "verdict": "both_acceptable",
+ "reason": "The main results report accuracy, specifically top-1 accuracy, so both answers are correct."
+}

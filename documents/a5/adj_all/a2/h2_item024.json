@@ -1,0 +1,7 @@
+{
+ "item": "h2_item024",
+ "quote": "Deploying deep learning based face detectors on edge devices is a challenging task due to the limited computation resources.",
+ "correct_answer": "Very tiny quantized CNN face detection for edge devices",
+ "verdict": "both_acceptable",
+ "reason": "Both correctly name face detection; X adds the edge-device context."
+}

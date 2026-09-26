@@ -1,0 +1,257 @@
+{
+ "event": "A3P_RESULT",
+ "n_questions": 800,
+ "agreement": 0.97125,
+ "disagreements": 23,
+ "kappa_a1_a2": 1.0,
+ "raw_agreement_a1_a2": 1.0,
+ "arbitrated": [],
+ "table": [
+  {
+   "item": "item000",
+   "type": "Agreement Date",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item001",
+   "type": "Governing Law",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item002",
+   "type": "Renewal Term",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item003",
+   "type": "Agreement Date",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item004",
+   "type": "Agreement Date",
+   "a1": "both_wrong",
+   "a2": "both_wrong",
+   "a3": null,
+   "final": "both_wrong",
+   "winner": "both_wrong",
+   "score": 0
+  },
+  {
+   "item": "item005",
+   "type": "Governing Law",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item006",
+   "type": "Governing Law",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item007",
+   "type": "Agreement Date",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item008",
+   "type": "Agreement Date",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item009",
+   "type": "Agreement Date",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item010",
+   "type": "Notice Period To Terminate Renewal",
+   "a1": "both_wrong",
+   "a2": "both_wrong",
+   "a3": null,
+   "final": "both_wrong",
+   "winner": "both_wrong",
+   "score": 0
+  },
+  {
+   "item": "item011",
+   "type": "Renewal Term",
+   "a1": "both_wrong",
+   "a2": "both_wrong",
+   "a3": null,
+   "final": "both_wrong",
+   "winner": "both_wrong",
+   "score": 0
+  },
+  {
+   "item": "item012",
+   "type": "Agreement Date",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item013",
+   "type": "Governing Law",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item014",
+   "type": "Agreement Date",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item015",
+   "type": "Agreement Date",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item016",
+   "type": "Renewal Term",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item017",
+   "type": "Governing Law",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item018",
+   "type": "Agreement Date",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item019",
+   "type": "Notice Period To Terminate Renewal",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item020",
+   "type": "Agreement Date",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item021",
+   "type": "Governing Law",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item022",
+   "type": "Agreement Date",
+   "a1": "both_wrong",
+   "a2": "both_wrong",
+   "a3": null,
+   "final": "both_wrong",
+   "winner": "both_wrong",
+   "score": 0
+  }
+ ],
+ "pipe_only_correct": 5,
+ "full_only_correct": 14,
+ "split_against_pipe": 0,
+ "diff": -0.01125,
+ "diff_ci": [
+  -0.02125,
+  -0.00125
+ ],
+ "G_E2E": true,
+ "lat_median_diff": -19.443530625663698,
+ "lat_ci": [
+  -21.179334104293957,
+  -17.39318895782344
+ ],
+ "G_LAT": true,
+ "verdict": "PASS"
+}

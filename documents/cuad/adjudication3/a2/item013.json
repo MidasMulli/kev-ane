@@ -1,0 +1,7 @@
+{
+ "item": "item013",
+ "quote": "As respects each reinsured company, this Contract shall be governed as to performance, administration and interpretation by the laws of the state of domicile of that reinsured company, exclusive of that state's conflict of law rules.",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The governing-law clause names no jurisdiction, only 'the state of domicile of that reinsured company', and the document never states the Company's domicile (Burr Ridge, Illinois is only its address), so under the rubric's 'jurisdiction named in the governing-law clause' the answer is NONE."
+}

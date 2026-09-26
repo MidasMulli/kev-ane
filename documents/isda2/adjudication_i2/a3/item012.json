@@ -1,0 +1,7 @@
+{
+ "item": "item012",
+ "quote": "FIFTH THIRD FINANCIAL RISK SOLUTIONS, a division of FIFTH THIRD BANK, an Ohio banking corporation (“Party A”)",
+ "correct_answer": "FIFTH THIRD FINANCIAL RISK SOLUTIONS, a division of FIFTH THIRD BANK",
+ "verdict": "X",
+ "reason": "Party A is defined as the division together with its legal entity Fifth Third Bank; Y gives only the division name, which is not a legal entity and omits the actual contracting bank, so only X matches the legal name as defined."
+}

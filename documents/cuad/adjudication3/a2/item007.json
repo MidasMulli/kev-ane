@@ -1,0 +1,7 @@
+{
+ "item": "item007",
+ "quote": "This SUBSCRIPTION AGREEMENT (this “Agreement”) is made as of the last date set forth on the signature page hereof ... Dated:   [__], 2011 ... Agreed to and accepted as of [__], 2011.",
+ "correct_answer": "2011",
+ "verdict": "Y",
+ "reason": "The agreement is made as of the last signature-page date, which the document gives only as '[__], 2011', so the year-precision answer 2011 is correct and NONE is wrong."
+}

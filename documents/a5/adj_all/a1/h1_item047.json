@@ -1,0 +1,7 @@
+{
+ "item": "h1_item047",
+ "quote": "We propose Spatially Regularized Discriminative Correlation Filters (SRDCF) for tracking.",
+ "correct_answer": "Spatially Regularized Discriminative Correlation Filters (SRDCF)",
+ "verdict": "both_acceptable",
+ "reason": "X gives the stated acronym and Y the full stated name; both identify the method."
+}

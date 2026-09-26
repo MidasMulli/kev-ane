@@ -1,0 +1,7 @@
+{
+ "item": "item010",
+ "quote": "Unless terminated earlier pursuant to Section 5(b)-(g), Executive’s employment will terminate on December 31, 2008, provided that on December 31, 2008 the employment term shall automatically renew until December 31, 2009 unless the Company gives Executive written notice of nonrenewal on or before September 30, 2008.",
+ "correct_answer": "Written notice of nonrenewal on or before September 30, 2008 (92 days before the December 31, 2008 renewal date)",
+ "verdict": "both_wrong",
+ "reason": "The only non-renewal notice is a fixed deadline of September 30, 2008 for a December 31, 2008 renewal, i.e. 92 days, which is neither 90 nor 93 days."
+}

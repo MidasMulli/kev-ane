@@ -1,0 +1,7 @@
+{
+ "item": "h2_item026",
+ "quote": "Compared to the two models described above, the RST model can be characterised by its simplicity. ... In Figure \\ref{fig:rst_diagram} we presents the RST model",
+ "correct_answer": "RST (ReID Strong Baseline adapted for fashion retrieval)",
+ "verdict": "X",
+ "reason": "The paper's proposed baseline model is referred to as the RST model, so NONE is wrong."
+}

@@ -1,0 +1,7 @@
+{
+  "item": "item006",
+  "quote": "transfer collateral pursuant to the provisions of a 1995 ISDA Credit Support Annex (Bilateral Form-Transfer) entered into between Party A and Party B on the date hereof and annexed to this Agreement (the 'Credit Support Annex')",
+  "correct_answer": "yes",
+  "verdict": "X",
+  "reason": "The Schedule states a 1995 ISDA Credit Support Annex was entered into on the date hereof and annexed to this Agreement."
+}

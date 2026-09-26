@@ -1,0 +1,7 @@
+{
+ "item": "item014",
+ "quote": "(g) If at any time an Event of Default with respect to a party has occurred and is then continuing the other party (the \"non-Defaulting Party\") may exercise its rights of termination under Clause 9 of the Facility Agreement. The provisions of section 6 (Early Termination; Close-Out Netting) will not apply to either party.",
+ "correct_answer": "Neither party: the Schedule makes no Automatic Early Termination election as such, but expressly disapplies all of Section 6 (which contains Automatic Early Termination in 6(a)) as to both parties.",
+ "verdict": "X",
+ "reason": "The Schedule states that Section 6 (Early Termination), the home of Automatic Early Termination, will not apply to either party, so 'neither' is what the document states, whereas NONE (nothing stated) understates an explicit disapplication."
+}

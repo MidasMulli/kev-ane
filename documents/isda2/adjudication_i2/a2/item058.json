@@ -1,0 +1,7 @@
+{
+ "item": "item058",
+ "quote": "(f) Credit Support Document. ... is a \"Credit Support Document\": In relation to Party B, the Credit Agreement, and the Security Documents, or the Collateral Documents, as the case may be, as defined in the Credit Agreement.",
+ "correct_answer": "No; credit support is provided through the Credit Agreement and its Security/Collateral Documents, not a Credit Support Annex",
+ "verdict": "X",
+ "reason": "The only Credit Support Documents are the Credit Agreement and its security documents, and no Credit Support Annex is referenced, so \"no\" is correct and \"yes\" is wrong."
+}

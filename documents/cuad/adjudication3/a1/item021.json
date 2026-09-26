@@ -1,0 +1,7 @@
+{
+ "item": "item021",
+ "quote": "18. Choice of Law. This Agreement shall be governed by, and shall be construed in accordance with, the laws of the Commonwealth of Massachusetts, without regard to its conflict of laws principles.",
+ "correct_answer": "Massachusetts",
+ "verdict": "Y",
+ "reason": "The Transition Agreement's governing-law clause names Massachusetts; the Delaware clauses belong to the attached Lock-Up Agreement exhibits."
+}

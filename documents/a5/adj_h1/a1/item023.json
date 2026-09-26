@@ -1,0 +1,7 @@
+{
+ "item": "item023",
+ "quote": "BiGAN~\\cite{bigan,splitbrain} & AlexNet & Conv3 & 31.0 ... SS-GAN~\\cite{ssgan} & ResNet-19 ... Motion Segmentation (MS) ... CPC~\\cite{cpc} & ResNet-101 ... Rotation~\\cite{rotation,revisiting} & RevNet-50 x4",
+ "correct_answer": "BiGAN, SS-GAN, Motion Segmentation, CPC, Rotation, Efficient CPC",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists appear in the ImageNet representation-learning comparison table."
+}

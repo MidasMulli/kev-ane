@@ -1,0 +1,7 @@
+{
+ "item": "item057",
+ "quote": "(a) Governing Law. This Agreement and each Transaction entered into hereunder will be governed by, and construed and enforced in accordance with, the law of the State of New York without reference to its choice of law doctrine.",
+ "correct_answer": "New York (State of New York)",
+ "verdict": "both_acceptable",
+ "reason": "The Schedule replaces Section 13(a) with New York law, and both answers mean the same thing."
+}

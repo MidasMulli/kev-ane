@@ -1,0 +1,7 @@
+{
+ "item": "item003",
+ "quote": "(f) Credit Support Document. Any guaranty or other form of credit support provided on behalf of Counterparty ... Guaranty by The Goldman Sachs Group, Inc.",
+ "correct_answer": "no",
+ "verdict": "X",
+ "reason": "The Schedule names only guaranties as Credit Support Documents and never says a Credit Support Annex forms part of the agreement."
+}

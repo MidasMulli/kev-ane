@@ -1,0 +1,42 @@
+{"event": "bound", "reply": "BOUND 96.0", "adapter_md5": "ef2a095cd01f4b5c5cdab6a2fdeacc48", "base_md5": "108320daa3a016c30f888ad60e1d6b2e", "base_md5_after_bind": "108320daa3a016c30f888ad60e1d6b2e"}
+{"event": "contract", "cid": "TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement", "windows": 67, "agree": 0.975609756097561, "max_abs_prob_diff": 0.037974655628204346}
+{"event": "contract", "cid": "CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement", "windows": 26, "agree": 1.0, "max_abs_prob_diff": 0.02155473828315735}
+{"event": "contract", "cid": "VERTICALNETINC_04_01_2002-EX-10.19-MAINTENANCE AND SUPPORT AGREEMENT", "windows": 67, "agree": 1.0, "max_abs_prob_diff": 0.021180450916290283}
+{"event": "contract", "cid": "LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT", "windows": 18, "agree": 1.0, "max_abs_prob_diff": 0.01962268352508545}
+{"event": "contract", "cid": "HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement", "windows": 42, "agree": 1.0, "max_abs_prob_diff": 0.022163808345794678}
+{"event": "contract", "cid": "PrudentialBancorpInc_20170606_8-K_EX-10.4_10474434_EX-10.4_Endorsement Agreement", "windows": 14, "agree": 1.0, "max_abs_prob_diff": 0.015385925769805908}
+{"event": "contract", "cid": "NANOPHASETECHNOLOGIESCORP_11_01_2005-EX-99.1-DISTRIBUTOR AGREEMENT", "windows": 48, "agree": 1.0, "max_abs_prob_diff": 0.021922677755355835}
+{"event": "contract", "cid": "ATMOSENERGYCORP_11_22_2002-EX-10.17-TRANSPORTATION SERVICE AGREEMENT", "windows": 21, "agree": 1.0, "max_abs_prob_diff": 0.015204310417175293}
+{"event": "contract", "cid": "ARMSTRONGFLOORING,INC_01_07_2019-EX-10.2-INTELLECTUAL PROPERTY AGREEMENT", "windows": 87, "agree": 1.0, "max_abs_prob_diff": 0.03268629312515259}
+{"event": "contract", "cid": "VEONEER,INC_02_21_2020-EX-10.11-JOINT VENTURE AGREEMENT", "windows": 10, "agree": 1.0, "max_abs_prob_diff": 0.013137280941009521}
+{"event": "contract", "cid": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement", "windows": 14, "agree": 1.0, "max_abs_prob_diff": 0.016016900539398193}
+{"event": "contract", "cid": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT", "windows": 24, "agree": 1.0, "max_abs_prob_diff": 0.03089618682861328}
+{"event": "contract", "cid": "HYDRONTECHNOLOGIESINC_03_31_1997-EX-10.47-SPONSORSHIP AGREEMENT", "windows": 25, "agree": 1.0, "max_abs_prob_diff": 0.02026769518852234}
+{"event": "contract", "cid": "Magenta Therapeutics, Inc. - Master Development and Manufacturing Agreement", "windows": 69, "agree": 0.975609756097561, "max_abs_prob_diff": 0.05018627643585205}
+{"event": "contract", "cid": "VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement", "windows": 38, "agree": 1.0, "max_abs_prob_diff": 0.026527762413024902}
+{"event": "contract", "cid": "EmeraldHealthBioceuticalsInc_20200218_1-A_EX1A-6 MAT CTRCT_11987205_EX1A-6 MAT CTRCT_Development Agreement", "windows": 17, "agree": 1.0, "max_abs_prob_diff": 0.015300393104553223}
+{"event": "contract", "cid": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement", "windows": 12, "agree": 1.0, "max_abs_prob_diff": 0.019481688737869263}
+{"event": "contract", "cid": "CcRealEstateIncomeFundadv_20181205_POS 8C_EX-99.(H)(3)_11447739_EX-99.(H)(3)_Marketing Agreement", "windows": 29, "agree": 0.975609756097561, "max_abs_prob_diff": 0.02148333191871643}
+{"event": "contract", "cid": "STAMPSCOMINC_06_24_1999-EX-10.18-SPONSORSHIP AGREEMENT", "windows": 37, "agree": 1.0, "max_abs_prob_diff": 0.018418461084365845}
+{"event": "contract", "cid": "WARNERCHILCOTTPLC_12_31_2003-EX-4.36-DEVELOPMENT AGREEMENT", "windows": 27, "agree": 1.0, "max_abs_prob_diff": 0.018162325024604797}
+{"event": "contract", "cid": "NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT", "windows": 35, "agree": 1.0, "max_abs_prob_diff": 0.01937749981880188}
+{"event": "contract", "cid": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT", "windows": 106, "agree": 1.0, "max_abs_prob_diff": 0.019296884536743164}
+{"event": "contract", "cid": "QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_Hosting Agreement", "windows": 99, "agree": 1.0, "max_abs_prob_diff": 0.03598815202713013}
+{"event": "contract", "cid": "ATENTOSA_07_06_2020-EX-99.1-JOINT FILING AGREEMENT", "windows": 3, "agree": 0.975609756097561, "max_abs_prob_diff": 0.005046427249908447}
+{"event": "contract", "cid": "CHIPMOSTECHNOLOGIESBERMUDALTD_04_18_2016-EX-4.72-Strategic Alliance Agreement", "windows": 13, "agree": 0.9512195121951219, "max_abs_prob_diff": 0.013271152973175049}
+{"event": "contract", "cid": "DRKOOPCOMINC_04_21_1999-EX-10.28-SPONSORSHIP AGREEMENT", "windows": 35, "agree": 1.0, "max_abs_prob_diff": 0.024416327476501465}
+{"event": "contract", "cid": "CARDAX,INC_08_19_2014-EX-10.1-COLLABORATION AGREEMENT", "windows": 56, "agree": 1.0, "max_abs_prob_diff": 0.022016197443008423}
+{"event": "contract", "cid": "MIDDLEBROOKPHARMACEUTICALS,INC_03_18_2010-EX-10.1-PROMOTION AGREEMENT", "windows": 57, "agree": 0.975609756097561, "max_abs_prob_diff": 0.02922135591506958}
+{"event": "contract", "cid": "LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT", "windows": 15, "agree": 1.0, "max_abs_prob_diff": 0.017876088619232178}
+{"event": "contract", "cid": "GALACTICOMMTECHNOLOGIESINC_11_07_1997-EX-10.46-WEB HOSTING AGREEMENT", "windows": 2, "agree": 1.0, "max_abs_prob_diff": 0.018774569034576416}
+{"event": "contract", "cid": "NUVEEN - REMARKETING AGREEMENT", "windows": 69, "agree": 1.0, "max_abs_prob_diff": 0.016652405261993408}
+{"event": "contract", "cid": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT", "windows": 17, "agree": 1.0, "max_abs_prob_diff": 0.018009841442108154}
+{"event": "contract", "cid": "MACY_S,INC_05_11_2020-EX-99.4-JOINT FILING AGREEMENT", "windows": 2, "agree": 1.0, "max_abs_prob_diff": 0.010330438613891602}
+{"event": "contract", "cid": "NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment", "windows": 20, "agree": 0.975609756097561, "max_abs_prob_diff": 0.018561750650405884}
+{"event": "contract", "cid": "PerformanceSportsBrandsInc_20110909_S-1_EX-10.10_7220214_EX-10.10_Endorsement Agreement", "windows": 28, "agree": 1.0, "max_abs_prob_diff": 0.014914155006408691}
+{"event": "contract", "cid": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development Agreement", "windows": 67, "agree": 0.975609756097561, "max_abs_prob_diff": 0.018902063369750977}
+{"event": "contract", "cid": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement3", "windows": 2, "agree": 1.0, "max_abs_prob_diff": 0.008785247802734375}
+{"event": "contract", "cid": "TURNKEYCAPITAL,INC_07_20_2017-EX-1.1-Strategic Alliance Agreement", "windows": 12, "agree": 1.0, "max_abs_prob_diff": 0.011814713478088379}
+{"event": "contract", "cid": "GWG HOLDINGS, INC. - ORDERLY MARKETING AGREEMENT", "windows": 27, "agree": 1.0, "max_abs_prob_diff": 0.02144181728363037}
+{"event": "contract", "cid": "VIOLINMEMORYINC_12_12_2012-EX-10.14-SPONSORSHIP AGREEMENT", "windows": 49, "agree": 0.975609756097561, "max_abs_prob_diff": 0.02263703942298889}
+{"event": "A2_RESULT", "pairs": 1640, "agreement": 0.9939024390243902, "gate_pass": true, "agreement_value_types": 0.99375, "agreement_above_tau": 0.9959404600811907, "n_above_tau": 739, "predict_ms_median": 28.5, "predict_ms_p95": 28.97, "n_windows": 1406, "base_md5_unchanged": true}

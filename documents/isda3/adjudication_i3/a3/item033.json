@@ -1,0 +1,7 @@
+{
+ "item": "item033",
+ "quote": "This Confirmation will be governed by and subject to the terms and conditions which would be applicable if, prior to the Trade Date, the parties had executed and delivered an ISDA Master Agreement (Multicurrency-Cross Border), in the form published by ISDA in 1992 (the \"Master Agreement\"), with the attached Schedule B as the Schedule to the Master Agreement ...",
+ "correct_answer": "NONE: the Master Agreement is deemed (not actually executed) and no 'dated as of' date is stated for it; February 7, 2007 is the date of the Confirmation/memorandum (\"Schedule B to the Confirmation dated as of February 7, 2007\").",
+ "verdict": "X",
+ "reason": "The document gives no dated-as-of date for the deemed Master Agreement; 2/7/2007 is the Confirmation's date, so Y attributes a different instrument's date to the Master Agreement."
+}

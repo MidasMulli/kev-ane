@@ -1,0 +1,7 @@
+{
+ "item": "item020",
+ "quote": "(e) Credit Support Document ... AFSLP Credit Enhancement ... (f) Credit Support Provider ... Ambac Assurance Corporation (no Credit Support Annex referenced)",
+ "correct_answer": "no",
+ "verdict": "X",
+ "reason": "Credit support is by Ambac credit enhancements; no Credit Support Annex is part of the agreement."
+}

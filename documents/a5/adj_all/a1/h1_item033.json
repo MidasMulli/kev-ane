@@ -1,0 +1,7 @@
+{
+ "item": "h1_item033",
+ "quote": "recent and advanced visual trackers, including SiamRPN++~\\cite{siamrpn++}, ATOM~\\cite{atom}, DiMP~\\cite{dimp}, SiamFC++~\\cite{siamfc++}, SiamR-CNN~\\cite{siamrcnn} and SiamBAN",
+ "correct_answer": "SiamRPN++, ATOM, DiMP, SiamFC++, SiamR-CNN, SiamBAN",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are stated compared trackers."
+}

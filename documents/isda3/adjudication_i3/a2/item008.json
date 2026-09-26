@@ -1,0 +1,7 @@
+{
+ "item": "item008",
+ "quote": "Master Agreement dated as of [blank] between [blank] and [Volkswagen Auto Loan Enhanced Trust 200[ ] — [ ] [Volkswagen Auto Lease Trust 200[ ] — [ ] (\"Party A\") (\"Party B\")",
+ "correct_answer": "NONE (Party A is left blank)",
+ "verdict": "X",
+ "reason": "Party A's name is left blank in this form; the bracketed Volkswagen trusts are alternatives for Party B."
+}

@@ -1,0 +1,7 @@
+{
+  "item": "item015",
+  "quote": "\"Threshold Amount\" means in relation to Party A, an amount equal to 3% of Party A's shareholders' equity ..., and in relation to Party B, the greater of (i) USD 2,000,000 and (ii) an amount equal to 3% of Party B's shareholders' equity",
+  "correct_answer": "3% of Party A's shareholders' equity (Party A); greater of USD 2,000,000 and 3% of shareholders' equity (Party B)",
+  "verdict": "X",
+  "reason": "A Threshold Amount is stated, and under the rubric any stated Threshold Amount is acceptable, so USD 2,000,000 (Party B's floor amount) is acceptable while NONE is wrong."
+}

@@ -1,0 +1,80 @@
+{
+ "event": "A4B_RESULT",
+ "papers": 74,
+ "questions": 181,
+ "feasible_papers": 64,
+ "feasible_questions": 155,
+ "acc_all": {
+  "PIPE": 0.7182,
+  "PIPE_A4": 0.6243,
+  "BM25": 0.6796,
+  "NONE": 0.0
+ },
+ "acc_feasible": {
+  "PIPE": 0.7548,
+  "PIPE_A4": 0.6774,
+  "FULL": 0.8903,
+  "BM25": 0.729,
+  "NONE": 0.0
+ },
+ "ADMISSION": true,
+ "diff_pipe_full": -0.1355,
+ "diff_ci": [
+  -0.22360248447204978,
+  -0.052980132450331174
+ ],
+ "G_E2E": false,
+ "lat_median_diff": -26.69629418780096,
+ "lat_ci": [
+  -29.661545749753714,
+  -23.030018125195056
+ ],
+ "G_LAT": true,
+ "G_SWAP": true,
+ "pipe_minus_bm25": 0.0387,
+ "pipe_minus_bm25_ci": [
+  -0.06359305686248153,
+  0.13966480446927376
+ ],
+ "pipe_minus_pipeA4": 0.0939,
+ "pipe_minus_pipeA4_ci": [
+  0.021618715489683235,
+  0.1714439324116742
+ ],
+ "by_flag": {
+  "OK": {
+   "PIPE": [
+    0.7838,
+    111
+   ],
+   "PIPE_A4": [
+    0.6937,
+    111
+   ]
+  },
+  "TRUNCATED": {
+   "PIPE": [
+    0.6143,
+    70
+   ],
+   "PIPE_A4": [
+    0.5143,
+    70
+   ]
+  }
+ },
+ "pipe_cover": 0.8839779005524862,
+ "pipeA4_cover": 0.7679558011049724,
+ "dropped_pipe": 0,
+ "bm25_cover": 0.7348066298342542,
+ "median_s": {
+  "PIPE": 13.132309895940125,
+  "FULL": 39.16002285457216
+ },
+ "median_prompt_tokens": {
+  "PIPE": 5215.5,
+  "FULL": 19005.0,
+  "BM25": 6774.5
+ },
+ "verdict": "NOT PASS"
+}

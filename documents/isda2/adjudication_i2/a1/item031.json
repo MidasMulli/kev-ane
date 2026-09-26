@@ -1,0 +1,7 @@
+{
+ "item": "item031",
+ "quote": "Governing Law. The parties to this Agreement hereby agree that the law of the State of New York shall govern their rights and duties in whole",
+ "correct_answer": "State of New York",
+ "verdict": "both_acceptable",
+ "reason": "The Schedule elects the law of the State of New York; 'New York' and 'State of New York' mean the same thing."
+}

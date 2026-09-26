@@ -1,0 +1,7 @@
+{
+ "item": "h2_item037",
+ "quote": "\\title{Enhanced Training of Query-Based Object Detection via \\\\ Selective Query Recollection}",
+ "correct_answer": "Enhanced training of query-based object detection",
+ "verdict": "both_acceptable",
+ "reason": "Both give the same task with trivially different wording."
+}

@@ -1,0 +1,49 @@
+{
+ "event": "A4_RESULT",
+ "papers": 80,
+ "questions": 202,
+ "feasible_papers": 67,
+ "feasible_questions": 167,
+ "acc_all": {
+  "PIPE": 0.703,
+  "BM25": 0.6089,
+  "NONE": 0.0
+ },
+ "acc_feasible": {
+  "PIPE": 0.7066,
+  "FULL": 0.9102,
+  "BM25": 0.6347,
+  "NONE": 0.0
+ },
+ "ADMISSION": true,
+ "diff_pipe_full": -0.2036,
+ "diff_ci": [
+  -0.29824561403508765,
+  -0.11764705882352944
+ ],
+ "G_E2E": false,
+ "lat_median_diff": -32.67227083304897,
+ "lat_ci": [
+  -35.4633730831556,
+  -29.917011542245746
+ ],
+ "G_LAT": true,
+ "G_SWAP": true,
+ "pipe_minus_bm25": 0.0941,
+ "pipe_minus_bm25_ci": [
+  -0.019902985074626883,
+  0.20952380952380945
+ ],
+ "pipe_cover": 0.8861386138613861,
+ "bm25_cover": 0.5247524752475248,
+ "median_s": {
+  "PIPE": 10.011109625454992,
+  "FULL": 42.88071462512016
+ },
+ "median_prompt_tokens": {
+  "PIPE": 3382.0,
+  "FULL": 20433.0,
+  "BM25": 4664.5
+ },
+ "verdict": "NOT PASS"
+}

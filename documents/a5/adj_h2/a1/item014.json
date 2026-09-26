@@ -1,0 +1,1 @@
+{"item": "item014", "quote": "The experimental results demonstrate the superiority of BERT-based models on capturing aspect-based sentiment and their robustness to overfitting.", "correct_answer": "No limitations discussion is present.", "verdict": "both_acceptable", "reason": "The paper does not discuss its limitations, so 'no' and NONE are equivalent correct answers."}

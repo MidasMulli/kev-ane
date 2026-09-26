@@ -1,0 +1,7 @@
+{
+ "item": "item038",
+ "quote": "CounTX is evaluated on FSC-147 ...; evaluated qualitatively on a subset of CountBench; Val-COCO & Test-COCO ... subsets of COCO; CARPK",
+ "correct_answer": "FSC-147, CountBench, COCO subsets, CARPK, FSC-147-D descriptions",
+ "verdict": "both_acceptable",
+ "reason": "All listed datasets are used for evaluation."
+}

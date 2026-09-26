@@ -1,0 +1,7 @@
+{
+ "item": "h2_item019",
+ "quote": "we construct a subset of the Audioset containing $156416$ video segments. We refer to this subset as the \\texttt{AudioSetZSL}. ... & \\multicolumn{3}{c|}{\\textbf{SUN}} & \\multicolumn{3}{c|}{\\textbf{CUB}} & \\multicolumn{3}{c|}{\\textbf{AWA1}}& \\multicolumn{3}{c}{\\textbf{AWA2}}",
+ "correct_answer": "AudioSetZSL (AudioSet subset), SUN, CUB, AWA1, AWA2",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are evaluation datasets in the paper."
+}

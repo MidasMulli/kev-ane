@@ -1,0 +1,7 @@
+{
+ "item": "item034",
+ "quote": "The training process is driven by SGD on 8 GPUs with 128 image pairs per mini-batch for 20 epochs ... Our tracker is implemented on a PC with a GeForce GTX 1080Ti GPU using PyTorch.",
+ "correct_answer": "Training on 8 GPUs (type unstated); tracker run on a PC with one GeForce GTX 1080Ti",
+ "verdict": "both_acceptable",
+ "reason": "X correctly gives the run hardware and Y adds the stated 8-GPU training; both are supported by the text."
+}

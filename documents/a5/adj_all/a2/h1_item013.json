@@ -1,0 +1,7 @@
+{
+ "item": "h1_item013",
+ "quote": "DAVIS 2016 ..., SegTrackv2 ..., FBMS59 ...; salient object detection ... measured on the DUTS benchmark",
+ "correct_answer": "DAVIS 2016, SegTrackv2, FBMS59, DUTS",
+ "verdict": "both_acceptable",
+ "reason": "All listed datasets are used for evaluation."
+}

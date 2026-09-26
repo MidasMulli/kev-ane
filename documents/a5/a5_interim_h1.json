@@ -1,0 +1,611 @@
+{
+ "event": "A5_INTERIM",
+ "papers": 28,
+ "FUTILITY_STOP": false,
+ "n_questions": 336,
+ "agreement": 0.8273809523809523,
+ "disagreements": 58,
+ "kappa_a1_a2": 0.941,
+ "raw_agreement_a1_a2": 0.983,
+ "arbitrated": [
+  "item052"
+ ],
+ "table": [
+  {
+   "item": "item000",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item001",
+   "type": "Limitations",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item002",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item003",
+   "type": "Method name",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item004",
+   "type": "Datasets",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item005",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item006",
+   "type": "Parameters",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item007",
+   "type": "Limitations",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item008",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item009",
+   "type": "Headline result",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item010",
+   "type": "Main metric",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item011",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item012",
+   "type": "Limitations",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item013",
+   "type": "Datasets",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item014",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item015",
+   "type": "Hardware",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item016",
+   "type": "Training time",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item017",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item018",
+   "type": "Limitations",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item019",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item020",
+   "type": "Limitations",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item021",
+   "type": "Headline result",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item022",
+   "type": "Main metric",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item023",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item024",
+   "type": "Hardware",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item025",
+   "type": "Method name",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item026",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item027",
+   "type": "Main metric",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item028",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item029",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item030",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item031",
+   "type": "Parameters",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item032",
+   "type": "Training time",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item033",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item034",
+   "type": "Hardware",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item035",
+   "type": "Datasets",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item036",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item037",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item038",
+   "type": "Datasets",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item039",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item040",
+   "type": "Headline result",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item041",
+   "type": "Hardware",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item042",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item043",
+   "type": "Main metric",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item044",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item045",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item046",
+   "type": "Limitations",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item047",
+   "type": "Method name",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item048",
+   "type": "Headline result",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item049",
+   "type": "Hardware",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item050",
+   "type": "Method name",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item051",
+   "type": "Task",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item052",
+   "type": "Main metric",
+   "a1": "both_wrong",
+   "a2": "both_acceptable",
+   "a3": "both_acceptable",
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item053",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item054",
+   "type": "Limitations",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item055",
+   "type": "Datasets",
+   "a1": "both_wrong",
+   "a2": "both_wrong",
+   "a3": null,
+   "final": "both_wrong",
+   "winner": "both_wrong",
+   "score": 0
+  },
+  {
+   "item": "item056",
+   "type": "Baselines",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item057",
+   "type": "Parameters",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  }
+ ],
+ "pipe_only_correct": 3,
+ "full_only_correct": 5,
+ "split_against_pipe": 0,
+ "diff": -0.005952380952380952,
+ "diff_ci": [
+  -0.020833333333333332,
+  0.008928571428571428
+ ],
+ "G_E2E": true,
+ "lat_median_diff": -27.217768395785242,
+ "lat_ci": [
+  -33.65150504140183,
+  -21.54220210504718
+ ],
+ "G_LAT": true,
+ "verdict": "PASS"
+}

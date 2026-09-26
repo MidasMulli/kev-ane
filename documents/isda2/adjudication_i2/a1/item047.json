@@ -1,0 +1,7 @@
+{
+ "item": "item047",
+ "quote": "“Threshold Amount” means (i) with respect to Party A, 2% of the stockholders’ equity of Party A; and (ii) with respect to Party B, the lesser of USD10,000,000 and 2% of the Net Asset Value of the Party B Investor;",
+ "correct_answer": "2% of the stockholders' equity of Party A (Party B: lesser of USD10,000,000 and 2% of NAV of the Party B Investor)",
+ "verdict": "Y",
+ "reason": "The Schedule states a Threshold Amount, so NONE is wrong, and the rubric accepts any stated Threshold Amount, which includes USD10,000,000 in Party B's lesser-of formula."
+}

@@ -1,0 +1,7 @@
+{
+  "item": "item025",
+  "quote": "I129 opening: \"SCHEDULE to the MASTER AGREEMENT dated as of October 29, 2007 between CREDIT SUISSE INTERNATIONAL (\\\"Party A\\\") and TEXAS COMPETITIVE ELECTRIC HOLDINGS COMPANY LLC (\\\"Party B\\\")\" (no 1992 or 2002 form is named anywhere in the document)",
+  "correct_answer": "NONE",
+  "verdict": "Y",
+  "reason": "The Schedule-only document never states whether it is the 1992 or 2002 form (its Market Quotation election only hints at 1992), so NONE is correct under the answer-only-what-is-stated rule."
+}

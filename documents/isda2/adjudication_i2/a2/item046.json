@@ -1,0 +1,7 @@
+{
+ "item": "item046",
+ "quote": "2002 MASTER AGREEMENT dated as of March 18, 2011 (Schedule heading reads 'dated as of March 16, 2011'; Paragraph 13 references '2002 ISDA Master Agreement dated as of March 18, 2011')",
+ "correct_answer": "3/18/2011",
+ "verdict": "X",
+ "reason": "The Master Agreement's opening and the CSA Paragraph 13 both state March 18, 2011; the Schedule heading's March 16 is an isolated inconsistency."
+}

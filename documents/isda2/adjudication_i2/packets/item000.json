@@ -1,0 +1,8 @@
+{
+ "item": "item000",
+ "contract_file": "documents/isda2/adjudication_i2/texts/I46.txt",
+ "question": "Is this the 1992 or the 2002 ISDA Master Agreement?",
+ "X": "NONE",
+ "Y": "1992",
+ "rubric": "Rubric (fixed in advance; apply it exactly). The document is an ISDA Master Agreement and/or its Schedule.\n1. Find and QUOTE the Schedule text (or the Master Agreement's opening) that answers the question.\n2. The correct answer is what the document states for that election: Party A / Party B (legal names as defined); Agreement date (the\n   'dated as of' date); Form (1992 or 2002 ISDA Master Agreement); Governing law; Termination Currency; Cross Default (which party it\n   applies to); Threshold Amount (the first stated amount; any stated Threshold Amount is acceptable); Automatic Early Termination (which\n   party it applies to); Additional Termination Events (whether any are specified); Credit Support Annex (whether one forms part of the\n   agreement); Payment measure (Market Quotation / Loss / Close-out Amount as elected, or the form's default if the Schedule is silent\n   is NOT assumed: answer only what is stated). If the document states none of it, NONE is correct.\n3. Verdict, exactly one of: \"X\", \"Y\", \"both_wrong\", \"both_acceptable\" (same meaning, different wording, e.g. a defined short name and\n   the full legal name of the same party)."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item002",
+ "quote": "7. Term of Plan. The Plan shall become effective on March 26, 2008 and continue in effect, expiring at the close of business, pacific daylight time, on March 25, 2018.",
+ "correct_answer": "3/26/2008",
+ "verdict": "X",
+ "reason": "The plan has no 'made/dated as of' line or signature block, and the only date it gives for itself is its effective date, March 26, 2008, which matches X."
+}

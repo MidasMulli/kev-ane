@@ -1,0 +1,7 @@
+{
+ "item": "h2_item034",
+ "quote": "Triplet Semi-hard \\cite{facenet, song2016learnable} ... LiftedStruct \\cite{oh2016deep,song2016learnable} ... N-pairs \\cite{sohn2016improved}; also Triplet $\\ell_2^2$ \\cite{facenet}",
+ "correct_answer": "Triplet (semi-hard) loss, LiftedStruct, N-pairs (also Histogram, StructClustering)",
+ "verdict": "both_acceptable",
+ "reason": "Both lists match compared methods; triplet loss appears both as a plain and a semi-hard baseline."
+}

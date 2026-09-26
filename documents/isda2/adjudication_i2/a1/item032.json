@@ -1,0 +1,7 @@
+{
+ "item": "item032",
+ "quote": "(g) Governing Law. This Agreement and each Confirmation will be governed by, and construed and enforced in accordance with, the substantive law of the State of New York",
+ "correct_answer": "State of New York",
+ "verdict": "both_acceptable",
+ "reason": "The Schedule elects New York law, and both answers state that in equivalent wording."
+}

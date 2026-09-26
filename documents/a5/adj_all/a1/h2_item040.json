@@ -1,0 +1,7 @@
+{
+ "item": "h2_item040",
+ "quote": "Supervised Methods ... HBRNN\\cite{du2015hierarchical} & 64.0 ... Deep RNN \\cite{shahroudy2016ntu} & 64.1 ... Unsupervised Methods ... *Shuffle\\&Learn\\cite{misra2016shuffle}",
+ "correct_answer": "HBRNN, Deep RNN, Shuffle&Learn (among hand-crafted, supervised and unsupervised methods)",
+ "verdict": "Y",
+ "reason": "Y names specific compared baselines, whereas X lists only method categories and no baselines."
+}

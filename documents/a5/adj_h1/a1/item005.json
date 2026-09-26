@@ -1,0 +1,7 @@
+{
+ "item": "item005",
+ "quote": "LSTM with skip connections \\cite{DBLP:journals/corr/MelisDB17} & 24M & 60.9 & 58.3 \\\\ AWD-LSTM \\cite{merityRegOpt} & 24M & 60.0 & 57.3 \\\\ ... AWD-LSTM-MoS ... & 22M & 56.54 & 54.44",
+ "correct_answer": "AWD-LSTM, AWD-LSTM-MoS, LSTM with skip connections, AWD-LSTM + Fraternal Dropout",
+ "verdict": "both_acceptable",
+ "reason": "All listed items appear as compared baselines in the perplexity tables."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "h1_item034",
+ "quote": "The training process is driven by SGD on 8 GPUs ... Our tracker is implemented on a PC with a GeForce GTX 1080Ti GPU",
+ "correct_answer": "8 GPUs for training (type unspecified); one GTX 1080Ti PC for running",
+ "verdict": "both_acceptable",
+ "reason": "Both correctly give the 1080Ti; Y also adds the 8 training GPUs."
+}

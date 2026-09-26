@@ -1,0 +1,143 @@
+{
+ "pick": "P2",
+ "results": {
+  "P1": {
+   "hit": 0.9543726235741445,
+   "n": 263,
+   "median_tokens": 1024.0,
+   "per_type": {
+    "Governing Law": [
+     0.9902912621359223,
+     103
+    ],
+    "Agreement Date": [
+     0.9203539823008849,
+     113
+    ],
+    "Renewal Term": [
+     0.9259259259259259,
+     27
+    ],
+    "Notice Period To Terminate Renewal": [
+     1.0,
+     20
+    ]
+   }
+  },
+  "P2": {
+   "hit": 0.9809885931558935,
+   "n": 263,
+   "median_tokens": 1454.5,
+   "per_type": {
+    "Governing Law": [
+     0.9902912621359223,
+     103
+    ],
+    "Agreement Date": [
+     0.9646017699115044,
+     113
+    ],
+    "Renewal Term": [
+     1.0,
+     27
+    ],
+    "Notice Period To Terminate Renewal": [
+     1.0,
+     20
+    ]
+   }
+  },
+  "P3": {
+   "hit": 0.9847908745247148,
+   "n": 263,
+   "median_tokens": 1893.5,
+   "per_type": {
+    "Governing Law": [
+     0.9902912621359223,
+     103
+    ],
+    "Agreement Date": [
+     0.9734513274336283,
+     113
+    ],
+    "Renewal Term": [
+     1.0,
+     27
+    ],
+    "Notice Period To Terminate Renewal": [
+     1.0,
+     20
+    ]
+   }
+  },
+  "P4": {
+   "hit": 0.9619771863117871,
+   "n": 263,
+   "median_tokens": 2048.0,
+   "per_type": {
+    "Governing Law": [
+     0.9902912621359223,
+     103
+    ],
+    "Agreement Date": [
+     0.9292035398230089,
+     113
+    ],
+    "Renewal Term": [
+     0.9629629629629629,
+     27
+    ],
+    "Notice Period To Terminate Renewal": [
+     1.0,
+     20
+    ]
+   }
+  },
+  "P5": {
+   "hit": 0.9657794676806084,
+   "n": 263,
+   "median_tokens": 1513.0,
+   "per_type": {
+    "Governing Law": [
+     0.9902912621359223,
+     103
+    ],
+    "Agreement Date": [
+     0.9469026548672567,
+     113
+    ],
+    "Renewal Term": [
+     0.9259259259259259,
+     27
+    ],
+    "Notice Period To Terminate Renewal": [
+     1.0,
+     20
+    ]
+   }
+  },
+  "P6": {
+   "hit": 0.9809885931558935,
+   "n": 263,
+   "median_tokens": 1649.0,
+   "per_type": {
+    "Governing Law": [
+     0.9902912621359223,
+     103
+    ],
+    "Agreement Date": [
+     0.9646017699115044,
+     113
+    ],
+    "Renewal Term": [
+     1.0,
+     27
+    ],
+    "Notice Period To Terminate Renewal": [
+     1.0,
+     20
+    ]
+   }
+  }
+ }
+}

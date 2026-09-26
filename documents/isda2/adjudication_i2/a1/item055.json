@@ -1,0 +1,7 @@
+{
+  "item": "item055",
+  "quote": "Governing Law. This Agreement will be governed by and construed in accordance with the laws of the State of New York (without reference to choice of law doctrine).",
+  "correct_answer": "State of New York",
+  "verdict": "both_acceptable",
+  "reason": "Equal meaning: 'New York' and 'State of New York' name the same governing law."
+}

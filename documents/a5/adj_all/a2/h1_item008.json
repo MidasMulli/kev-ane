@@ -1,0 +1,7 @@
+{
+ "item": "h1_item008",
+ "quote": "\\title{Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer} ... We further showcase our framework to learn a generator of 3D textured shapes",
+ "correct_answer": "Differentiable rendering for predicting 3D objects (and 3D generation)",
+ "verdict": "both_acceptable",
+ "reason": "Both descriptions match the paper's differentiable renderer for 3D prediction and generation."
+}

@@ -1,0 +1,7 @@
+{
+  "item": "item054",
+  "quote": "\"Threshold Amount\" means, with respect to Morgan, an amount equal to three percent of the shareholders' equity of the applicable Relevant Entity (as defined below in Part 6).",
+  "correct_answer": "three percent of the shareholders' equity of the applicable Relevant Entity (Morgan)",
+  "verdict": "Y",
+  "reason": "The Schedule states a Threshold Amount of three percent of shareholders' equity, so Y is correct and NONE is wrong."
+}

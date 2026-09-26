@@ -1,0 +1,7 @@
+{
+ "item": "h2_item010",
+ "quote": "HMR \\cite{hmrKanazawa17} & 22.9 ... GraphCMR ... SPIN \\cite{kolotouros2019spin} & 22.2 ... DaNet \\cite{zhang2019danet} & 22.1 ... STRAPS \\cite{STRAPS2020BMVC} & 15.9",
+ "correct_answer": "HMR, GraphCMR, SPIN, DaNet, STRAPS (and VIBE)",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists appear as compared methods in the paper's SOTA tables."
+}

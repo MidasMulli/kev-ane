@@ -1,0 +1,7 @@
+{
+ "item": "item015",
+ "quote": "As of November 16, 2004 ... AGREED as of the date first above",
+ "correct_answer": "11/16/2004",
+ "verdict": "Y",
+ "reason": "The letter agreement is dated 'As of November 16, 2004' and agreed as of that date; December 6, 2004 is only the date on the attached release."
+}

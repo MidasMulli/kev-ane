@@ -1,0 +1,7 @@
+{
+ "item": "item042",
+ "quote": "SCHEDULE TO THE MASTER AGREEMENT DATED AS OF 22 APRIL 2005 BETWEEN SECURITISATION ADVISORY SERVICES PTY. LIMITED ... COMMONWEALTH BANK OF AUSTRALIA ... AND PERPETUAL TRUSTEE COMPANY LIMITED",
+ "correct_answer": "22 April 2005",
+ "verdict": "both_acceptable",
+ "reason": "Both answers give 22 April 2005 in different date formats, and neither is ambiguous because 22 cannot be a month."
+}

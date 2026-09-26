@@ -1,0 +1,7 @@
+{
+ "item": "h1_item013",
+ "quote": "Performance evaluations for unsupervised video object segmentation on DAVIS 2016, SegTrackv2 and FBMS59 datasets ... The salient object detection performance is measured on the DUTS benchmark",
+ "correct_answer": "DAVIS 2016, SegTrackv2, FBMS59 (also DUTS, VOC2012)",
+ "verdict": "both_acceptable",
+ "reason": "All listed datasets (including DUTS for saliency transfer) are used for evaluation."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item013",
+ "quote": "To: U.S. Bank National Association ... (\"Party B\")",
+ "correct_answer": "U.S. Bank National Association (as supplemental interest trust trustee)",
+ "verdict": "Y",
+ "reason": "U.S. Bank National Association is Party B."
+}

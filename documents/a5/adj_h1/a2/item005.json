@@ -1,0 +1,7 @@
+{
+ "item": "item005",
+ "quote": "LSTM with skip connections ... 24M ...; AWD-LSTM ...; AWD-LSTM-MoS ... (Table perplexities)",
+ "correct_answer": "AWD-LSTM, AWD-LSTM-MoS, LSTM with skip connections",
+ "verdict": "both_acceptable",
+ "reason": "All listed models are compared baselines in the perplexity tables."
+}

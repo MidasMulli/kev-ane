@@ -1,0 +1,7 @@
+{
+  "item": "item010",
+  "quote": "Part 4(f): \"Credit Support Document\" means in relation to Party A: Not Applicable. ... in relation to Party B: Any credit support annex, any Confirmation and any other document ... including ... the Credit Agreement and the Collateral Documents\"; ATE (ii): \"Party B shall not have executed an ISDA Credit Support Annex or arranged for other credit support\"",
+  "correct_answer": "no",
+  "verdict": "Y",
+  "reason": "The Schedule refers to a CSA only generically and as a possible future requirement (ATE), and no Credit Support Annex is stated to form part of the agreement; credit support is via the Credit Agreement and Collateral Documents."
+}

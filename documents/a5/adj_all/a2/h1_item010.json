@@ -1,0 +1,7 @@
+{
+ "item": "h1_item010",
+ "quote": "For the 10-shot setting, CME improves AP upon the baseline method MPSR by 5.3\\%",
+ "correct_answer": "AP (average precision)",
+ "verdict": "both_acceptable",
+ "reason": "Identical metric, differently worded."
+}

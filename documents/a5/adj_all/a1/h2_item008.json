@@ -1,0 +1,7 @@
+{
+ "item": "h2_item008",
+ "quote": "\\cite{kong2019weakly} - Small ... \\cite{wang2019comparison} - TALNet (exp. pooling) ... \\cite{ford2019deep} - ResNet-34 (Attention)",
+ "correct_answer": "Kong et al. (2019), Wang et al. (2019), Ford et al. (2019)",
+ "verdict": "both_acceptable",
+ "reason": "Both name the same three compared works; Y uses citation keys and X uses author-year form."
+}

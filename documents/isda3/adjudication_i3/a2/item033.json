@@ -1,0 +1,7 @@
+{
+ "item": "item033",
+ "quote": "governed by ... an ISDA Master Agreement (Multicurrency-Cross Border), in the form published by ISDA in 1992 ... ; Schedule B to the Confirmation dated as of February 7, 2007",
+ "correct_answer": "NONE (the Master Agreement is only deemed executed and has no 'dated as of' date; February 7, 2007 is the Confirmation's date)",
+ "verdict": "X",
+ "reason": "The Master Agreement is deemed, with no 'dated as of' date; February 7, 2007 is the Confirmation's date."
+}

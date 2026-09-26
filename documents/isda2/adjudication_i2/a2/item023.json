@@ -1,0 +1,7 @@
+{
+  "item": "item023",
+  "quote": "I36 Master Agreement opening: \"(Multicurrency-Cross Border) ISDA International Swap Dealers Association, Inc. MASTER AGREEMENT dated as of September 18, 2003\"; form footer: \"Copyright (c)1992 by International Swap Dealers Association, Inc.\"",
+  "correct_answer": "1992",
+  "verdict": "X",
+  "reason": "The agreement is on the 1992 ISDA Multicurrency-Cross Border form (copyright 1992, International Swap Dealers Association)."
+}

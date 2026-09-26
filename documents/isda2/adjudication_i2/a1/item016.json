@@ -1,0 +1,7 @@
+{
+  "item": "item016",
+  "quote": "\"(f) Credit Support Document. ... Credit Support Documents means in relation to Party A, none, and in relation to Party B, Section 6 of the Credit Agreement and each Security Document (as defined in the Credit Agreement).\"",
+  "correct_answer": "no",
+  "verdict": "Y",
+  "reason": "The credit support documents are the Credit Agreement guarantee section and Security Documents; no Credit Support Annex is referenced or made part of the agreement."
+}

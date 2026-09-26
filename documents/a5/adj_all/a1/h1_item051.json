@@ -1,0 +1,7 @@
+{
+ "item": "h1_item051",
+ "quote": "Generating novel, yet realistic, images of persons is a challenging task ... \\title{Disentangled Person Image Generation}",
+ "correct_answer": "Generating novel, realistic person images with disentangled control of foreground, background and pose",
+ "verdict": "both_acceptable",
+ "reason": "X quotes the abstract's task and Y the title; both correctly describe the addressed problem."
+}

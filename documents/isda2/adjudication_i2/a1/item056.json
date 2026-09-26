@@ -1,0 +1,7 @@
+{
+  "item": "item056",
+  "quote": "“Credit Support Document(s)” means, with respect to Party A, the Loan Documents ... and, with respect to Party B, none. [No Credit Support Annex is referenced anywhere in the document.]",
+  "correct_answer": "No Credit Support Annex forms part of the agreement (none stated)",
+  "verdict": "both_acceptable",
+  "reason": "The document never mentions a Credit Support Annex (credit support is via Loan Documents), so 'no' and 'NONE' both convey that no CSA forms part of the agreement."
+}

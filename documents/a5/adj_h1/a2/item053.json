@@ -1,0 +1,7 @@
+{
+ "item": "item053",
+ "quote": "We compare our method with PG$^2$ ...; sampling results ... baseline models, \\ie VAE and DCGAN",
+ "correct_answer": "PG2, VAE, DCGAN",
+ "verdict": "both_acceptable",
+ "reason": "Same items, differently typeset."
+}

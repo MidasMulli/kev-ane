@@ -1,0 +1,7 @@
+{
+ "item": "item046",
+ "quote": "\\section{Conclusion} ... The superior performances on three public facial image datasets and three X-ray datasets prove both the effectiveness and generalizability of the proposed method in multiple domains.",
+ "correct_answer": "No limitations discussion",
+ "verdict": "both_acceptable",
+ "reason": "The paper does not discuss its own limitations, so 'no' and 'NONE' (not stated) are equivalent correct answers."
+}

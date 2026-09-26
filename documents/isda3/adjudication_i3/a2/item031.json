@@ -1,0 +1,7 @@
+{
+ "item": "item031",
+ "quote": "GOVERNED BY, CONSTRUED, INTERPRETED, AND ENFORCED IN ACCORDANCE WITH THE LAW OF THE STATE OF NEW YORK",
+ "correct_answer": "State of New York",
+ "verdict": "both_acceptable",
+ "reason": "Both answers name the same law, worded differently."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item011",
+ "quote": "be for an initial one (1) year term commencing on the date of this Agreement, which term shall automatically be extended one calendar day for each calendar day that the Employee is employed by the Company after the date of this Agreement so that the remaining Employment Term shall always be one (1) year;",
+ "correct_answer": "One calendar day (daily rolling extension that keeps a constant one-year remaining term)",
+ "verdict": "both_wrong",
+ "reason": "The term extends by one calendar day for each day of employment, so each renewal is one day; 1 year is the constant remaining term, not the renewal length, and NONE ignores the stated extension."
+}

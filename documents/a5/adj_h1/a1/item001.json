@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "There is also a common phenomenon that the ZSL methods perform poorly on some unseen categories. We will investigate fine-grained / class-wise zero-shot learning in our future work.",
+ "correct_answer": "No dedicated limitations discussion (only future-work remarks)",
+ "verdict": "both_acceptable",
+ "reason": "The paper has no limitations discussion of its own method, so 'no' and 'NONE' (not stated) convey the same correct answer."
+}

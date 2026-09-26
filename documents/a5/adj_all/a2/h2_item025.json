@@ -1,0 +1,7 @@
+{
+ "item": "h2_item025",
+ "quote": "Mean absolute errors on the \\textsc{Qm9} dataset ... {\\textsc{Pro}} & {\\textsc{IMDB-Bin}} & \\!{\\textsc{IMDB-Mul}} & \\!{\\textsc{PTC-FM}} & \\!{\\textsc{NCI1}}",
+ "correct_answer": "QM9, Proteins, IMDB-Bin, IMDB-Mul, PTC-FM, NCI1, Mutag, PTC-MR",
+ "verdict": "both_acceptable",
+ "reason": "All listed datasets in both answers are used in the paper."
+}

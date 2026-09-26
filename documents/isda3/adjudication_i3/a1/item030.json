@@ -1,0 +1,7 @@
+{
+ "item": "item030",
+ "quote": "This letter constitutes a \"CONFIRMATION\" as referred to in the 1992 ISDA Master Agreement (Multicurrency-Cross Border) (Series 1 Class C) entered into between us",
+ "correct_answer": "1992",
+ "verdict": "X",
+ "reason": "The attached confirmation identifies the agreement as the 1992 ISDA Master Agreement; the '2002' in the document is only the dating year."
+}

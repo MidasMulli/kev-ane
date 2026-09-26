@@ -1,0 +1,7 @@
+{
+ "item": "item010",
+ "quote": "This Agreement will be governed by and construed in accordance with the laws of the State of New York",
+ "correct_answer": "New York law",
+ "verdict": "both_acceptable",
+ "reason": "Both answers mean New York law."
+}

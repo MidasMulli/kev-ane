@@ -1,0 +1,7 @@
+{
+ "item": "h1_item030",
+ "quote": "BERT-Base: a Transformer encoder model ... Linear encoder ... Random encoder ... Feed Forward-only (FF-only) encoder",
+ "correct_answer": "BERT, Linear, Random, FF-only (plus efficient Transformers on LRA)",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are stated comparison models."
+}

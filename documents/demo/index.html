@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contract Review · ANE × 27B</title>
+<style>
+:root{--bg:#070b10;--panel:#0d141c;--line:#1b2733;--txt:#cfe3ee;--dim:#6f8797;--cy:#2ee6f0;--gr:#3cf29a;--am:#f0b429;--rd:#ff5d6c;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Inter",sans-serif;padding:16px}
+h1{font-size:18px;margin:0;letter-spacing:.3px}h1 b{color:var(--cy)}h2{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;color:var(--dim);margin:0 0 10px;font-weight:600}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:14px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{font:12px var(--mono);padding:3px 8px;border:1px solid var(--line);border-radius:999px;color:var(--dim)}.chip i{color:var(--gr);font-style:normal}
+.grid{display:grid;grid-template-columns:300px 1fr;gap:14px}@media(max-width:900px){.grid{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;min-width:0}
+.list{max-height:360px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.item{padding:7px 10px;border-bottom:1px solid var(--line);cursor:pointer;font-size:12.5px;display:flex;justify-content:space-between;gap:8px}
+.item:hover{background:#101b25}.item.on{background:#0f2a30;box-shadow:inset 3px 0 var(--cy)}.item span{color:var(--dim);font:11px var(--mono);white-space:nowrap}
+.tag{color:var(--am)!important}.fr{color:var(--gr)!important}
+button{background:#0f2a30;color:var(--cy);border:1px solid #1d4c55;border-radius:8px;padding:8px 12px;font-weight:600;cursor:pointer;width:100%;margin-top:8px}
+button:hover{background:#12363d}button:disabled{opacity:.4;cursor:default}
+.row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}@media(max-width:700px){.row{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.kpi b{display:block;font:600 22px var(--mono);color:var(--cy)}.kpi small{color:var(--dim)}
+.strip{display:flex;flex-wrap:wrap;gap:2px;min-height:40px}.cell{width:10px;height:18px;border-radius:2px;background:#15212b;transition:background .15s}
+.cell.sel{outline:2px solid var(--cy);outline-offset:1px}
+.map{display:grid;grid-template-columns:1fr 1fr;gap:3px 18px}@media(max-width:700px){.map{grid-template-columns:1fr}}
+.mrow{display:grid;grid-template-columns:170px 1fr 40px;gap:8px;align-items:center;font-size:11.5px}.mrow .n{color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mrow.val .n{color:var(--txt);font-weight:600}.bar{position:relative;height:8px;background:#15212b;border-radius:4px;overflow:hidden}.bar b{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--am)}.bar i{display:block;height:100%;width:0;background:var(--dim);transition:width .15s}
+.mrow.on .bar i{background:var(--gr)}.mrow .v{font:11px var(--mono);color:var(--dim);text-align:right}
+.lanes{position:relative}.lane{display:grid;grid-template-columns:70px 1fr;align-items:center;gap:8px;margin:6px 0;font:12px var(--mono);color:var(--dim)}
+.track{position:relative;height:26px;background:#0a1118;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg{position:absolute;top:3px;bottom:3px;border-radius:4px;font:10px var(--mono);color:#001;display:flex;align-items:center;padding-left:4px;overflow:hidden;white-space:nowrap}
+.seg.ane{background:var(--cy)}.seg.gpu{background:var(--gr)}
+.axis{font:11px var(--mono);color:var(--dim);text-align:right}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.card{border:1px solid var(--line);border-radius:8px;padding:10px}.card .q{color:var(--dim);font-size:12px}.card .a{font:600 15px var(--mono);margin:4px 0}
+.card .g{font:12px var(--mono);color:var(--dim)}.ok{color:var(--gr)}.bad{color:var(--rd)}
+.stream{font:12px var(--mono);color:var(--gr);white-space:pre-wrap;min-height:20px}
+.ev{font:12px var(--mono);color:#9fb6c3;background:#0a1118;border:1px solid var(--line);border-radius:8px;padding:10px;max-height:220px;overflow:auto;white-space:pre-wrap}
+table{width:100%;border-collapse:collapse;font-size:12.5px}td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left}th{color:var(--dim);font-weight:600}
+td.m{font-family:var(--mono)}.note{color:var(--dim);font-size:12px;margin-top:8px}
+.stack{display:flex;flex-direction:column;gap:14px}
+
+.pipe{display:grid;grid-template-columns:1.25fr 44px 1fr 44px 1fr;align-items:stretch;gap:0;margin-top:12px}
+.pcol,.pchip{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#0a1118;position:relative;min-height:128px}
+.plab{font:600 11px var(--mono);letter-spacing:1.2px;color:var(--dim);text-transform:uppercase}
+.pbase{font:600 15px var(--mono);color:var(--txt);margin-top:4px}.psub{font:12px var(--mono);color:var(--dim);margin-top:6px}
+.pdoc{display:flex;flex-wrap:wrap;gap:2px;margin-top:8px}.pc{width:11px;height:15px;border-radius:2px;background:#15212b;transition:background .12s}
+.pc.sel{outline:2px solid var(--cy);outline-offset:1px}
+.parrow{display:flex;align-items:center;justify-content:center;font:20px var(--mono);color:#26404c}.parrow.on{color:var(--cy)}
+.pchip.ane{border-color:#1d4c55}.pchip.ane.busy{box-shadow:0 0 0 1px var(--cy),0 0 22px rgba(46,230,240,.25)}
+.pchip.gpu{border-color:#1f5a3e}.pchip.gpu.busy{box-shadow:0 0 0 1px var(--gr),0 0 22px rgba(60,242,154,.25)}
+.pslot{margin-top:8px;display:inline-block;font:600 14px var(--mono);padding:4px 10px;border-radius:7px;border:1px dashed #2a5561;color:var(--cy)}
+.pslot.swap{animation:swapk .9s ease}@keyframes swapk{0%{transform:scale(1);background:transparent}35%{transform:scale(1.12);background:rgba(46,230,240,.25)}100%{transform:scale(1);background:transparent}}
+.pgpuw{display:flex;flex-wrap:wrap;gap:2px;margin-top:8px;min-height:15px}.pg{width:11px;height:15px;border-radius:2px;background:var(--gr);opacity:.85}
+.fly{position:fixed;width:11px;height:15px;border-radius:2px;background:var(--cy);z-index:50;transition:left .7s cubic-bezier(.5,0,.3,1),top .7s cubic-bezier(.5,0,.3,1),opacity .7s;pointer-events:none}
+.plog{font:12.5px var(--mono);color:var(--dim);margin-top:10px;display:flex;flex-direction:column;gap:3px}.plog b{color:var(--txt);font-weight:600}.plog i{color:var(--cy);font-style:normal}.plog u{color:var(--gr);text-decoration:none}
+
+.pipe{position:relative;padding-bottom:44px}
+.pov{position:absolute;inset:0;pointer-events:none;overflow:visible;z-index:5}
+.pbus{position:absolute;left:0;right:0;bottom:0;height:16px;font:11px var(--mono);color:var(--dim);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .4s}
+.pbus.on{opacity:1}
+.pov path{fill:none;stroke-linecap:round}
+.pov .ptr{stroke:var(--cy);stroke-width:1.4;opacity:.85}
+.pov .xfer{stroke:var(--gr);stroke-width:1.6;opacity:.55}
+.pov .flow{stroke:#b9ffe0;stroke-width:2.2;opacity:.95}
+.pov .busl{stroke:#1f5a3e;stroke-width:2;opacity:.9}
+.pg{opacity:0;transform:scaleY(.2);transition:opacity .25s,transform .25s}.pg.in{opacity:.9;transform:none}
+</style></head><body>
+<header><h1>Contract Review · <b>ANE</b> map × <b style="color:var(--gr)">27B</b> answer</h1>
+<div class="chips"><span class="chip">base md5 <i id="md5">…</i></span><span class="chip">adapter <i id="adp">CUA</i></span><span class="chip">research config · private</span><span class="chip" id="exp" hidden style="color:var(--am);border-color:var(--am)">experiment running · runs paused</span></div></header>
+<div class="grid">
+ <div class="stack">
+  <div class="panel"><h2>Contracts</h2><div class="list" id="list"></div>
+   <button id="run">Review selected contract</button>
+   <button id="pipe">Pipeline: next 3 contracts (B2 overlap)</button>
+   <button id="swap">Adapter swap check (C)</button>
+   <div class="note">Amber = long contract (A-long set). Green = fresh public contract from the A'' test (no gold; the 27B answer is shown unscored). Evidence policy: top-3 windows per question (A'' P2). The demo claims nothing new.</div></div>
+ </div>
+ <div class="stack">
+  <div class="panel"><h2>Drop in a document (ISDA Master/Schedule, arXiv LaTeX, or any contract)</h2>
+   <textarea id="dtext" placeholder="Paste the full agreement text here, or choose a .txt / .pdf file below" style="width:100%;height:110px;background:#0a1118;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:8px;font:12px var(--mono)"></textarea>
+   <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px"><input type="file" id="dfile" accept=".txt,.pdf" style="color:var(--dim)"><button id="dgo" style="width:auto">Analyze</button><span class="note" id="dstat"></span></div>
+   <div class="pipe" id="pflow">
+    <div class="pcol"><div class="plab">document &middot; 256-token windows &nbsp;<span id="pdocs" style="text-transform:none;letter-spacing:0;font-weight:400;color:var(--txt)">waiting for a document</span></div><div class="pdoc" id="pdoc" style="margin-top:34px"></div></div>
+    <div class="parrow" id="pa1">&#9654;</div>
+    <div class="pchip ane" id="pane"><div class="plab">Apple Neural Engine</div><div class="pbase">Qwen3-0.6B base &middot; resident</div><div class="pslot" id="pslot">adapter: &ndash;</div><div class="psub" id="panes">idle</div></div>
+    <div class="parrow" id="pa2">&#9654;</div>
+    <div class="pchip gpu" id="pgpu"><div class="plab">GPU</div><div class="pbase">27B</div><div class="psub" id="pgpus">idle</div><div class="pgpuw" id="pgpuw"></div></div>
+    <svg class="pov" id="pov"></svg><div class="pbus" id="pbus"></div>
+   </div>
+   <div class="plog" id="plog"></div>
+   <div class="row" id="dtel" style="margin-top:10px;display:grid;grid-template-columns:repeat(5,1fr);gap:10px">
+    <div class="kpi"><small>adapter used</small><b id="dadp">–</b><small id="dadp2">bind ms</small></div>
+    <div class="kpi"><small>ANE windows read</small><b id="dkw">0</b><small id="dkw2">of 0 · 256 tokens each</small></div>
+    <div class="kpi"><small>ANE ms / window</small><b id="dkms">–</b><small id="dkms2">kevd-measured</small></div>
+    <div class="kpi"><small>27B reads</small><b id="dtok">–</b><small id="dtok2">tokens</small></div>
+    <div class="kpi"><small>end to end</small><b id="dtot">–</b><small id="dtot2">seconds</small></div>
+   </div>
+   <table id="dres" style="margin-top:10px"></table></div>
+  <div class="row" id="ckpi">
+   <div class="kpi"><small>ANE windows</small><b id="kw">0</b><small id="kw2">of 0</small></div>
+   <div class="kpi"><small>ANE ms / window</small><b id="kms">–</b><small>kevd-measured</small></div>
+   <div class="kpi"><small>27B reads</small><b id="ktok">–</b><small id="ktok2">tokens</small></div>
+   <div class="kpi"><small>End to end</small><b id="ktot">–</b><small id="ktot2">seconds</small></div>
+  </div>
+  <div class="panel"><h2>Contract, one cell per 256-token window (brightness = strongest value-clause score; outline = sent to the 27B)</h2><div class="strip" id="strip"></div></div>
+  <div class="panel"><h2>41-type clause map (live, max score over windows so far; green = at or above that type's DEV-fit threshold, the tick)</h2><div class="note" style="margin:-4px 0 10px">Descriptive only: this presence map measured micro-F1 0.685 on the A3 TEST set (RESULT_2026-09-24_A3_cuad_final.md). The four bold value types drive the answers; the 27B gets the top-3 windows for each asked type regardless of threshold.</div><div class="note" id="mapname" style="margin:-4px 0 8px;color:var(--cy)"></div><div class="map" id="map"></div></div>
+  <div class="panel"><h2>Timeline</h2><div class="lanes"><div class="lane">ANE<div class="track" id="tA"></div></div><div class="lane">27B GPU<div class="track" id="tG"></div></div><div class="axis" id="ax">0 s</div></div></div>
+  <div class="panel"><h2>Answers (27B, from the selected windows only)</h2><div class="stream" id="stream"></div><div class="cards" id="cards"></div></div>
+  <div class="panel"><h2>Evidence sent to the 27B</h2><div class="ev" id="ev">–</div></div>
+  <div class="panel"><h2>Measured results (filed)</h2><table id="cited"></table></div>
+  <div class="panel" id="swapP" hidden><h2>Adapter swap check</h2><table id="swapT"><tr><th>adapter</th><th>bind ms</th><th>hidden-state sha</th></tr></table><div class="note" id="swapN"></div></div>
+ </div>
+</div>
+<script>
+const $=id=>document.getElementById(id); let D=null, sel=null, T0=0, segs={}, maxT=10, TEXT="", WIN=[], busy=false;
+const VAL=["Governing Law","Agreement Date","Renewal Term","Notice Period To Terminate Renewal"];
+fetch("/contracts").then(r=>r.json()).then(d=>{D=d; $("md5").textContent=d.base_md5;
+ d.contracts.forEach((c,i)=>{const e=document.createElement("div"); e.className="item"; e.dataset.i=i;
+  e.innerHTML=`<div>${c.id.replace(/_/g," ").slice(0,48)}</div><span class="${c.long?"tag":(c.fresh?"fr":"")}">${(c.tokens/1000).toFixed(1)}k · ${c.questions}q</span>`;
+  e.onclick=()=>{document.querySelectorAll(".item").forEach(x=>x.classList.remove("on")); e.classList.add("on"); sel=i}; $("list").appendChild(e)});
+ document.querySelector(".item").click();
+ const m=$("map"); d.type_order.forEach((t,k)=>{const r=document.createElement("div"); r.className="mrow"+(VAL.includes(t)?" val":""); r.id="m"+k;
+  r.innerHTML=`<div class="n" title="${t}">${t}</div><div class="bar"><i></i><b style="left:${Math.min(99,d.tau[k]*100)}%"></b></div><div class="v">–</div>`; m.appendChild(r)});
+ const ct=$("cited"); ct.innerHTML="<tr><th>run</th><th>pipeline</th><th>full read</th><th>file</th></tr>";
+ for(const [k,v] of Object.entries(d.cited)){const p=v.PIPE_s?`${v.PIPE_s}s · ${v.PIPE_acc}`:(v.gain||v.finding); const f=v.FULL_s?`${v.FULL_s}s · ${v.FULL_acc}`:"";
+  ct.insertAdjacentHTML("beforeend",`<tr><td>${k}${v.verdict?`<div class="note">${v.verdict}</div>`:""}</td><td class="m">${p}</td><td class="m">${f}</td><td class="m note">${v.file}</td></tr>`)}});
+function reset(){ $("strip").innerHTML=""; $("cards").innerHTML=""; $("stream").textContent=""; $("ev").textContent="–"; $("tA").innerHTML=""; $("tG").innerHTML="";
+ ["kw","kms","ktok","ktot"].forEach(i=>$(i).textContent="–"); segs={}; maxT=10; T0=performance.now()/1000;
+ document.querySelectorAll(".mrow").forEach(r=>{r.classList.remove("on"); r.querySelector("i").style.width="0"; r.querySelector(".v").textContent="–"; r.dataset.m=0}); }
+const now=()=>performance.now()/1000-T0;
+function seg(lane,key,label,cls){const s=document.createElement("div"); s.className="seg "+cls; s.textContent=label; $(lane).appendChild(s); segs[key]={el:s,a:now(),b:null}; draw()}
+function end(key){if(segs[key]){segs[key].b=now(); draw()}}
+function draw(){const t=now(); maxT=Math.max(maxT,t*1.05); for(const s of Object.values(segs)){const b=s.b??t; s.el.style.left=(s.a/maxT*100)+"%"; s.el.style.width=Math.max(.3,(b-s.a)/maxT*100)+"%"}
+ $("ax").textContent=maxT.toFixed(1)+" s"}
+setInterval(()=>{if(busy)draw()},200);
+function chk(){fetch("/status").then(r=>r.json()).then(s=>{$("exp").hidden=!s.experiment_running})}; chk(); setInterval(chk,10000);
+let wms=[];
+function onEvent(o){
+ if(o.ev==="map_start"){ $("strip").innerHTML=""; for(let i=0;i<o.n_windows;i++){const c=document.createElement("div"); c.className="cell"; c.id="w"+i; $("strip").appendChild(c)}
+  document.querySelectorAll(".mrow").forEach(r=>{r.classList.remove("on"); r.querySelector("i").style.width="0"; r.querySelector(".v").textContent="–"; r.dataset.m=0});
+  $("mapname").textContent="now mapping: "+short(o.cid);
+  $("kw2").textContent="of "+o.n_windows; wms=[]; seg("tA","a"+o.cid,short(o.cid),"ane")}
+ if(o.ev==="window"){ wms.push(o.ms); $("kw").textContent=o.i+1; $("kms").textContent=(wms.reduce((a,b)=>a+b)/wms.length).toFixed(1);
+  const v=Math.max(...D.type_order.map((t,k)=>VAL.includes(t)?o.s[k]:0)); const c=$("w"+o.i); if(c) c.style.background=`rgba(46,230,240,${0.08+0.92*v})`;
+  o.s.forEach((x,k)=>{const r=$("m"+k); if(x>+r.dataset.m){r.dataset.m=x; r.querySelector("i").style.width=(x*100)+"%"; r.querySelector(".v").textContent=x.toFixed(2); if(x>=D.tau[k]) r.classList.add("on")}}) }
+ if(o.ev==="map_done"){ end("a"+o.cid); $("ev").textContent=o.evidence.map(e=>`[window ${e.i}]\n${e.text.trim()}`).join("\n\n...\n\n"); Object.values(o.selected).flat().forEach(j=>{const c=$("w"+j); if(c) c.classList.add("sel")}); }
+ if(o.ev==="llm_start"){ seg("tG","g"+o.cid,short(o.cid),"gpu"); $("stream").textContent="" }
+ if(o.ev==="llm_token"){ $("stream").textContent+=o.t }
+ if(o.ev==="llm_done"){ end("g"+o.cid); $("ktok").textContent=o.prompt_tokens??"–";
+  o.answers.forEach(a=>$("cards").insertAdjacentHTML("beforeend",`<div class="card"><div class="q">${a.q} <span class="note">${short(o.cid)}</span></div><div class="a ${a.ok===null?"":(a.ok?"ok":"bad")}">${a.pred??"NONE"} ${a.ok===null?"":(a.ok?"✓":"✗")}</div><div class="g">gold: ${a.gold}</div></div>`)) }
+ if(o.ev==="done"){ $("ktot").textContent=o.total_s.toFixed(2); $("ktot2").textContent=`s (ANE ${o.ane_s.toFixed(2)} + 27B ${o.llm_s.toFixed(2)})`;
+  $("ktok2").textContent=`tokens, vs ${o.full_tokens.toLocaleString()} for the whole contract`;
+}
+ if(o.ev==="pipe_done"){ $("ktot").textContent=o.wall_s.toFixed(2); $("ktot2").textContent="s wall, 3 contracts pipelined (B2 measured +46% vs sequential)" }
+ if(o.ev==="swap"){ $("swapT").insertAdjacentHTML("beforeend",`<tr><td class="m">${o.adapter}</td><td class="m">${o.bind_ms.toFixed(1)}</td><td class="m">${o.hs_sha}</td></tr>`); $("adp").textContent=o.adapter }
+ if(o.ev==="swap_done"){ $("swapN").innerHTML=`three distinct outputs: <b class="${o.distinct?"ok":"bad"}">${o.distinct}</b> · back to CUA bitwise identical: <b class="${o.roundtrip_identical?"ok":"bad"}">${o.roundtrip_identical}</b> · base weights unchanged: <b class="${o.base_md5_unchanged?"ok":"bad"}">${o.base_md5_unchanged}</b>`; $("adp").textContent="CUA" }
+ if(o.ev==="error"){ $("stream").textContent="error: "+o.msg }
+}
+function short(cid){return cid.split(/[_ -]/)[0].slice(0,14)}
+function stream(url,after){ if(busy) return; busy=true; ["run","pipe","swap"].forEach(b=>$(b).disabled=true); const es=new EventSource(url);
+ es.onmessage=e=>{const o=JSON.parse(e.data); onEvent(o); if(["done","pipe_done","swap_done","error"].includes(o.ev)){es.close(); busy=false; ["run","pipe","swap"].forEach(b=>$(b).disabled=false); draw(); after&&after(o)}};
+ es.onerror=()=>{es.close(); busy=false; ["run","pipe","swap"].forEach(b=>$(b).disabled=false)} }
+$("run").onclick=()=>{reset(); stream("/run?cid="+encodeURIComponent(D.contracts[sel].id))};
+$("pipe").onclick=()=>{reset(); const ids=[0,1,2].map(k=>D.contracts[(sel+k)%D.contracts.length].id); stream("/pipeline?cids="+encodeURIComponent(ids.join("|")))};
+$("swap").onclick=()=>{$("swapP").hidden=false; $("swapT").innerHTML="<tr><th>adapter</th><th>bind ms</th><th>hidden-state sha</th></tr>"; stream("/swap")};
+
+function offIn(el, anc){ let x=0, y=0, e=el; while(e && e!==anc){ x+=e.offsetLeft; y+=e.offsetTop; e=e.offsetParent } return {x, y, w: el.offsetWidth, h: el.offsetHeight} }
+const SVGNS="http://www.w3.org/2000/svg";
+function mkPath(d, cls){ const p=document.createElementNS(SVGNS,"path"); p.setAttribute("d",d); p.setAttribute("class",cls); $("pov").appendChild(p); return p }
+function drawOn(p, ms, delay){ const L=p.getTotalLength(); p.style.strokeDasharray=L; p.style.strokeDashoffset=L; p.getBoundingClientRect(); setTimeout(()=>{ p.style.transition=`stroke-dashoffset ${ms}ms cubic-bezier(.45,.05,.25,1)`; p.style.strokeDashoffset=0 }, delay) }
+function pulse(p, ms, delay, done){ const L=p.getTotalLength(), seg=Math.min(40, L*.18); p.style.strokeDasharray=`${seg} ${L}`; p.style.strokeDashoffset=seg; p.style.opacity=0;
+  setTimeout(()=>{ p.style.opacity=.95; p.style.transition=`stroke-dashoffset ${ms}ms cubic-bezier(.4,0,.2,1)`; p.style.strokeDashoffset=-L; setTimeout(()=>{ p.style.transition="opacity .3s"; p.style.opacity=0; done&&done() }, ms) }, delay) }
+function hl(t,ans){ const e=t.replace(/&/g,"&amp;").replace(/</g,"&lt;"); if(!ans||ans==="NONE") return e; const w=String(ans).split(/\s+/).slice(0,3).join(" ").replace(/[.*+?^${}()|[\]\\]/g,"\\$&"); if(w.length<2) return e; return e.replace(new RegExp(w,"i"),m=>`<mark style="background:#1f6f5c;color:#e8fff6">${m}</mark>`) }
+document.addEventListener("toggle",ev=>{ const m=ev.target.querySelector&&ev.target.querySelector("mark"); if(ev.target.open&&m){ const box=m.closest(".ev"); box.scrollTop=Math.max(0,m.offsetTop-box.offsetTop-50) } },true);
+async function readFile(f){ if(!f) return {}; if(f.name.toLowerCase().endsWith(".pdf")){ const b=new Uint8Array(await f.arrayBuffer()); let s=""; for(let i=0;i<b.length;i++) s+=String.fromCharCode(b[i]); return {pdf_b64: btoa(s)} } return {text: await f.text()} }
+$("dgo").onclick = async ()=>{ if(busy) return; const f=$("dfile").files[0]; const payload = f ? await readFile(f) : {text: $("dtext").value};
+ busy=true; $("dgo").disabled=true; $("dres").innerHTML=""; $("dstat").textContent="sending..."; ["dadp","dkms","dtok","dtot"].forEach(i=>$(i).textContent="–"); $("dkw").textContent="0"; $("dtot2").textContent="seconds"; $("dkms2").textContent="kevd-measured"; $("dtok2").textContent="tokens"; $("dadp2").textContent="bind ms"; let dms=[], dane=0, dkind="", dad="", dbind="", dn=0, dsel=0; $("pdoc").innerHTML=""; $("pgpuw").innerHTML=""; $("pov").innerHTML=""; $("pbus").classList.remove("on"); $("pgpus").textContent="idle"; $("pa1").classList.remove("on"); $("pa2").classList.remove("on"); { let n=$("dtext").closest(".panel").nextElementSibling; while(n){ n.style.display="none"; n=n.nextElementSibling } }
+ const r = await fetch("/analyze",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)}); const rd=r.body.getReader(); const dec=new TextDecoder(); let buf="";
+ while(true){ const {done,value}=await rd.read(); if(done) break; buf+=dec.decode(value,{stream:true}); let i;
+  while((i=buf.indexOf("\n\n"))>=0){ const line=buf.slice(0,i); buf=buf.slice(i+2); if(!line.startsWith("data:")) continue; const o=JSON.parse(line.slice(5));
+   if(o.ev==="doc"){ $("dstat").textContent=`${o.kind==="arxiv"?"arXiv paper (LaTeX)":(o.isda?"ISDA Master/Schedule":"contract")} detected · adapter ${o.adapter} · ${o.tokens.toLocaleString()} tokens · ${o.windows} windows`; $("dkw2").textContent=`of ${o.windows} · 256 tokens each`; dkind=o.kind==="arxiv"?"arXiv paper":(o.isda?"ISDA Schedule":"contract"); dn=o.windows; $("pdoc").innerHTML=Array.from({length:o.windows},(_,k)=>`<div class="pc" id="pc${k}"></div>`).join(""); $("pdocs").textContent=`${dkind} · ${o.tokens.toLocaleString()} tokens · ${o.windows} windows`; $("dtok2").textContent=`tokens, vs ${o.tokens.toLocaleString()} in the document` }
+   if(o.ev==="bind"){ $("adp").textContent=o.adapter; $("dadp").textContent=o.adapter; const m=/BOUND\s+([\d.]+)/.exec(o.reply||""); $("dadp2").textContent=m?`bound in ${(+m[1]).toFixed(0)} ms, base unchanged`:"bind"; dad=o.adapter; dbind=m?(+m[1]).toFixed(0):"?"; const sl=$("pslot"); sl.textContent=`adapter: ${o.adapter}`; sl.classList.remove("swap"); void sl.offsetWidth; sl.classList.add("swap"); $("panes").textContent=`swapped in ${dbind} ms · base weights untouched` }
+   if(o.ev==="rebind"){ const m=/BOUND\s+([\d.]+)/.exec(o.reply||""); const sl=$("pslot"); sl.textContent="adapter: CUA"; sl.classList.remove("swap"); void sl.offsetWidth; sl.classList.add("swap"); window._rtxt=`then default CUA restored in ${m?(+m[1]).toFixed(0):"?"} ms`; $("panes").textContent=window._rtxt; $("adp").textContent="CUA" }
+   if(o.ev==="progress"){ $("dstat").textContent=`ANE reading window ${o.i}/${o.n} (${o.ms.toFixed(1)} ms each)`; dms.push(o.ms); $("dkw").textContent=o.i; $("dkms").textContent=(dms.reduce((a,b)=>a+b)/dms.length).toFixed(1); $("pane").classList.add("busy"); $("pa1").classList.add("on"); const c=$("pc"+(o.i-1)); if(c){ const a=Math.max(.12,Math.min(1,o.score)); c.style.background=`rgba(46,230,240,${a})` } $("panes").textContent=`reading window ${o.i}/${o.n} · ${o.ms.toFixed(1)} ms each` }
+   if(o.ev==="mapped"){ dane=o.ane_s; $("dstat").textContent=`ANE map done in ${o.ane_s.toFixed(1)} s · ${o.evidence_windows} windows sent to the 27B`; $("dkms2").textContent=`kevd-measured · map ${o.ane_s.toFixed(1)} s`; dsel=o.chosen.length; $("pane").classList.remove("busy"); $("pa1").classList.remove("on"); $("panes").innerHTML=`${dad} read the map in ${o.ane_s.toFixed(1)} s · picked ${dsel} of ${o.n} windows` + (window._rtxt?`<br>${window._rtxt}`:""); window._rtxt=""; $("pa2").classList.add("on"); $("pgpu").classList.add("busy"); $("pgpus").textContent=`reading ${dsel} windows the ANE picked…`; const pipe=$("pflow"); $("pov").innerHTML=""; const PW=pipe.offsetWidth, PH=pipe.offsetHeight; $("pov").setAttribute("viewBox",`0 0 ${PW} ${PH}`); $("pov").setAttribute("width",PW); $("pov").setAttribute("height",PH);
+     const ane=offIn($("pane"),pipe), gpu=offIn($("pgpu"),pipe), busY=PH-24, ax=ane.x, ay=offIn($("pdoc"),pipe).y-16, gx=gpu.x+gpu.w*0.5, gy=gpu.y+gpu.h;
+     const bus=mkPath(`M ${offIn($("pdoc"),pipe).x} ${busY} L ${gx} ${busY}`,"busl"); drawOn(bus,700,0);
+     $("pgpuw").innerHTML=o.chosen.map(()=>'<div class="pg"></div>').join(""); const slots=[...$("pgpuw").children];
+     $("pbus").textContent=`ANE returns hidden states · host scores and selects ${dsel} windows · GPU receives excerpt text + questions`; $("pbus").classList.add("on");
+     o.chosen.forEach((j,k)=>{ const c=$("pc"+j); if(!c) return; const r=offIn(c,pipe), cx=r.x+r.w/2, top=r.y, bot=r.y+r.h;
+       setTimeout(()=>c.classList.add("sel"), 120+k*28);
+       const topY=offIn($("pdoc"),pipe).y-2, lift=10+((ax-cx)/(ax-offIn($("pdoc"),pipe).x))*14; const ptr=mkPath(`M ${ax} ${ay} C ${ax-50} ${ay-6}, ${cx+50} ${topY-lift}, ${cx} ${top-1}`,"ptr"); drawOn(ptr,520,k*28); setTimeout(()=>{ ptr.style.transition="opacity .6s"; ptr.style.opacity=.18 }, 1500+k*10);
+       const dx=Math.min(cx+18+k*2, gx-30);
+       const xd=`M ${cx} ${bot+1} C ${cx} ${busY-6}, ${cx+6} ${busY}, ${cx+22} ${busY} L ${gx-26} ${busY} C ${gx-8} ${busY}, ${gx} ${busY-6}, ${gx} ${gy+2}`;
+       const xp=mkPath(xd,"xfer"); drawOn(xp,700,700+k*55); const fl=mkPath(xd,"flow"); pulse(fl,900,1100+k*55,()=>{ if(slots[k]) slots[k].classList.add("in") }) }) }
+   if(o.ev==="answers"){ $("dstat").textContent=`done in ${o.total_s.toFixed(1)} s · the 27B read ${o.prompt_tokens.toLocaleString()} tokens instead of ${o.full_tokens.toLocaleString()}`; $("dtok").textContent=o.prompt_tokens.toLocaleString(); $("dtot").textContent=o.total_s.toFixed(1); $("dtot2").textContent=`s (ANE ${dane.toFixed(1)} + 27B ${o.llm_s.toFixed(1)})`; $("pgpu").classList.remove("busy"); $("pa2").classList.remove("on"); [...$("pov").children].forEach(p=>{ p.style.transition="opacity .8s"; p.style.opacity=p.classList.contains("busl")?.5:.12 }); $("pgpus").textContent=`read ${o.prompt_tokens.toLocaleString()} of ${o.full_tokens.toLocaleString()} tokens · ${o.answers.length} answers in ${o.llm_s.toFixed(1)} s`;
+     const L=document.createElement("div"); L.innerHTML=`<b>${$("plog").children.length+1}. ${dkind}</b> &nbsp;<i>${dad} swapped in ${dbind} ms</i> &rarr; ANE read ${dn} windows in ${dane.toFixed(1)} s, sent ${dsel} &rarr; <u>27B read ${o.prompt_tokens.toLocaleString()} of ${o.full_tokens.toLocaleString()} tokens, ${o.answers.length} answers</u> &middot; ${o.total_s.toFixed(1)} s total`; $("plog").appendChild(L);
+     $("dres").innerHTML="<tr><th>question</th><th>answer</th><th>evidence</th></tr>"+o.answers.map(a=>`<tr><td>${a.q}</td><td class="m ${a.answer?"ok":""}">${a.answer??"NONE"}</td><td><details><summary class="note">${a.grounded?"✓ show clause":"show clause"} <span style="opacity:.7">· ${a.cite_note||""}</span></summary><div class="ev" style="max-height:160px">${hl(a.cite,a.answer)}</div></details></td></tr>`).join(""); $("adp").textContent="CUA" }
+   if(o.ev==="error") $("dstat").textContent="error: "+o.msg }}
+ busy=false; $("dgo").disabled=false };
+</script></body></html>

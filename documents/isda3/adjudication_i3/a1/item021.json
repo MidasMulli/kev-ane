@@ -1,0 +1,7 @@
+{
+ "item": "item021",
+ "quote": "(no Termination Currency election appears in the Schedule)",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The document states no Termination Currency, so NONE is correct and 'USD' is unsupported."
+}

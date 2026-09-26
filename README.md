@@ -143,11 +143,28 @@ library validation off (`amfi_get_out_of_my_way=1`) to ad-hoc sign the four priv
 the bind needs, and SIP off to stage artifacts under the AppleIntelligence trusted path. Nothing in
 `mutable/` runs on a stock Mac; the gates in this top-level repo have no such requirement.
 
+## Documents: the base picks the windows, a 27B reads them
+
+[`documents/`](documents/) puts the mutable base to work on long documents. A 9.2 MB domain adapter (contracts, ISDA, arXiv) is bound,
+the base returns hidden states for every 256-token window on the ANE, a host head scores them and picks the windows each question needs, and only their text goes to a
+27B on the GPU. Pre-registered, against the 27B reading the whole document. Contract, ISDA and paper-profile comparisons use blind
+Claude-subagent adjudication of disagreements; A4/A4b use anchored Papers with Code gold. Disagreement-only adjudication estimates
+PIPE - FULL; it does not establish either arm's absolute accuracy, since shared answers can be wrong.
+
+| | PIPE - FULL (95% CI) | cost | verdict |
+|---|---|---|---|
+| ISDA elections, 56 fresh EDGAR docs, 672 questions | -0.019 [-0.036, -0.004] | about half the tokens | PASS |
+| arXiv paper profile, 56 fresh papers, 672 questions | -0.010 [-0.027, +0.004] | 1/3 the tokens, 2.4x faster | PASS |
+| arXiv single table number (two designs) | -0.204, then -0.136 | | NOT PASS |
+| contract values, 200 fresh contracts, 800 questions | -0.011 [-0.021, -0.001] | 3.6x faster | PASS |
+
+Pipelining the next map under the current answer: +46% throughput. The adapters, training and test harnesses, raw run logs,
+adjudication records and a live uncut video are in [`documents/`](documents/README.md), with what each result does not claim.
+
 ## Relationship to ane-mutable-adapters
 
 [`MidasMulli/ane-mutable-adapters`](https://github.com/MidasMulli/ane-mutable-adapters) hot-swaps
-a LoRA adapter over a frozen resident base on the ANE. **This repo is the other half, and they do
-not compose today:**
+a LoRA adapter over a frozen resident base on the ANE. **The top-level port here is the other half:**
 
 | | mutable adapter slots | live schema |
 |---|---|---|
@@ -156,9 +173,11 @@ not compose today:**
 
 **These are two different capabilities, and it is easy to run them together.** Changing the
 *schema* needs no weight change at all — in this repo schemas are request inputs, so a different
-question set, option count or branch layout is already just a different `cos`/`sin`/`neg`. What
-does not exist in either repo is the **combination**: swapping the adapter live, on a resident
-base, while schemas stay request-dependent. That is the missing piece, not schema switching.
+question set, option count or branch layout is represented through the embedded input x and corresponding
+`cos`/`sin`/`neg` inputs, within the compiled shape limits. The
+**combination**, swapping the adapter live on a resident base while schemas stay request inputs,
+is what [`mutable/`](mutable/) builds (2026-09-22), and what [`documents/`](documents/) uses. The top-level
+gates above still run on the merged, non-mutable port and need no unlocked machine.
 
 ## Credit
 

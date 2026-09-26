@@ -1,0 +1,7 @@
+{
+ "item": "h2_item001",
+ "quote": "A \\cite{afouras2018deep}* & - & 9.7 \\\\ A \\cite{sterpu2018attention} & 14.3 & 29.9 \\\\ V \\cite{Chung17cvpr} ... The audio-visual system using early fusion leads to an improvement over the audio-only models of 1.3\\% and 0.8\\% in WER and CER",
+ "correct_answer": "Afouras et al. (2018), Sterpu et al. (2018), Chung et al. (2017); the AV model is also compared to audio-only and visual-only models.",
+ "verdict": "both_acceptable",
+ "reason": "Y lists the external baselines in Table 1, and X's audio-only/visual-only models plus Afouras are also stated comparison points."
+}

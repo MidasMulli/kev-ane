@@ -1,0 +1,7 @@
+{
+ "item": "h2_item041",
+ "quote": "\\href{https://github.com/Mikexu007/AS_CAL}{https://github.com/Mikexu007/AS-CAL}",
+ "correct_answer": "https://github.com/Mikexu007/AS_CAL (link target; displayed text reads AS-CAL)",
+ "verdict": "both_acceptable",
+ "reason": "The paper contains both strings, the displayed text (AS-CAL) and the hyperlink target (AS_CAL)."
+}

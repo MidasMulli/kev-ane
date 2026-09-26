@@ -1,0 +1,7 @@
+{
+ "item": "h2_item018",
+ "quote": "The artifacts are on GitHub and Huggingface: single-task benchmark\\citep{webapp1k-dataset}, dual-task benchmark\\citep{webapp1kduo-dataset}, and the leaderboard\\citep{webapp1k-leaderboard}.",
+ "correct_answer": "Yes, the artifacts are released on GitHub and Huggingface, e.g. https://huggingface.co/datasets/onekq-ai/WebApp1K-React (the URL appears through the paper's citation of its own artifact)",
+ "verdict": "Y",
+ "reason": "The paper says its own artifacts are released and cites the Huggingface URL that Y gives, so NONE is wrong, although the released artifact is a benchmark and not strictly code."
+}

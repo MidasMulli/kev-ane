@@ -1,0 +1,7 @@
+{
+ "item": "h2_item004",
+ "quote": "The advantage of our method is evident and our experimental result on benchmark datasets shows significant performance gain over existing methods (e.g. all state-of-the-art results on MNIST, CIFAR-10, CIFAR-100, and SVHN).",
+ "correct_answer": "NONE - the abstract states no number, only qualitative state-of-the-art claims.",
+ "verdict": "Y",
+ "reason": "The abstract contains no quantitative figure, so NONE is correct and X gives no number."
+}

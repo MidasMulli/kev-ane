@@ -1,0 +1,7 @@
+{
+ "item": "item055",
+ "quote": "(h) Governing Law. This Agreement will be governed by and construed in accordance with the laws of the State of New York (without reference to choice of law doctrine).",
+ "correct_answer": "New York (State of New York)",
+ "verdict": "both_acceptable",
+ "reason": "Part 4(h) elects the laws of the State of New York, and both answers mean the same thing."
+}

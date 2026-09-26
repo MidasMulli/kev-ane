@@ -1,0 +1,7 @@
+{
+ "item": "h2_item020",
+ "quote": "We report the mean class accuracy (\\% mAcc) for the classification task and the mean average precision (\\% mAP) for the retrieval tasks. ... The harmonic mean HM of S and U indicates how well the system performs on both seen and unseen categories on average.",
+ "correct_answer": "Mean class accuracy (mAcc) for classification, reported as S, U and harmonic mean HM; mAP for retrieval",
+ "verdict": "both_acceptable",
+ "reason": "Mean class accuracy is the metric, and HM of seen and unseen accuracy is the headline aggregate; both are stated."
+}

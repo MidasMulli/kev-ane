@@ -1,0 +1,7 @@
+{
+ "item": "item009",
+ "quote": "[Volkswagen Auto Loan Enhanced Trust 200[ ]-[ ]] [Volkswagen Auto Lease Trust 200[ ]-[ ]] (\"Party B\")",
+ "correct_answer": "Party B is a bracketed alternative: Volkswagen Auto Loan Enhanced Trust 200[ ]-[ ] or Volkswagen Auto Lease Trust 200[ ]-[ ]",
+ "verdict": "both_acceptable",
+ "reason": "The form lists both trusts as bracketed alternatives for Party B, so each answer names a Party B the document states."
+}

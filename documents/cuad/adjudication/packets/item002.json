@@ -1,0 +1,8 @@
+{
+ "item": "item002",
+ "contract_file": "documents/cuad/adjudication/texts/F06_a659855f26f29dd0.txt",
+ "question": "What is the date of this agreement?",
+ "X": "3/26/2008",
+ "Y": "NONE",
+ "rubric": "Rubric (fixed in advance; apply it exactly):\n1. Find and QUOTE the sentence(s) in the contract that answer the question.\n2. The correct answer is what that sentence states:\n   - Governing law = the jurisdiction named in the governing-law clause.\n   - Agreement date = the date the agreement states it is made, entered into, or dated as of (opening paragraph first; a\n     signature-block date only if the opening gives none).\n   - Renewal term = the length of each renewal period.\n   - Non-renewal notice = the advance notice a party must give to prevent the agreement from renewing.\n   If the contract states none of it, NONE is the correct answer.\n3. Verdict, exactly one of: \"X\" (only X correct), \"Y\" (only Y correct), \"both_wrong\", \"both_acceptable\" (same meaning, different wording)."
+}

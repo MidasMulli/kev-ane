@@ -1,0 +1,7 @@
+{
+ "item": "h1_item014",
+ "quote": "CIS ... MG ... (Table); We compare the pretrained model to ... MoCo-v2 ... and TimeCycle",
+ "correct_answer": "CIS, MG, MoCo-v2, TimeCycle",
+ "verdict": "both_acceptable",
+ "reason": "All listed methods are compared."
+}

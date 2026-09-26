@@ -1,0 +1,7 @@
+{
+ "item": "h2_item041",
+ "quote": "\\href{https://github.com/Mikexu007/AS_CAL}{https://github.com/Mikexu007/AS-CAL}",
+ "correct_answer": "https://github.com/Mikexu007/AS_CAL (href target), displayed as https://github.com/Mikexu007/AS-CAL",
+ "verdict": "both_acceptable",
+ "reason": "The paper states both strings (the link target uses an underscore and the displayed text a hyphen), so each answer matches the paper's text."
+}

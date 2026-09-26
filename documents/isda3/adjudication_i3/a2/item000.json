@@ -1,0 +1,7 @@
+{
+ "item": "item000",
+ "quote": "(Multicurrency – Cross Border) ISDA International Swaps and Derivatives Association, Inc. SCHEDULE to the Master Agreement dated as of November 15, 2004",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "The document never states a 1992 or 2002 form year, so under the stated-only rule NONE is correct."
+}

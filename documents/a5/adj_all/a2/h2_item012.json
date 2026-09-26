@@ -1,0 +1,7 @@
+{
+ "item": "h2_item012",
+ "quote": "& & P & R & F1 & P & R & F1 ... we conduct model selection on the development set for very 100 steps according to the micro-averaged F1 score.",
+ "correct_answer": "F1 (micro-averaged), with precision and recall",
+ "verdict": "both_acceptable",
+ "reason": "Both name the F1 metric."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item033",
+ "quote": "This letter agreement constitutes the sole and complete \"Confirmation\" ... as well as a \"Schedule\" ...; Schedule B to the Confirmation dated as of February 7, 2007",
+ "correct_answer": "February 7, 2007",
+ "verdict": "Y",
+ "reason": "The agreement is formed by the confirmation/Schedule dated as of February 7, 2007 (the deemed 1992 Master Agreement has no separate date)."
+}

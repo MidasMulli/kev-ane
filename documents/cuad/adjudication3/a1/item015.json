@@ -1,0 +1,7 @@
+{
+ "item": "item015",
+ "quote": "As of November 16, 2004 ... AGREED as of the date first above Written",
+ "correct_answer": "11/16/2004",
+ "verdict": "Y",
+ "reason": "The letter agreement is dated and agreed as of November 16, 2004, which is rule (a); December 6, 2004 is only the notary date on the Exhibit A release."
+}

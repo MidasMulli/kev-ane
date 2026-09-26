@@ -1,0 +1,7 @@
+{
+ "item": "item019",
+ "quote": "GAT\\cite{Veli2017Graph} & $83.0\\pm0.7$ ... DGCN\\cite{zhuang2018dual} & 83.5 ... Multi-GCN\\cite{khan2019multi} & 82.5 ... baseline methods, which include graph convolutional networks (GCN) with the combination view and Multi-GCN",
+ "correct_answer": "GCN, Multi-GCN, GAT, DGCN, StoGCN, LGCN",
+ "verdict": "both_acceptable",
+ "reason": "GCN, Multi-GCN, GAT and DGCN all appear as compared methods."
+}

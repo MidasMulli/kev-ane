@@ -1,0 +1,7 @@
+{
+  "item": "item005",
+  "quote": "'Threshold Amount' means, in respect of Party A, an amount equal to 3% of Party A's shareholders' equity (on a consolidated basis)",
+  "correct_answer": "3% of Party A's shareholders' equity",
+  "verdict": "X",
+  "reason": "The Schedule states the Threshold Amount as 3% of Party A's shareholders' equity, so NONE is wrong."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item022",
+ "quote": "The eighth day following Clemmens's execution hereof shall be deemed the “Effective Date” of this Agreement. ... Robert T. Clemmens ... Date: July 1, 2013",
+ "correct_answer": "7/9/2013",
+ "verdict": "both_wrong",
+ "reason": "No made/dated-as-of date is stated, and the defined Effective Date (eighth day after Clemmens's July 1, 2013 execution) resolves to July 9, 2013. X is the date of the attached Employment Agreement, and Y is only the signature date."
+}

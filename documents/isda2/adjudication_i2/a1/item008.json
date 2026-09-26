@@ -1,0 +1,7 @@
+{
+  "item": "item008",
+  "quote": "MASTER AGREEMENT dated as of March 2nd, 2007 [the Schedule heading reads '1992 ISDA MASTER AGREEMENT dated as of July     , 2007' with the day left blank]",
+  "correct_answer": "3/2/2007 (March 2, 2007)",
+  "verdict": "X",
+  "reason": "The Master Agreement opening states 'dated as of March 2nd, 2007', which X matches; Y's July 1 appears nowhere, since the Schedule's July date has a blank day."
+}

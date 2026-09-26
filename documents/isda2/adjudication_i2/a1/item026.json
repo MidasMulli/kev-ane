@@ -1,0 +1,7 @@
+{
+  "item": "item026",
+  "quote": "I3 Confirmation: \"This letter constitutes a Confirmation as referred to in the 1992 ISDA Master Agreement (Multicurrency-Cross Border) (Series 2 Class C1) and the Schedule thereto entered into between ML MBS Services Limited, Holmes Master Issuer PLC and The Bank of New York, London Branch ... and dated 6 June 2007\"",
+  "correct_answer": "1992",
+  "verdict": "both_wrong",
+  "reason": "The document states that this agreement dated 6 June 2007 is the 1992 ISDA Master Agreement, and its body uses the 1992 Market Quotation/Loss and First/Second Method framework, so neither NONE nor 2002 is correct."
+}

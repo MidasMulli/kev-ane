@@ -1,0 +1,7 @@
+{
+ "item": "item037",
+ "quote": "SCHEDULE to the MASTER AGREEMENT dated as of April 4, 2007 between BANCO SANTANDER CENTRAL HISPANO, S.A. (\"Party A\") and SANTANDER DRIVE AUTO RECEIVABLES TRUST 2007-1 (\"Party B\") (no 1992 or 2002 year stated; the Schedule uses Market Quotation/Second Method)",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "The document never states the form year and its Market Quotation/Second Method terms are 1992-form features, so 2002 is unsupported and NONE is correct."
+}

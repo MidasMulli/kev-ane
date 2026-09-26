@@ -1,0 +1,1 @@
+{"r": 16, "lora_alpha": 32, "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"]}

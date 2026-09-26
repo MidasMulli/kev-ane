@@ -1,0 +1,7 @@
+{
+ "item": "h1_item044",
+ "quote": "3DMPPE$^\\dagger$~\\cite{moon2019camera} & 56.03 ... CRMH~\\cite{jiang2020coherent} & 39.52 ... SMAP~\\cite{zhen2020smap} & 57.78 ... ROMP~\\cite{romp}& 40.28",
+ "correct_answer": "3DMPPE, CRMH, SMAP, ROMP",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are compared methods in the RH results table."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item022",
+ "quote": "...shall constitute an \"Automatic Early Termination\" under this Schedule and the Master Agreement ... an Early Termination Date in respect of all outstanding Transactions will occur immediately with respect to Party B.",
+ "correct_answer": "Party B",
+ "verdict": "Y",
+ "reason": "The Automatic Early Termination triggers are Party B events and the Early Termination Date occurs with respect to Party B."
+}

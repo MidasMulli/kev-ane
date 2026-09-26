@@ -1,0 +1,7 @@
+{
+ "item": "item055",
+ "quote": "We evaluate GMFlowNet on standard online benchmarks, i.e., Sintel and KITTI ... We first train our model on FlyingChairs (C) ... then finetune ... Sintel (S), KITTI (K), and/or HD1K (H) ... C+T+S+K+H refers to all training datasets.",
+ "correct_answer": "Sintel and KITTI (FlyingChairs, FlyingThings and HD1K are training data only)",
+ "verdict": "both_wrong",
+ "reason": "Both correctly name Sintel and KITTI but each adds a training-only dataset (HD1K in X, FlyingChairs in Y) that is never used for evaluation."
+}

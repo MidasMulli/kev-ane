@@ -1,0 +1,7 @@
+{
+ "item": "h2_item043",
+ "quote": "The training time is $<$9 days for LSUN-cat, LSUN-bedroom, $<$4.5 days for ImageNet, and CC-3M, and $<$1 day for LSUN-church and FFHQ.",
+ "correct_answer": "<9 days (LSUN-cat/bedroom), <4.5 days (ImageNet/CC-3M), <1 day (LSUN-church/FFHQ)",
+ "verdict": "Y",
+ "reason": "Y reproduces the full per-dataset statement, while X gives only the LSUN-cat/bedroom figure as if it applied to all training."
+}

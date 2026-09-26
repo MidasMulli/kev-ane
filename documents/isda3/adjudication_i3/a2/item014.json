@@ -1,0 +1,7 @@
+{
+ "item": "item014",
+ "quote": "(no Automatic Early Termination provision appears in the Schedule)",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "The document contains no Automatic Early Termination election, so NONE is correct under the stated-only rule."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item039",
+ "quote": "we present ReGen, a bidirectional generation of text and graph ... for both text-to-graph and graph-to-text generation tasks",
+ "correct_answer": "Bidirectional text and knowledge-graph generation",
+ "verdict": "both_acceptable",
+ "reason": "Same answer, differently worded."
+}

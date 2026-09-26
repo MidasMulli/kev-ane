@@ -1,0 +1,7 @@
+{
+  "item": "item052",
+  "quote": "Sections 5(a)(ii), (iii), (iv), (v), (vi), (viii), 5(b)(ii), (iii) and (iv) will not apply to Party A or Party B.",
+  "correct_answer": "Neither party (Section 5(a)(vi) disapplied for both)",
+  "verdict": "Y",
+  "reason": "The Schedule expressly states Section 5(a)(vi) Cross Default does not apply to Party A or Party B, so 'neither' is correct and NONE (nothing stated) is wrong."
+}

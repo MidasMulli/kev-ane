@@ -10,3 +10,5 @@ kev-0.6b/
 .venv/
 predicts.txt
 *.egg-info/
+mutable/ui/kevd
+documents/**/_out/

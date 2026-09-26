@@ -1,0 +1,7 @@
+{
+  "item": "item027",
+  "quote": "I163 Schedule Part 4(h): \"this Agreement will be governed by and construed in accordance with the law of the State of New York (without giving effect to any provision of New York law that would cause another jurisdiction's laws to be applied).\"",
+  "correct_answer": "New York (law of the State of New York)",
+  "verdict": "both_acceptable",
+  "reason": "Both answers name New York law; 'State of New York' and 'New York' have the same meaning."
+}

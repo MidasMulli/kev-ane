@@ -1,0 +1,7 @@
+{
+  "item": "item010",
+  "quote": "“Credit Support Document” means in relation to Party A: Not Applicable. “Credit Support Document” means in relation to Party B: Any credit support annex, any Confirmation and any other document ... including ... the Credit Agreement and the Collateral Documents ... (collectively, the “Party B CSD”).",
+  "correct_answer": "no",
+  "verdict": "Y",
+  "reason": "The Schedule names no executed Credit Support Annex (only a generic 'any credit support annex' catch-all, and an ATE contemplating that Party B may not have executed an ISDA Credit Support Annex), so no CSA forms part of the agreement."
+}

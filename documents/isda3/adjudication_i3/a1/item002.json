@@ -1,0 +1,7 @@
+{
+ "item": "item002",
+ "quote": "Deutsche Bank National Trust Company, not individually, but solely as supplemental interest trustee ... (\"Party B\"); Address for notices to Party B: c/o Deutsche Bank National Trust Company",
+ "correct_answer": "Deutsche Bank National Trust Company (as supplemental interest trustee)",
+ "verdict": "X",
+ "reason": "Deutsche Bank National Trust Company is the right-column party captioned \"Party B\", confirmed by the Party B notices address."
+}

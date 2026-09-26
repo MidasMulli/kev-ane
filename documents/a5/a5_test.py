@@ -1,0 +1,51 @@
+"""A5 TEST (Astra-signed): 56 fresh papers (a5_split test), adapter AX2, top-3 per question + sidecar (Code/Hardware/Parameters).
+PIPE vs FULL, cold, alternating; G-SWAP CUA -> IS3 -> AX2 -> CUA. Usage: a5_test.py START END  (futility: papers 0-27 first, then 28-55;
+raw APPENDED to a5_test_raw.jsonl). Derived from the I3 test script."""
+import os as _o, sys as _s; _s.path.insert(0, _o.path.dirname(_o.path.dirname(_o.path.abspath(__file__)))); from _kevdoc import *  # repo paths + endpoints
+import json, os, re, sys, random, time, hashlib, subprocess, urllib.request, numpy as np
+sys.path.insert(0, ROOT + "/cuad"); os.chdir(ROOT + "/a5"); sys.path.insert(0, ROOT + "/a5")
+from ane_run import Ane, export_and_pack, sh, MD, TRUST
+from a5_common import NAMES, prompt, parse, norm as i2norm, sidecar
+P = json.load(open("a5_corpus.json")); SPLIT = json.load(open("a5_split.json")); START, END = int(sys.argv[1]), int(sys.argv[2])
+from transformers import AutoTokenizer
+log = open("a5_test_raw.jsonl", "a")
+def emit(**r): print(json.dumps(r)[:300], flush=True); log.write(json.dumps(r) + "\n"); log.flush()
+g0 = sh(GATE0).splitlines()[-1]; assert g0.startswith("gate=GREEN"), g0
+sent = subprocess.Popen([SENTINEL, str(os.getpid()), os.path.abspath("a5_test_red_sentinel.log")]); time.sleep(3); assert sent.poll() is None
+tok = AutoTokenizer.from_pretrained("Qwen/Qwen3-0.6B-Base"); T_, STRIDE_ = 256, 224
+def windows(text):
+    enc = tok(text, return_offsets_mapping=True, add_special_tokens=False); ids, offs = enc["input_ids"], enc["offset_mapping"]; out = []
+    for s0 in range(0, max(1, len(ids) - (T_ - STRIDE_)), STRIDE_):
+        w = ids[s0:s0 + T_]; out.append(dict(ids=w, a=offs[s0][0], b=offs[s0 + len(w) - 1][1]))
+        if s0 + T_ >= len(ids): break
+    return out
+head, amd5 = export_and_pack("a5_best.npz", "AX2"); md5_0 = sh(f"sudo -n md5 -q {MD}/weights/weight.bin")
+ane = Ane("AX2", head)
+# ---- G-SWAP ----
+w0 = windows(P[SPLIT["test"][0]]["text"])[1]["ids"]
+def hs_sha(tag):
+    r = ane.cmd(f"BIND {TRUST}/{tag}.bin"); assert r.startswith("BOUND"), r; ane.window(w0); return hashlib.sha256(open(f"{ane.IN}/hs.f16", "rb").read()).hexdigest()[:16], float(r.split()[1])
+s1 = hs_sha("CUA"); s2 = hs_sha("IS3"); s3 = hs_sha("AX2"); s4 = hs_sha("CUA")
+g_swap = s1[0] == s4[0] and len({s1[0], s2[0], s3[0]}) == 3 and sh(f"sudo -n md5 -q {MD}/weights/weight.bin") == md5_0
+emit(event="swap", cua=s1, is3=s2, ax2=s3, cua_again=s4, start=START, G_SWAP=g_swap, adapter_md5=amd5)
+def ask(text):
+    body = {"model": LLM_MODEL, "stream": False, "temperature": 0, "reasoning_effort": "none", "max_tokens": 200, "messages": [{"role": "user", "content": text}]}
+    req = urllib.request.Request(LLM_URL, json.dumps(body).encode(), {"Content-Type": "application/json"})
+    t0 = time.monotonic(); j = json.load(urllib.request.urlopen(req, timeout=1800)); u = j["usage"]
+    assert (u.get("prompt_tokens_details") or {}).get("cached_tokens", 0) == 0
+    return j["choices"][0]["message"]["content"], u["prompt_tokens"], time.monotonic() - t0
+ane.cmd(f"BIND {TRUST}/AX2.bin")
+for n, i in enumerate(SPLIT["test"]):
+    if not (START <= n < END): continue
+    text = P[i]["text"]; t0 = time.monotonic(); ws = windows(text); sc = np.stack([ane.window(w["ids"])[0] for w in ws])
+    chosen = sorted({int(j) for k in range(12) for j in np.argsort(-sc[:, k])[:3]} | sidecar(text, ws)); ev = [text[ws[j]["a"]:ws[j]["b"]] for j in chosen]; ane_s = time.monotonic() - t0
+    res = {}
+    for arm in (("PIPE", "FULL") if n % 2 == 0 else ("FULL", "PIPE")):
+        out, pt, dt = ask(prompt(**(dict(evidence_texts=ev) if arm == "PIPE" else dict(context=text)), nonce=f"[req {random.random():.12f}]"))
+        res[arm] = dict(preds=parse(out), seconds=dt + (ane_s if arm == "PIPE" else 0), prompt_tokens=pt, response=out)
+    agree = [i2norm(f, a) == i2norm(f, b) for f, a, b in zip(NAMES, res["PIPE"]["preds"], res["FULL"]["preds"])]
+    emit(event="compare", cid=f"P{i}", idx=i, n=n, agree=agree, pipe=res["PIPE"]["preds"], full=res["FULL"]["preds"], lat_diff=res["PIPE"]["seconds"] - res["FULL"]["seconds"],
+         pipe_s=res["PIPE"]["seconds"], full_s=res["FULL"]["seconds"], pipe_tok=res["PIPE"]["prompt_tokens"], full_tok=res["FULL"]["prompt_tokens"], ane_s=ane_s, windows=len(ws))
+ane.close()
+emit(event="A5_RUN_DONE", start=START, end=END, G_SWAP=g_swap, base_md5_unchanged=sh(f"sudo -n md5 -q {MD}/weights/weight.bin") == md5_0)
+sent.terminate()

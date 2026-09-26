@@ -1,0 +1,7 @@
+{
+ "item": "h1_item000",
+ "quote": "InstructBLIP~\\cite{instruct_blip} & Vicuna-7B & 50.4 ... MiniGPT-4 ... OpenFlamingo ... LLaVA ... \\textbf{Otter}; also: Otter outperforms VideoChatGPT~\\cite{2023videochat} by 6.8\\% accuracy",
+ "correct_answer": "InstructBLIP, MiniGPT-4, OpenFlamingo, LLaVA, VideoChatGPT",
+ "verdict": "both_acceptable",
+ "reason": "All items in both X and Y appear as compared baselines (MMAGIBench table and video evaluation)."
+}

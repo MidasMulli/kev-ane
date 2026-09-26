@@ -1,0 +1,7 @@
+{
+ "item": "h1_item043",
+ "quote": "we employ the Percentage of Correct Depth Relations (\\textbf{PCDR$^{0.2}$}), and set the threshold for equal depth to $0.2m$.",
+ "correct_answer": "PCDR^0.2 (plus mPCK_h^0.6 on RH, and AGORA mesh-error metrics)",
+ "verdict": "both_acceptable",
+ "reason": "Both name the same metric; X includes the 0.2 m threshold superscript and Y omits it."
+}

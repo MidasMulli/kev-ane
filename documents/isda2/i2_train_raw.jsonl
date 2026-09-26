@@ -1,0 +1,39 @@
+{"event": "launch", "gate0": "gate=GREEN pressure=1(norm=True) top3_sum=9.1/55.7GB avail_ram=39.3GB (free=2.4+reclaim=37.0) compressed=2.9GB max_proc=6.6GB [splash] swap_used=2.9GB swap_pct=73%", "kill_gb": 16.0, "train_docs": 160, "dev_docs": 25}
+{"event": "data", "train_windows": 19695, "pos_windows": 1391, "field_pos": {"Party A": 340, "Party B": 340, "Agreement date": 340, "Form": 340, "Governing law": 311, "Termination Currency": 286, "Cross Default": 293, "Threshold Amount": 206, "Automatic Early Termination": 291, "Additional Termination Events": 288, "Credit Support Annex": 295, "Payment measure": 235}}
+{"event": "train", "step": 100, "loss": 1.247698187828064, "elapsed_s": 79.53244519233704, "mlx_peak_gb": 10.211787734}
+{"event": "train", "step": 200, "loss": 0.5335284471511841, "elapsed_s": 159.55535101890564, "mlx_peak_gb": 10.211787734}
+{"event": "train", "step": 300, "loss": 0.3831770420074463, "elapsed_s": 239.9387550354004, "mlx_peak_gb": 10.211787734}
+{"event": "train", "step": 400, "loss": 0.5976730585098267, "elapsed_s": 319.0752191543579, "mlx_peak_gb": 10.211787734}
+{"event": "train", "step": 500, "loss": 0.37076982855796814, "elapsed_s": 398.2420930862427, "mlx_peak_gb": 10.211787734}
+{"event": "dev", "step": 500, "elapsed_s": 447.4486162662506, "hit2": 0.974910394265233, "ci": [0.9574430226395094, 0.9894366197183099]}
+{"event": "train", "step": 600, "loss": 0.23584827780723572, "elapsed_s": 526.1380891799927, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 700, "loss": 0.16848990321159363, "elapsed_s": 604.8284401893616, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 800, "loss": 0.1513848751783371, "elapsed_s": 683.4755840301514, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 900, "loss": 0.12325216829776764, "elapsed_s": 762.2044682502747, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1000, "loss": 0.10924328863620758, "elapsed_s": 840.8794391155243, "mlx_peak_gb": 10.211787746}
+{"event": "dev", "step": 1000, "elapsed_s": 889.5575661659241, "hit2": 0.982078853046595, "ci": [0.9675090252707581, 0.9963369963369964]}
+{"event": "train", "step": 1100, "loss": 0.17057321965694427, "elapsed_s": 968.2179839611053, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1200, "loss": 0.04210680350661278, "elapsed_s": 1046.734018087387, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1300, "loss": 0.048257675021886826, "elapsed_s": 1125.4479670524597, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1400, "loss": 0.13570809364318848, "elapsed_s": 1204.202777147293, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1500, "loss": 0.06527246534824371, "elapsed_s": 1282.630782365799, "mlx_peak_gb": 10.211787746}
+{"event": "dev", "step": 1500, "elapsed_s": 1330.8164100646973, "hit2": 0.978494623655914, "ci": [0.9635003074784098, 0.9928057553956835]}
+{"event": "train", "step": 1600, "loss": 0.09338660538196564, "elapsed_s": 1408.9324572086334, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1700, "loss": 0.01893174648284912, "elapsed_s": 1487.0830950737, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1800, "loss": 0.04193625971674919, "elapsed_s": 1565.16064620018, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 1900, "loss": 0.03289320692420006, "elapsed_s": 1643.25004529953, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2000, "loss": 0.022571220993995667, "elapsed_s": 1721.4609022140503, "mlx_peak_gb": 10.211787746}
+{"event": "dev", "step": 2000, "elapsed_s": 1769.6638021469116, "hit2": 0.974910394265233, "ci": [0.9577464788732394, 0.9892857142857143]}
+{"event": "train", "step": 2100, "loss": 0.18800151348114014, "elapsed_s": 1847.6648261547089, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2200, "loss": 0.021231528371572495, "elapsed_s": 1925.7424142360687, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2300, "loss": 0.051294535398483276, "elapsed_s": 2004.002286195755, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2400, "loss": 0.011924175545573235, "elapsed_s": 2082.0759382247925, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2500, "loss": 0.007726503536105156, "elapsed_s": 2160.1931171417236, "mlx_peak_gb": 10.211787746}
+{"event": "dev", "step": 2500, "elapsed_s": 2208.4365062713623, "hit2": 0.989247311827957, "ci": [0.9754385964912281, 1.0]}
+{"event": "train", "step": 2600, "loss": 0.0013689517509192228, "elapsed_s": 2286.661769390106, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2700, "loss": 0.005559313111007214, "elapsed_s": 2364.786050081253, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2800, "loss": 0.001954547129571438, "elapsed_s": 2443.000505208969, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 2900, "loss": 0.0008623874164186418, "elapsed_s": 2520.9649522304535, "mlx_peak_gb": 10.211787746}
+{"event": "train", "step": 3000, "loss": 0.0010879002511501312, "elapsed_s": 2598.9869470596313, "mlx_peak_gb": 10.211787746}
+{"event": "dev", "step": 3000, "elapsed_s": 2646.7744200229645, "hit2": 0.985663082437276, "ci": [0.9715302491103203, 0.9964288891713269]}
+{"event": "I2_TRAIN_DONE", "best_step": 2500, "dev_hit3": 0.989247311827957, "elapsed_s": 2646.7744839191437}

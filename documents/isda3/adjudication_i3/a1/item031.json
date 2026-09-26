@@ -1,0 +1,7 @@
+{
+ "item": "item031",
+ "quote": "THIS AGREEMENT WILL BE GOVERNED BY, CONSTRUED, INTERPRETED, AND ENFORCED IN ACCORDANCE WITH THE LAW OF THE STATE OF NEW YORK",
+ "correct_answer": "New York law",
+ "verdict": "both_acceptable",
+ "reason": "Both answers mean New York law."
+}

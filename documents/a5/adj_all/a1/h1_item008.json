@@ -1,0 +1,7 @@
+{
+ "item": "h1_item008",
+ "quote": "Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer ... we present DIB-R, a differentiable rendering framework ... We showcase our approach in two ML applications: single-image 3D object prediction, and 3D textured object generation",
+ "correct_answer": "Differentiable rendering (DIB-R) enabling learning to predict/generate 3D objects from 2D supervision",
+ "verdict": "both_acceptable",
+ "reason": "X paraphrases the title and Y summarizes the abstract's framework and two applications; both are correct."
+}

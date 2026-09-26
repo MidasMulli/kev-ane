@@ -1,0 +1,1 @@
+{"item": "item010", "quote": "& HMR \\cite{hmrKanazawa17} & 22.9 ... SPIN \\cite{kolotouros2019spin} & 22.2 ... DaNet \\cite{zhang2019danet} & 22.1 ... STRAPS \\cite{STRAPS2020BMVC} & 15.9", "correct_answer": "HMR, SPIN, DaNet, STRAPS (and others)", "verdict": "both_acceptable", "reason": "All of SPIN, STRAPS, DaNet and HMR appear as compared methods."}

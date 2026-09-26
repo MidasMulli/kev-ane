@@ -1,0 +1,7 @@
+{
+ "item": "h2_item009",
+ "quote": "We report mean per joint position error after scale correction (MPJPE-SC) and after Procrustes analysis (MPJPE-PA). ... We also report scale-corrected per-vertex Euclidean error in a T-pose (PVE-T-SC) on the SSP-3D dataset",
+ "correct_answer": "PVE-T-SC (shape, SSP-3D) and MPJPE-SC / MPJPE-PA (pose, 3DPW)",
+ "verdict": "both_acceptable",
+ "reason": "Both metrics are reported in the main state-of-the-art comparison tables."
+}

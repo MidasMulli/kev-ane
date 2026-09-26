@@ -1,0 +1,7 @@
+{
+ "item": "item011",
+ "quote": "{Meta YOLO~\\cite{FeatureReweighting}} ... {MetaDet~\\cite{MetaDet}} ... {Meta R-CNN~\\cite{MetaRCNN}} ... {MPSR~\\cite{MPSR}}",
+ "correct_answer": "Meta YOLO, MetaDet, Meta R-CNN, MPSR, LSTD, TFA",
+ "verdict": "both_acceptable",
+ "reason": "Meta YOLO, MPSR, Meta R-CNN and MetaDet all appear as compared methods."
+}

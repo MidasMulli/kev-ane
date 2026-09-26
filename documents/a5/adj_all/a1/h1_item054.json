@@ -1,0 +1,7 @@
+{
+ "item": "h1_item054",
+ "quote": "The SSIM score of our method is lower than PG$^2$ mainly for two reasons ... In the future, we plan to apply our method to faces and rigid object images",
+ "correct_answer": "No dedicated limitations discussion (only an explanation of lower SSIM and a future-work line)",
+ "verdict": "both_acceptable",
+ "reason": "The paper has no limitations discussion, so 'no' and 'NONE' (not stated) convey the same correct answer."
+}

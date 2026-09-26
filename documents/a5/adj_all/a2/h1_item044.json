@@ -1,0 +1,7 @@
+{
+ "item": "h1_item044",
+ "quote": "3DMPPE ...; CRMH ...; SMAP ...; ROMP ... (Table on RH)",
+ "correct_answer": "ROMP, 3DMPPE, CRMH, SMAP",
+ "verdict": "both_acceptable",
+ "reason": "All listed methods are compared."
+}

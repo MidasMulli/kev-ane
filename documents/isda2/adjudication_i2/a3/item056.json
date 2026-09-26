@@ -1,0 +1,7 @@
+{
+ "item": "item056",
+ "quote": "“Credit Support Document(s)” means, with respect to Party A, the Loan Documents (as hereinafter defined) and each other document which by its terms secures, guarantees or otherwise supports Party A's obligations hereunder ...; and, with respect to Party B, none.",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "The Master Agreement and Schedule never mention a Credit Support Annex (no 'Annex' anywhere; credit support is via Loan Documents only), so under the rubric's answer-only-what-is-stated rule NONE is correct and X's 'no' is an unstated inference."
+}

@@ -1,0 +1,7 @@
+{
+  "item": "item013",
+  "quote": "(h) Governing Law. This Agreement will be governed by and construed in accordance with the law of the State of New York (without reference to choice of law doctrine).",
+  "correct_answer": "New York law (law of the State of New York)",
+  "verdict": "both_acceptable",
+  "reason": "'State of New York' and 'New York' have the same meaning for the Schedule's governing law election."
+}

@@ -1,0 +1,7 @@
+{
+  "item": "item021",
+  "quote": "I17 Schedule Part 4(f): \"In relation to Party B, the Credit Agreement, and the Security Documents, or the Collateral Documents, as the case may be, as defined in the Credit Agreement.\" (no Credit Support Annex referenced anywhere in the document)",
+  "correct_answer": "no",
+  "verdict": "Y",
+  "reason": "The Credit Support Documents are the Credit Agreement and its Security/Collateral Documents; no Credit Support Annex is made part of the agreement."
+}

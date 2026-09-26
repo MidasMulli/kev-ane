@@ -1,0 +1,7 @@
+{
+  "item": "item050",
+  "quote": "“Threshold Amount” means, with respect to Party A (or its Credit Support Provider), 3% of shareholders’ equity as described in its most recently published audited financial statement...",
+  "correct_answer": "3% of shareholders’ equity (Party A or its Credit Support Provider)",
+  "verdict": "Y",
+  "reason": "The Schedule states a Threshold Amount of 3% of shareholders’ equity, so Y is correct and NONE is wrong."
+}

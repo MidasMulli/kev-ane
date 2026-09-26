@@ -1,0 +1,7 @@
+{
+ "item": "item025",
+ "quote": "Our method, called Permuted Adaptive Instance Normalization (pAdaIN) ... \\title{Permuted AdaIN: Reducing the Bias Towards Global Statistics in Image Classification}",
+ "correct_answer": "Permuted AdaIN (pAdaIN)",
+ "verdict": "both_acceptable",
+ "reason": "Both give the stated method name; Y merely adds the acronym."
+}

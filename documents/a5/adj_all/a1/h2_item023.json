@@ -1,0 +1,7 @@
+{
+ "item": "h2_item023",
+ "quote": "A superiror and consistent performance is demonstrated with the effectiveness of the hierarchical design. Our method outperforms state-of-the-art approaches by a large margin on the challenging and MPI-INF-3DHP dataset",
+ "correct_answer": "No limitations discussion is present.",
+ "verdict": "both_acceptable",
+ "reason": "There is no limitations discussion; the H36M gap to MixSTE is explained away rather than presented as a limitation, so 'no' and NONE are both correct."
+}

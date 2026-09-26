@@ -1,0 +1,7 @@
+{
+ "item": "item000",
+ "quote": "InstructBLIP~\\cite{instruct_blip} ... MiniGPT-4 ... OpenFlamingo ... LLaVA (MMAGIBench table); Otter outperforms VideoChatGPT ... Otter outperforms OpenFlamingo",
+ "correct_answer": "InstructBLIP, MiniGPT-4, OpenFlamingo, LLaVA, VideoChatGPT",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are models the paper compares Otter against."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item000",
+ "quote": "This Agreement will be governed by and construed in accordance with the laws of the State of New York without regard to its conflicts of law principles.",
+ "correct_answer": "New York",
+ "verdict": "Y",
+ "reason": "Section 11.12 names the State of New York as governing law, so Y is correct and X (NONE) is wrong."
+}

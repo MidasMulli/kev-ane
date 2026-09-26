@@ -1,0 +1,7 @@
+{
+ "item": "item002",
+ "quote": "",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "This is a stock plan with no opening 'made/entered into/dated as of' statement and no signature block; its only date is 'The Plan shall become effective on March 26, 2008', which is an effective date and not a made/entered-into/dated-as-of date under the rubric's literal definition, so NONE is correct."
+}

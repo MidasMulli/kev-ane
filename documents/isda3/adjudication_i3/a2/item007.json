@@ -1,0 +1,7 @@
+{
+ "item": "item007",
+ "quote": "This Agreement is governed by, and will be construed and enforced in accordance with, the laws of the State of New York",
+ "correct_answer": "State of New York",
+ "verdict": "both_acceptable",
+ "reason": "Both answers name the same law, worded differently."
+}

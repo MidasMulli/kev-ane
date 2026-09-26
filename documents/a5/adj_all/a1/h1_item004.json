@@ -1,0 +1,7 @@
+{
+ "item": "h1_item004",
+ "quote": "We used the Penn Treebank (PTB) and WikiText-2 datasets ... For machine translation, we used two kinds of sentence pairs (English-German and English-French) in the IWSLT 2016 dataset",
+ "correct_answer": "Penn Treebank, WikiText-2 (plus IWSLT 2016, Gigaword headline generation, PTB parsing)",
+ "verdict": "both_acceptable",
+ "reason": "PTB and WikiText-2 are the main benchmarks and IWSLT 2016 is also used to evaluate DOC, so both lists are correct (partial lists allowed)."
+}

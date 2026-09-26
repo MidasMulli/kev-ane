@@ -1,0 +1,7 @@
+{
+ "item": "item012",
+ "quote": "From: BARCLAYS BANK PLC (LONDON HEAD OFFICE) (\"Party A\"); ... between BARCLAYS BANK PLC and U.S. Bank National Association ... (\"Party A\") (\"Party B\")",
+ "correct_answer": "BARCLAYS BANK PLC",
+ "verdict": "Y",
+ "reason": "Barclays Bank PLC is Party A."
+}

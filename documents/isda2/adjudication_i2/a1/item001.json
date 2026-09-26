@@ -1,0 +1,7 @@
+{
+  "item": "item001",
+  "quote": "transfer Eligible Credit Support to Party B in accordance with the Credit Support Annex attached to this Agreement",
+  "correct_answer": "yes",
+  "verdict": "X",
+  "reason": "The Schedule refers to the Credit Support Annex 'attached to this Agreement' and ranks 'the Schedule to the Agreement and Credit Support Annex' in its inconsistency clause, so a CSA forms part of the agreement."
+}

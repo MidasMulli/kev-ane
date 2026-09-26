@@ -1,0 +1,7 @@
+{
+ "item": "item023",
+ "quote": "BiGAN ... SS-GAN ... Motion Segmentation (MS) ... CPC ... Rotation (final results table)",
+ "correct_answer": "BiGAN, SS-GAN, Motion Segmentation, CPC, Rotation, ...",
+ "verdict": "both_acceptable",
+ "reason": "All listed methods are in the comparison table."
+}

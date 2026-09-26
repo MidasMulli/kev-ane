@@ -1,0 +1,7 @@
+{
+ "item": "h1_item018",
+ "quote": "the mAP 50 value still did not reach 70\\%. This issue is primarily due to the poor ability of the model in predicting the ``bone anomaly'' and ``soft tissue'' classes. The dataset suffers from the class imbalance",
+ "correct_answer": "Yes: poor prediction of bone anomaly and soft tissue classes due to class imbalance",
+ "verdict": "Y",
+ "reason": "The Discussion section explicitly states this limitation, so 'no' is wrong."
+}

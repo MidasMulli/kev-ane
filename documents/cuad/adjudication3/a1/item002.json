@@ -1,0 +1,7 @@
+{
+ "item": "item002",
+ "quote": "1.3 Duration: This agreement lasts for the period stated in it and then will be extended automatically for successive periods equal to the current term but no less than 3 months (unless legal renewal term limits apply) until brought to an end by the Client or by Regus.",
+ "correct_answer": "12 months",
+ "verdict": "X",
+ "reason": "Renewal periods equal the current term, which is February 1, 2010 to January 31, 2011 (12 months, above the 3-month floor), so X is correct and Y's 3 months is only the minimum."
+}

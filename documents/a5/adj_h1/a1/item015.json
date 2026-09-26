@@ -1,0 +1,7 @@
+{
+ "item": "item015",
+ "quote": "We train AMD on eight V100 GPUs, with each processing two pairs of sampled adjacent frames.",
+ "correct_answer": "eight V100 GPUs",
+ "verdict": "both_acceptable",
+ "reason": "Both state eight V100 GPUs, differing only in numeral format."
+}

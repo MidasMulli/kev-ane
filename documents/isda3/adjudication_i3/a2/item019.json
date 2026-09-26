@@ -1,0 +1,7 @@
+{
+ "item": "item019",
+ "quote": "(m) Additional Termination Provisions. The following provisions are added as clause (f) to Section 6 ... (i) Additional Event of Default",
+ "correct_answer": "no",
+ "verdict": "X",
+ "reason": "The Schedule adds an Event of Default (5(a)(ix)) and procedural termination provisions but specifies no Additional Termination Event."
+}

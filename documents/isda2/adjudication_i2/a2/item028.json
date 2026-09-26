@@ -1,0 +1,7 @@
+{
+  "item": "item028",
+  "quote": "I163 Schedule Part 4(f): \"Credit Support Document. Party A: None. Party B: None.\" (other references say only \"including the Credit Support Annex, if any\" and \"any Credit Support Annex\")",
+  "correct_answer": "no",
+  "verdict": "Y",
+  "reason": "No Credit Support Document is specified for either party, and the conditional 'if any' references do not make a CSA part of the agreement."
+}

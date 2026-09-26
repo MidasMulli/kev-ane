@@ -1,0 +1,370 @@
+{
+ "event": "I3_RESULT",
+ "n_questions": 672,
+ "agreement": 0.9494047619047619,
+ "disagreements": 34,
+ "kappa_a1_a2": 0.909,
+ "raw_agreement_a1_a2": 0.941,
+ "arbitrated": [
+  "item014",
+  "item033"
+ ],
+ "table": [
+  {
+   "item": "item000",
+   "type": "Form",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item001",
+   "type": "Party A",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item002",
+   "type": "Party B",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item003",
+   "type": "Credit Support Annex",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item004",
+   "type": "Governing law",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item005",
+   "type": "Form",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item006",
+   "type": "Governing law",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item007",
+   "type": "Governing law",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item008",
+   "type": "Party A",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item009",
+   "type": "Party B",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item010",
+   "type": "Governing law",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item011",
+   "type": "Threshold Amount",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item012",
+   "type": "Party A",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item013",
+   "type": "Party B",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item014",
+   "type": "Automatic Early Termination",
+   "a1": "X",
+   "a2": "Y",
+   "a3": "X",
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item015",
+   "type": "Form",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item016",
+   "type": "Threshold Amount",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item017",
+   "type": "Termination Currency",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item018",
+   "type": "Cross Default",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item019",
+   "type": "Additional Termination Events",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item020",
+   "type": "Credit Support Annex",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item021",
+   "type": "Termination Currency",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item022",
+   "type": "Automatic Early Termination",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item023",
+   "type": "Cross Default",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item024",
+   "type": "Cross Default",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item025",
+   "type": "Form",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item026",
+   "type": "Form",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item027",
+   "type": "Form",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  },
+  {
+   "item": "item028",
+   "type": "Governing law",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item029",
+   "type": "Governing law",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item030",
+   "type": "Form",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item031",
+   "type": "Governing law",
+   "a1": "both_acceptable",
+   "a2": "both_acceptable",
+   "a3": null,
+   "final": "both_acceptable",
+   "winner": "both_acceptable",
+   "score": 0
+  },
+  {
+   "item": "item032",
+   "type": "Form",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item033",
+   "type": "Agreement date",
+   "a1": "Y",
+   "a2": "X",
+   "a3": "X",
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  }
+ ],
+ "pipe_only_correct": 6,
+ "full_only_correct": 19,
+ "split_against_pipe": 0,
+ "diff": -0.019345238095238096,
+ "diff_ci": [
+  -0.03571428571428571,
+  -0.004464285714285714
+ ],
+ "G_E2E": true,
+ "lat_median_diff": -9.2071227284614,
+ "lat_ci": [
+  -11.653195896185935,
+  -7.464634478557855
+ ],
+ "G_LAT": true,
+ "verdict": "PASS"
+}

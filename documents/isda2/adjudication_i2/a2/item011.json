@@ -1,0 +1,7 @@
+{
+  "item": "item011",
+  "quote": "Governing Law. THIS AGREEMENT WILL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK ...",
+  "correct_answer": "New York law (laws of the State of New York)",
+  "verdict": "both_acceptable",
+  "reason": "'New York' and 'State of New York' have the same meaning for the Schedule's election of the laws of the State of New York."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item008",
+ "quote": "Date: May 4, 2018 ... “Subordinated Note” means the Subordinated Promissory Note, dated as of May 4, 2018, executed by Maker",
+ "correct_answer": "5/4/2018",
+ "verdict": "X",
+ "reason": "The note is headed 'Date: May 4, 2018' and Annex A defines it as dated as of May 4, 2018, so X is correct."
+}

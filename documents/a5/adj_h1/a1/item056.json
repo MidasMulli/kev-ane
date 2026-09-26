@@ -1,0 +1,7 @@
+{
+ "item": "item056",
+ "quote": "PWC-Net\\cite{sun2018pwc} ... RAFT\\cite{teed2020raft} ... GMA \\cite{jiang2021learning} ... Separable Flow\\cite{zhang2021separable}",
+ "correct_answer": "RAFT, Separable Flow, GMA, PWC-Net (and LiteFlowNet etc.)",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are compared methods in the Sintel/KITTI results table."
+}

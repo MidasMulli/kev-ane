@@ -1,0 +1,7 @@
+{
+ "item": "item019",
+ "quote": "If Medical Center fails to exercise the option granted herein at least one (1) year prior to the expiration of the initial Term, the option shall lapse and this Agreement shall expire as of the end of the initial Term.",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The agreement does not renew automatically; the one-year notice is required to exercise an extension/termination/purchase option, and without it the agreement simply expires, so no notice is needed to prevent renewal."
+}

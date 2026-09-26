@@ -1,0 +1,7 @@
+{
+ "item": "h2_item023",
+ "quote": "In this paper, we present HSTFormer, a novel framework based on hierachical spatial-temporal transformers for 3D human pose estimation from 2D pose sequence.",
+ "correct_answer": "No explicit limitations discussion.",
+ "verdict": "both_acceptable",
+ "reason": "The paper has no limitations section or discussion, so 'no' and NONE are equivalent."
+}

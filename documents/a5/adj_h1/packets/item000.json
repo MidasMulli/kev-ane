@@ -1,0 +1,8 @@
+{
+ "item": "item000",
+ "contract_file": "documents/a5/adj_h1/texts/P185.txt",
+ "question": "Which baselines is the method compared against? List up to 3.",
+ "X": "InstructBLIP, MiniGPT-4, OpenFlamingo",
+ "Y": "LLaVA, VideoChatGPT, OpenFlamingo",
+ "rubric": "Rubric (fixed in advance; apply it exactly). The document is the LaTeX source of a research paper.\n1. Find and QUOTE the paper's own text that answers the question (search the whole paper, including appendix; ignore the bibliography\n   and descriptions of OTHER papers' methods).\n2. The correct answer is what the paper states about ITS OWN work. For list questions (datasets, baselines) any stated item is acceptable\n   and a partial list is acceptable. For numbers, the stated number (units as stated). NONE is correct only if the paper does not state it.\n3. Verdict, exactly one of: \"X\", \"Y\", \"both_wrong\", \"both_acceptable\" (both correct, e.g. different wording or different correct items)."
+}

@@ -1,0 +1,7 @@
+{
+  "item": "item014",
+  "quote": "(C) Credit Support Document. The following are Credit Support Document(s) with respect to Party B: (i) The Real Estate Loan Agreement ... (ii) The Real Estate Promissory Note ... (iii) The Mortgage and Security Agreement between Party A and Party B dated August 24, 2004 ...",
+  "correct_answer": "no",
+  "verdict": "Y",
+  "reason": "The only credit support documents listed are a loan agreement, promissory note and mortgage; no Credit Support Annex is made part of the agreement."
+}

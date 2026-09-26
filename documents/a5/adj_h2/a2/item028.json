@@ -1,0 +1,1 @@
+{"item": "item028", "quote": "It can be seen that cross-domain performance of the RST model on both datasets is much lower than when model is trained and tested on the same dataset - same domain", "correct_answer": "Yes; cross-domain performance is much lower than same-domain.", "verdict": "Y", "reason": "The paper explicitly reports this weakness, so NONE is wrong."}

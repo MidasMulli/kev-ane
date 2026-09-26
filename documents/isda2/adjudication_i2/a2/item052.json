@@ -1,0 +1,7 @@
+{
+ "item": "item052",
+ "quote": "Sections 5(a)(ii), (iii), (iv), (v), (vi), (viii), 5(b)(ii), (iii) and (iv) will not apply to Party A or Party B.",
+ "correct_answer": "Neither party",
+ "verdict": "Y",
+ "reason": "Part 1(b) disapplies Section 5(a)(vi) Cross Default to both parties, so \"neither\" is correct and NONE is wrong because the document does address it."
+}

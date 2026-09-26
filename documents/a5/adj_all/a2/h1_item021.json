@@ -1,0 +1,7 @@
+{
+ "item": "h1_item021",
+ "quote": "...show that our model leads to significant improvement of few-shot video classification over a wide range of competitive baselines.",
+ "correct_answer": "Abstract gives no number; claims significant improvement over competitive baselines",
+ "verdict": "Y",
+ "reason": "The abstract has no number; the 8% figure is from the introduction, not the abstract, while Y restates the abstract's claim."
+}

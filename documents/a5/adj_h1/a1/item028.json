@@ -1,0 +1,7 @@
+{
+ "item": "item028",
+ "quote": "we compare ... the result of training the network with pAdaIN and without pAdaIN (Baseline) ... Augmix~\\cite{hendrycks2019augmix} ... FADA \\cite{Wang2020FADA}",
+ "correct_answer": "Baseline (without pAdaIN), Augmix, FADA, Cutout, Mixup, CutMix, AutoAugment, Adversarial Training",
+ "verdict": "both_acceptable",
+ "reason": "Both list the same stated baselines; Y only clarifies what 'Baseline' means."
+}

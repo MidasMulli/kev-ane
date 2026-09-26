@@ -1,0 +1,7 @@
+{
+ "item": "item003",
+ "quote": "(f) Credit Support Document. Any guaranty or other form of credit support provided on behalf of Counterparty ... (i) Guaranty by The Goldman Sachs Group ... (no Credit Support Annex referenced)",
+ "correct_answer": "no",
+ "verdict": "X",
+ "reason": "The document refers to no Credit Support Annex; its credit support is guaranties, so no CSA forms part of the agreement."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item029",
+ "quote": "We show that Transformer encoder architectures can be sped up, with limited accuracy costs, by replacing the self-attention sublayers with simple linear transformations that ``mix'' input tokens.",
+ "correct_answer": "Speeding up Transformer encoders by replacing self-attention with simple token-mixing transformations (Fourier Transform)",
+ "verdict": "both_acceptable",
+ "reason": "Both capture the stated problem: efficient/faster token mixing in Transformer encoders."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item044",
+ "quote": "(c) The \"Cross Default\" provisions of Section 5(a)(vi) will not apply to Party A and will not apply to Party B.",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The Schedule states no Threshold Amount because Cross Default is disapplied, and the $50,000,000 figure is a CSA collateral 'Threshold', not the Section 5(a)(vi) Threshold Amount."
+}

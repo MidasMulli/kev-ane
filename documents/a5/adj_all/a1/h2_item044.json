@@ -1,0 +1,7 @@
+{
+ "item": "h2_item044",
+ "quote": "The effectiveness of network intrusion detection systems, predominantly based on machine learning, are highly influenced by the dataset they are trained on. ... This paper introduces TII-SSRC-23, a novel and comprehensive dataset",
+ "correct_answer": "Network intrusion detection (a dataset for it)",
+ "verdict": "both_acceptable",
+ "reason": "Both identify intrusion detection; X adds the 'network' qualifier the paper uses."
+}

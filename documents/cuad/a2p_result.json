@@ -1,0 +1,101 @@
+{
+ "event": "A2P_RESULT",
+ "n_questions": 240,
+ "agreement": 0.9708333333333333,
+ "disagreements": 7,
+ "kappa_a1_a2": 0.323,
+ "raw_agreement_a1_a2": 0.571,
+ "arbitrated": [
+  "item001",
+  "item002",
+  "item005"
+ ],
+ "table": [
+  {
+   "item": "item000",
+   "type": "Governing Law",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item001",
+   "type": "Agreement Date",
+   "a1": "both_wrong",
+   "a2": "Y",
+   "a3": "Y",
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item002",
+   "type": "Agreement Date",
+   "a1": "X",
+   "a2": "Y",
+   "a3": "Y",
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item003",
+   "type": "Renewal Term",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item004",
+   "type": "Notice Period To Terminate Renewal",
+   "a1": "Y",
+   "a2": "Y",
+   "a3": null,
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item005",
+   "type": "Agreement Date",
+   "a1": "X",
+   "a2": "Y",
+   "a3": "Y",
+   "final": "Y",
+   "winner": "FULL",
+   "score": -1
+  },
+  {
+   "item": "item006",
+   "type": "Agreement Date",
+   "a1": "X",
+   "a2": "X",
+   "a3": null,
+   "final": "X",
+   "winner": "PIPE",
+   "score": 1
+  }
+ ],
+ "pipe_only_correct": 1,
+ "full_only_correct": 6,
+ "split_against_pipe": 0,
+ "diff": -0.020833333333333332,
+ "diff_ci": [
+  -0.04583333333333333,
+  0.0
+ ],
+ "G_E2E": true,
+ "lat_median_diff": -19.6397868541535,
+ "lat_ci": [
+  -22.758177250623703,
+  -17.250076874392107
+ ],
+ "G_LAT": true,
+ "verdict": "PASS"
+}

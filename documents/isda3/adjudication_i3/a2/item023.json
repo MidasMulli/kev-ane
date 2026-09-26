@@ -1,0 +1,7 @@
+{
+ "item": "item023",
+ "quote": "(c) (i) Sections 5(a)(ii), (iii), (iv), (v), (vi), 5(b)(iii) and (iv) will not apply to Party A or Party B.",
+ "correct_answer": "neither",
+ "verdict": "Y",
+ "reason": "Section 5(a)(vi) Cross Default does not apply to either party."
+}

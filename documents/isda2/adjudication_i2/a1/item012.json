@@ -1,0 +1,7 @@
+{
+  "item": "item012",
+  "quote": "\"SCHEDULE to the 1992 Master Agreement dated as of May 16, 2019 between FIFTH THIRD FINANCIAL RISK SOLUTIONS, a division of FIFTH THIRD BANK, an Ohio banking corporation (“Party A”)\"",
+  "correct_answer": "FIFTH THIRD FINANCIAL RISK SOLUTIONS, a division of FIFTH THIRD BANK",
+  "verdict": "X",
+  "reason": "Party A is defined as the division of Fifth Third Bank, and Y drops the only legal entity (Fifth Third Bank), giving a divisional trade name that is not the party's legal name as defined."
+}

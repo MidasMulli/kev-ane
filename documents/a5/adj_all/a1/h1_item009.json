@@ -1,0 +1,7 @@
+{
+ "item": "h1_item009",
+ "quote": "Experiments on Pascal VOC and MS-COCO datasets show that CME significantly improves upon two baseline detectors (up to $3\\sim5\\%$ in average), achieving state-of-the-art performance.",
+ "correct_answer": "Up to 3~5% average improvement over two baseline detectors",
+ "verdict": "both_acceptable",
+ "reason": "Both give the stated 3-5% average improvement; Y adds 'over baseline detectors' but X is not wrong."
+}

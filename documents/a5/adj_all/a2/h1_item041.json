@@ -1,0 +1,7 @@
+{
+ "item": "h1_item041",
+ "quote": "All our experiments were run using NVIDIA V100 GPUs ..., some trainings were done on A100. We distributed our training to 2-4 GPUs",
+ "correct_answer": "NVIDIA V100 (some A100), 2-4 GPUs",
+ "verdict": "both_acceptable",
+ "reason": "Both are correct, Y also listing A100."
+}

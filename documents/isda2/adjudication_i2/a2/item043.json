@@ -1,0 +1,7 @@
+{
+ "item": "item043",
+ "quote": "(c) (i) The following provisions of Section 5 will not apply to Party A: ... Section 5(a)(vi) ... (ii) The following provisions of Section 5 will not apply to Party B: ... Section 5(a)(vi) ...",
+ "correct_answer": "Neither party (Cross Default disapplied for both)",
+ "verdict": "X",
+ "reason": "The Schedule affirmatively states Section 5(a)(vi) does not apply to Party A or Party B, so 'neither' is correct, whereas NONE per the rubric means the document is silent."
+}

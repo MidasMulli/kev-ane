@@ -1,0 +1,7 @@
+{
+ "item": "h2_item038",
+ "quote": "Baseline & - & 1x(5hours) & 42.5 ... SQR increases training time of Adamixer-R50 by 0.35$\\sim$2.85 hours ... training schedules consists of standard 12, 36, and 50 epochs",
+ "correct_answer": "1x schedule (12 epochs), about 5 hours for the Adamixer-R50 baseline; SQR adds 0.35-2.85 hours",
+ "verdict": "X",
+ "reason": "The paper does state training length (1x/12 epochs, about 5 hours), so NONE is wrong and X matches a stated value."
+}

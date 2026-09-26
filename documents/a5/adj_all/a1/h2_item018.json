@@ -1,0 +1,7 @@
+{
+ "item": "h2_item018",
+ "quote": "The artifacts are on GitHub and Huggingface: single-task benchmark\\citep{webapp1k-dataset}, dual-task benchmark\\citep{webapp1kduo-dataset}, and the leaderboard\\citep{webapp1k-leaderboard}.",
+ "correct_answer": "NONE for code; only benchmark datasets and a leaderboard are linked (via bibliography), and no code URL is given.",
+ "verdict": "X",
+ "reason": "Y's URL is a dataset (the single-task benchmark), not released code, and the paper gives no code URL."
+}

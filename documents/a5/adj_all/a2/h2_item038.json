@@ -1,0 +1,7 @@
+{
+ "item": "h2_item038",
+ "quote": "AdamW optimizer with a standard 1x schedule (12 epochs) is utilized for training. ... Baseline & - & 1x(5hours) & 42.5",
+ "correct_answer": "Standard 1x schedule (12 epochs), about 5 hours for the Adamixer-R50 baseline",
+ "verdict": "X",
+ "reason": "The paper states the training schedule and duration, so NONE is wrong."
+}

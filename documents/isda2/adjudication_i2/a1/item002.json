@@ -1,0 +1,7 @@
+{
+  "item": "item002",
+  "quote": "Copyright (c) 1992 by International Swap Dealers Association, Inc. ... This Confirmation supplements, forms a part of, and is subject to, the 1992 ISDA Master Agreement dated as of October 9, 2008",
+  "correct_answer": "1992",
+  "verdict": "X",
+  "reason": "The printed form carries the 1992 ISDA copyright and the Confirmations cite the 1992 ISDA Master Agreement dated October 9, 2008."
+}

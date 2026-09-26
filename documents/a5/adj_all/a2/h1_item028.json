@@ -1,0 +1,7 @@
+{
+ "item": "h1_item028",
+ "quote": "without pAdaIN (Baseline) ...; Augmix ...; FADA ...",
+ "correct_answer": "Baseline, Augmix, FADA",
+ "verdict": "both_acceptable",
+ "reason": "Same items, differently worded."
+}

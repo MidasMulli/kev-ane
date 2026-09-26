@@ -1,0 +1,7 @@
+{
+ "item": "h2_item035",
+ "quote": "This paper introduces EYEGLAXS ... a framework that leverages LLMs ... for extractive summarization of lengthy text documents.",
+ "correct_answer": "Extractive summarization of long text documents",
+ "verdict": "both_acceptable",
+ "reason": "Both correctly describe the task; X adds the long-text qualifier."
+}

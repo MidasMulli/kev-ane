@@ -1,0 +1,7 @@
+{
+ "item": "item056",
+ "quote": "PWC-Net ...; RAFT ...; GMA ...; Separable Flow ... (Table sota_com)",
+ "correct_answer": "RAFT, Separable Flow, PWC-Net, GMA",
+ "verdict": "both_acceptable",
+ "reason": "All listed methods are compared."
+}

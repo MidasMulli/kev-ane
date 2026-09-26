@@ -1,0 +1,1 @@
+{"item": "item031", "quote": "We use SGD with momentum as the optimizer to train the feature extractor from scratch. ... Momentum factor and $L_{2}$ weight decay is set to $0.9$ and $1e-4$", "correct_answer": "SGD with momentum (0.9)", "verdict": "both_acceptable", "reason": "Both identify SGD; Y adds the stated momentum detail."}

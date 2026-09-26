@@ -1,0 +1,7 @@
+{
+ "item": "h1_item054",
+ "quote": "Conclusion: 'In the future, we plan to apply our method to faces and rigid object images'; no limitations section",
+ "correct_answer": "no",
+ "verdict": "both_acceptable",
+ "reason": "The paper has no limitations discussion, so 'no' and NONE are both consistent."
+}

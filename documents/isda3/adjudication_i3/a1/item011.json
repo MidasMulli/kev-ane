@@ -1,0 +1,7 @@
+{
+ "item": "item011",
+ "quote": "Section 5(a)(vi) (Cross Default) will in no circumstances be regarded as having given rise to an Event of Default with respect to Party A [and likewise Party B]; the only 'Threshold' is the CSA's '\"Threshold\" means for Pledgor: zero in the event ...; otherwise, the Threshold shall be infinite'",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "No Threshold Amount (the Cross Default term) is stated; the CSA's conditional zero 'Threshold' is a different collateral term."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "h1_item036",
+ "quote": "we compare ... SW, IterNorm, IBN-Net, ISW, DRPC and FSDR",
+ "correct_answer": "ISW, IBN-Net, FSDR, DRPC, ...",
+ "verdict": "both_acceptable",
+ "reason": "All listed methods are compared."
+}

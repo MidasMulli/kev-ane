@@ -1,0 +1,7 @@
+{
+ "item": "h1_item053",
+ "quote": "We compare our method with PG$^2$ \\cite{PG2} on pose-conditional person image generation ... we compare sampling results from our method and baseline models, \\ie VAE~\\cite{VAE} and DCGAN~\\cite{DCGAN}.",
+ "correct_answer": "PG^2, VAE, DCGAN",
+ "verdict": "both_acceptable",
+ "reason": "Both list the same stated baselines, differing only in how PG^2 is written."
+}

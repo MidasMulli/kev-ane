@@ -1,0 +1,7 @@
+{
+ "item": "item012",
+ "quote": "/s/ Timothy Reedy Date December 31, 2011 Timothy Reedy ... /s/ Brian S. Cooper Date December 31, 2011 Brian Cooper",
+ "correct_answer": "12/31/2011",
+ "verdict": "Y",
+ "reason": "The release states no made/entered/dated-as-of date and its effectiveness (on expiry of the 7-day revocation period) is not a calendar date, so rule (c) applies and the latest party signature date is December 31, 2011."
+}

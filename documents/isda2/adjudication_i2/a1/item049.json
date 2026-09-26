@@ -1,0 +1,7 @@
+{
+ "item": "item049",
+ "quote": "(e) Section 5(a)(ii) “Breach of Agreement,” Section 5(a)(iv) “Misrepresentation”; Section 5(a)(vi) “Cross Default” and Section 5(a)(viii) “Merger without Assumption” apply to Party A and do not apply to Party B;",
+ "correct_answer": "Party A",
+ "verdict": "X",
+ "reason": "The Schedule states that Cross Default applies to Party A only."
+}

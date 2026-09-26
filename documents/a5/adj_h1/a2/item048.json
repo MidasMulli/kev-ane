@@ -1,0 +1,7 @@
+{
+ "item": "item048",
+ "quote": "On OTB-2013 and OTB-2015, we obtain an absolute gain of $8.0 \\%$ and $8.2 \\%$ respectively, in mean overlap precision",
+ "correct_answer": "8.0% / 8.2% absolute gain in mean OP on OTB-2013 / OTB-2015",
+ "verdict": "both_acceptable",
+ "reason": "Both are correct, Y naming the datasets."
+}

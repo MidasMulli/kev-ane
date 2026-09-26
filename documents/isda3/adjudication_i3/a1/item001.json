@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "Credit Suisse International [left column] ... Deutsche Bank National Trust Company ... [right column] (\"Party A\") (\"Party B\"); Address for notices to Party A: One Cabot Square, London E14 4QJ",
+ "correct_answer": "Credit Suisse International",
+ "verdict": "Y",
+ "reason": "The two-column caption places Credit Suisse International over \"Party A\" and the notices address (One Cabot Square, London) confirms it."
+}

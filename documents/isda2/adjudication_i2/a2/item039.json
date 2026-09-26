@@ -1,0 +1,7 @@
+{
+ "item": "item039",
+ "quote": "(g) Governing Law. This Agreement and each Confirmation will be governed by, and construed and enforced in accordance with, the substantive law of the State of New York, without reference to its choice of law doctrine.",
+ "correct_answer": "New York law (State of New York)",
+ "verdict": "both_acceptable",
+ "reason": "'New York' and 'State of New York' denote the same governing law."
+}

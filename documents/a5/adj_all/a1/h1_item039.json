@@ -1,0 +1,7 @@
+{
+ "item": "h1_item039",
+ "quote": "In this paper, we present ReGen, a bidirectional generation of text and graph leveraging Reinforcement Learning (RL) to improve performance ... for both text-to-graph and graph-to-text generation tasks.",
+ "correct_answer": "Bidirectional generation between text and knowledge bases/graphs (text-to-graph and graph-to-text)",
+ "verdict": "both_acceptable",
+ "reason": "Both correctly describe the stated bidirectional text/KB generation task, differing only in detail."
+}

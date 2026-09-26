@@ -1,0 +1,7 @@
+{
+ "item": "h1_item035",
+ "quote": "CityScapes ... BDD-100K ... Mapillary ... for validation",
+ "correct_answer": "CityScapes, BDD-100K, Mapillary",
+ "verdict": "both_acceptable",
+ "reason": "Same datasets, differently spelled."
+}

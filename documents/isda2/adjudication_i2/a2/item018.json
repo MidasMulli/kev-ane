@@ -1,0 +1,7 @@
+{
+  "item": "item018",
+  "quote": "(Local Currency—Single Jurisdiction) ISDA® International Swap Dealers Association, Inc. MASTER AGREEMENT Dated as of: October 2, 2007 ... [Confirmation:] the standard form ISDA Master Agreement copyright 1992 by the International Swap Dealers Association, Inc.",
+  "correct_answer": "1992",
+  "verdict": "Y",
+  "reason": "The agreement is the Local Currency-Single Jurisdiction form issued by the International Swap Dealers Association, with the document referring to the 1992 standard ISDA form, so it is the 1992 form, not 2002."
+}

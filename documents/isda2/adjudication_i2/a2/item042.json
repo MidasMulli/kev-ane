@@ -1,0 +1,7 @@
+{
+ "item": "item042",
+ "quote": "SCHEDULE TO THE MASTER AGREEMENT DATED AS OF 22 APRIL 2005",
+ "correct_answer": "22 April 2005",
+ "verdict": "both_acceptable",
+ "reason": "4/22/2005 (US format) and 22/4/2005 (day-first) both unambiguously denote 22 April 2005."
+}

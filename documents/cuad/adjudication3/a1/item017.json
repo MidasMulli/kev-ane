@@ -1,0 +1,7 @@
+{
+ "item": "item017",
+ "quote": "This Agreement, the rights and obligations of the parties hereto, and any claims or disputes relating thereto, shall be governed by and construed in accordance with the laws of the state in which the Executive's primary resident office is situated (but not including the choice of law rules thereof).",
+ "correct_answer": "NONE",
+ "verdict": "Y",
+ "reason": "The governing-law clause names no jurisdiction, only the state of the Executive's 'primary resident office', a term the document never ties to Arizona (Section 4 names Scottsdale, Arizona only as the primary place of employment), so NONE is correct under the rubric's named-jurisdiction test."
+}

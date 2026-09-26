@@ -1,0 +1,7 @@
+{
+ "item": "h2_item044",
+ "quote": "The effectiveness of network intrusion detection systems, predominantly based on machine learning, are highly influenced by the dataset they are trained on.",
+ "correct_answer": "Network intrusion detection (dataset for IDS)",
+ "verdict": "both_acceptable",
+ "reason": "Both name intrusion detection; X adds 'network', which the paper uses."
+}

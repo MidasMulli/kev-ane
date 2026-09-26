@@ -1,0 +1,7 @@
+{
+ "item": "h2_item042",
+ "quote": "We use eight NVIDIA A100 GPUs to train RQ-Transformer of 1.4B parameters, and four GPUs to train RQ-Transformers of other sizes. ... We use a single NVIDIA A100 GPU for each model to generate 5000 samples",
+ "correct_answer": "NVIDIA A100 GPUs: 8 for the 1.4B model, 4 for the others (1 for sampling)",
+ "verdict": "X",
+ "reason": "X gives the device and the stated training counts, while Y leaves out the counts that the paper states."
+}

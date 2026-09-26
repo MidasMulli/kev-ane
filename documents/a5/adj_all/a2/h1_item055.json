@@ -1,0 +1,7 @@
+{
+ "item": "h1_item055",
+ "quote": "We test the generalization ability on Sintel and KITTI training sets after training on FlyingChairs (C) and FlyingThing (T). ... Our training set contains training samples from C, T, S, K and HD1K (H).",
+ "correct_answer": "Sintel, KITTI (HD1K and FlyingChairs are training-only)",
+ "verdict": "both_wrong",
+ "reason": "Each answer includes a training-only dataset (HD1K or FlyingChairs) that is never used for evaluation."
+}

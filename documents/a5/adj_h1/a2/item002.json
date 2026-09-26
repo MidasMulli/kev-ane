@@ -1,0 +1,7 @@
+{
+ "item": "item002",
+ "quote": "First sense baseline ...; HCAN \\citep{luo2018b} ...; LSTMLP \\citep{yuan_2016} ...; SemCor, baseline ...",
+ "correct_answer": "HCAN, LSTMLP, first sense baseline, baseline system",
+ "verdict": "both_acceptable",
+ "reason": "HCAN, LSTMLP, the 'baseline' system and the First sense baseline all appear as compared systems."
+}

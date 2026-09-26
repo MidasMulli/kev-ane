@@ -1,0 +1,1 @@
+{"item": "item025", "quote": "Table columns: Pro, IMDB-Bin, IMDB-Mul, PTC-FM, NCI1, Mutag, PTC-MR ... we conduct experiments on the \\textsc{Qm9} dataset", "correct_answer": "QM9, Proteins, IMDB-Binary, IMDB-Multi, PTC-FM, NCI1, MUTAG, PTC-MR", "verdict": "both_acceptable", "reason": "Every dataset in both lists is used in the paper's evaluation."}

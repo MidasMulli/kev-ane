@@ -1,0 +1,7 @@
+{
+ "item": "item014",
+ "quote": "The provisions of section 6 (Early Termination; Close-Out Netting) will not apply to either party.",
+ "correct_answer": "neither",
+ "verdict": "X",
+ "reason": "Section 6, which contains Automatic Early Termination, is disapplied for both parties, so it applies to neither."
+}

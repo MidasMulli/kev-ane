@@ -1,0 +1,7 @@
+{
+ "item": "h1_item014",
+ "quote": "CIS\\cite{yang2019unsupervised} ... MG\\cite{yang2021self} ... We compare the pretrained model to a image-based contrastive model, MoCo-v2 and a self-supervised video pretraining model, TimeCycle",
+ "correct_answer": "CIS, MG, MoCo-v2, TimeCycle",
+ "verdict": "both_acceptable",
+ "reason": "All items in both lists are compared baselines."
+}

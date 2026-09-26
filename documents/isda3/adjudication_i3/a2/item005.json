@@ -1,0 +1,7 @@
+{
+ "item": "item005",
+ "quote": "SCHEDULE TO THE ISDA MASTER AGREEMENT DATED AS OF MARCH 13, 2001",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The document never states whether the form is 1992 or 2002 (the only year references are to the 1991 ISDA Definitions)."
+}

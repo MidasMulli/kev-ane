@@ -1,0 +1,7 @@
+{
+ "item": "h1_item019",
+ "quote": "GAT ... DGCN ... Multi-GCN (Table 4); baseline methods, which include GCN ... and Multi-GCN",
+ "correct_answer": "GCN, Multi-GCN, GAT, DGCN, ...",
+ "verdict": "both_acceptable",
+ "reason": "All listed methods are compared."
+}

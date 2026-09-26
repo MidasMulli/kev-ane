@@ -1,0 +1,7 @@
+{
+ "item": "h2_item040",
+ "quote": "\\textbf{6} & HBRNN\\cite{du2015hierarchical} & 64.0 & 59.1 \\\\ \\textbf{7} & Deep RNN \\cite{shahroudy2016ntu} & 64.1 & 56.3 ... \\textbf{8} & *Shuffle\\&Learn\\cite{misra2016shuffle}",
+ "correct_answer": "HBRNN, Deep RNN, Shuffle&Learn (among hand-crafted, supervised and unsupervised methods)",
+ "verdict": "Y",
+ "reason": "Y names specific compared methods, while X gives only category labels, not baselines."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item020",
+ "quote": "(e) Credit Support Document ... Party B: Financial Guaranty Insurance Policy for Swap Transaction",
+ "correct_answer": "no",
+ "verdict": "X",
+ "reason": "The only credit support named is financial guaranty insurance; no Credit Support Annex forms part of the agreement."
+}

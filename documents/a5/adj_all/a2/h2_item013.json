@@ -1,0 +1,7 @@
+{
+ "item": "h2_item013",
+ "quote": "We compare with \\textbf{Existing Models}, including tailor-made E2E-ABSA models~\\cite{li2019unified,luo-etal-2019-doer,he-etal-2019-interactive}, and competitive \\textbf{LSTM-CRF} sequence labeling models",
+ "correct_answer": "Existing tailor-made E2E-ABSA models (Li et al. 2019, Luo et al. 2019, He et al. 2019) and LSTM-CRF models",
+ "verdict": "both_acceptable",
+ "reason": "Both give baselines stated in the comparison sentence, X as groups and Y as the specific cited models."
+}

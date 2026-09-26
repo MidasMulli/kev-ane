@@ -1,0 +1,1 @@
+{"item": "item007", "quote": "It converges in only 3 hours on four NVIDIA A40 GPUs on the UVO dataset with a ResNet50 backbone", "correct_answer": "4 NVIDIA A40 GPUs", "verdict": "both_acceptable", "reason": "Both state four NVIDIA A40 GPUs, just worded differently."}

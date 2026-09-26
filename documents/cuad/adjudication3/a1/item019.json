@@ -1,0 +1,7 @@
+{
+ "item": "item019",
+ "quote": "Medical Center shall exercise one (1) of the three (3) options referred to above by giving an irrevocable written notice thereof to GKF at least one (1) year prior to the expiration of the initial Term. ... If Medical Center fails to exercise the option granted herein at least one (1) year prior to the expiration of the initial Term, the option shall lapse and this Agreement shall expire as of the end of the initial Term.",
+ "correct_answer": "NONE",
+ "verdict": "X",
+ "reason": "The agreement does not renew by default (it expires unless an extension is exercised and mutually agreed), so no notice is needed to prevent renewal; the one-year notice is for exercising an option, not for preventing renewal."
+}

@@ -1,0 +1,7 @@
+{
+ "item": "item030",
+ "quote": "BERT ...; Linear ...; Random encoder ...; Feed Forward-only (FF-only) encoder",
+ "correct_answer": "BERT, Linear, Random, FF-only",
+ "verdict": "both_acceptable",
+ "reason": "All listed models are compared."
+}

@@ -1,0 +1,52 @@
+class	arxiv	question	gold	PIPE	FULL	table_flag
+both wrong	1704.08545	mIoU does ICNet achieve on Cityscapes test?	70.6%	69.5	69.5	TRUNCATED
+both wrong	2005.10433	BLEU does T5-Base achieve on WebNLG?	64.7	55.2	55.2	OK
+both wrong	2010.04502	Recall does BLC achieve on MS-COCO?	54.68	51.37	48.87	TRUNCATED
+both wrong	2010.04502	mAP does BLC achieve on MS-COCO?	14.70	10.60	10.6	TRUNCATED
+both wrong	2109.04137	Sensibleness does Classification-based model achieve on FusedChat?	0.58	0.62	0.62	OK
+both wrong	2109.04137	Slot Accuracy does Two-in-one model achieve on FusedChat?	0.972	0.973	0.973	OK
+both wrong	2206.04170	F1 score does CASS achieve on Autoimmune Dataset?	0.8717	0.8650±0.0001	0.8650±0.0001	OK
+both wrong	2206.04170	F1 score does CASS achieve on Autoimmune Dataset?	0.8894	0.8650±0.0001	0.8650±0.0001	OK
+both wrong	2206.04170	F1 score does DINO achieve on Autoimmune Dataset?	0.8639	0.84252±0.008	0.84252±0.008	OK
+both wrong	2206.05149	MAD does CLIPMat (ViT-L/14) achieve on RefMatte?	0.0510	0.0049	0.0049	OK
+both wrong	2303.11301	mAP does VoxelNeXt achieve on Argoverse2?	30.7	30.0	30.0	TRUNCATED
+both wrong	2503.12562	AssA does HAT-FastReID-MOT achieve on SportsMOT?	73.1	72.1	69.9	OK
+both wrong	2503.12562	DetA does HAT-FastReID-MOT achieve on SportsMOT?	89.4	87.4	87.3	OK
+both wrong	2503.12562	IDF1 does HAT-FastReID-MOT achieve on SportsMOT?	84.7	83.6	82.4	OK
+missed row	1611.01731	MAE does Ours DLDL (KL) achieve on BJUT-3D?	0.09	NONE	(too long)	TRUNCATED
+missed row	2006.09220	Acc does MS-TCN++ (I3D) achieve on Breakfast?	67.6	NONE	67.6	OK
+missed row	2006.09220	Acc does MS-TCN++(I3D) (sh) achieve on Breakfast?	67.3	NONE	67.3	OK
+missed row	2006.09220	Edit does MS-TCN++ (I3D) achieve on Breakfast?	65.6	NONE	65.6	OK
+missed row	2111.05476	Rank-1 does LDS achieve on Occluded-DukeMTMC?	64.3	NONE	64.3	TRUNCATED
+missed row	2111.05476	mAP does LDS achieve on Occluded-DukeMTMC?	55.7	NONE	55.7	TRUNCATED
+missed row	2204.04627	PSNR does Stripformer achieve on GoPro?	33.08	31.03	33.08	TRUNCATED
+missed row	2204.04627	SSIM does Stripformer achieve on GoPro?	0.962	0.940	0.962	TRUNCATED
+missed row	2204.08532	FID does PSAD achieve on VITON?	13.71	NONE	(too long)	TRUNCATED
+missed row	2204.08532	SSIM does PSAD achieve on VITON?	0.885	NONE	(too long)	TRUNCATED
+missed row	2209.00906	Accuracy does InstanceGM with ConvNeXt achieve on ANIMAL?	84.7	NONE	84.7	OK
+missed row	2303.09030	mAP-07 does LSKNet-S achieve on HRSC2016?	90.65	NONE	(too long)	OK
+missed row	2303.09030	mAP-12 does LSKNet-S achieve on HRSC2016?	98.46	NONE	(too long)	OK
+missed row	2303.11301	AMOTA does VoxelNeXt achieve on nuScenes LiDAR only?	71.0	NONE	69.5	TRUNCATED
+missed row	2402.17062	MCE does HOISDF achieve on DexYCB?	27.4	35.8	27.4	OK
+missed row	2402.17062	OCE does HOISDF achieve on DexYCB?	18.4	27.6	18.4	OK
+missed row	2404.03527	mIoU does HAPNet achieve on KP day-night?	57.6	NONE	57.6	TRUNCATED
+missed row	2408.08019	M-STFT does PeriodWave-Turbo-L achieve on LibriTTS?	0.7358	0.7494	0.7358	TRUNCATED
+missed row	2408.08019	PESQ does PeriodWave-Turbo-L achieve on LibriTTS?	4.454	4.443	4.454	TRUNCATED
+row sent, FULL n/a	2304.05690	B-MVE does HybrIK achieve on AGORA?	73.9	NONE	(too long)	TRUNCATED
+row sent, FULL n/a	2309.00616	AP Common does OpenIns3D achieve on ScanNet200?	14.2	6.5	(too long)	TRUNCATED
+row sent, FULL n/a	2309.00616	AP Head does OpenIns3D achieve on ScanNet200?	19.2	16.0	(too long)	TRUNCATED
+row sent, FULL n/a	2309.00616	AP Tail does OpenIns3D achieve on ScanNet200?	14.2	4.2	(too long)	TRUNCATED
+row sent, FULL n/a	2402.18109	Conn does DCAM achieve on Distinctions-646?	31.72	19.12	(too long)	TRUNCATED
+row sent, FULL n/a	2402.18109	Grad does DCAM achieve on Distinctions-646?	25.50	11.32	(too long)	TRUNCATED
+row sent, FULL n/a	2402.18109	SAD does DCAM achieve on Distinctions-646?	31.27	20.72	(too long)	TRUNCATED
+row sent, FULL n/a	2403.06020	Search time (s) does DiNAS achieve on NAS-Bench-201, CIFAR-10?	15.36	NONE	(too long)	OK
+wrong cell	1901.02985	mIoU does Auto-DeepLab-L achieve on PASCAL VOC 2012 val?	82.04%	75.26	82.04	OK
+wrong cell	2104.07461	Acc does DA achieve on Breakfast?	71.0	70.3	71.0	OK
+wrong cell	2104.07461	Acc does DA achieve on GTEA?	80.0	80.1	80.0	OK
+wrong cell	2104.07461	Edit does DA achieve on GTEA?	85.8	84.5	85.8	OK
+wrong cell	2106.04269	body does HPRNet achieve on COCO-WholeBody?	59.4	55.2	59.4	TRUNCATED
+wrong cell	2106.04269	face does HPRNet achieve on COCO-WholeBody?	75.4	74.6	75.4	TRUNCATED
+wrong cell	2106.04269	foot does HPRNet achieve on COCO-WholeBody?	53.0	49.1	53.0	TRUNCATED
+wrong cell	2304.02419	Diversity does TM2D (t2m) achieve on HumanML3D?	9.513	NONE	9.513	OK
+wrong cell	2404.03527	mIoU does HAPNet achieve on PST900?	89.0	85.4	89.0	TRUNCATED
+wrong cell	2412.18874	mAP does CLIP-ReID achieve on IUST_PersonReID?	51.60	43.00%	51.60%	TRUNCATED

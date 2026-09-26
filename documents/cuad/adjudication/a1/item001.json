@@ -1,0 +1,7 @@
+{
+ "item": "item001",
+ "quote": "THIS AGREEMENT (this “Agreement”) is made and entered into as of the Effective Date ... The date that is one (1) business day after the date of execution and delivery of this Agreement by both Seller and Buyer shall be the “Effective Date” of this Agreement. [Buyer and Seller signature blocks: Date: 5/20/2013]",
+ "correct_answer": "5/21/2013",
+ "verdict": "both_wrong",
+ "reason": "The agreement is made as of the Effective Date, defined as one business day after both parties' execution (both signed 5/20/2013, a Monday), i.e. 5/21/2013; Y gives the execution date and X wrongly says none is stated."
+}

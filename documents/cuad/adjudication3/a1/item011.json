@@ -1,0 +1,7 @@
+{
+ "item": "item011",
+ "quote": "\"Employment Term\" shall: (i) be for an initial one (1) year term commencing on the date of this Agreement, which term shall automatically be extended one calendar day for each calendar day that the Employee is employed by the Company after the date of this Agreement so that the remaining Employment Term shall always be one (1) year;",
+ "correct_answer": "One calendar day (evergreen daily extension keeping the remaining term at one year)",
+ "verdict": "both_wrong",
+ "reason": "The term renews by automatic one-calendar-day extensions, so NONE is wrong because a renewal mechanism exists, and '1 year' is the rolling remaining term, not the length of each renewal period."
+}
